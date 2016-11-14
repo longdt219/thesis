@@ -1,0 +1,49 @@
+%% CHAPTER 5 
+
+\chapter{Conclusions}
+
+\label{chap:conclusion}
+POS tagging is an important task as it gives syntactic information and also helps to differentiate semantic information. There are three main challenges for POS tagging, (1) lack of manually annotated data which makes supervised approach impossible for resource-poor languages; (2) low performance on the traditional unsupervised approach which looks at each language separately; and (3) lack of tagset consensus among languages which is an obstacle for cross-language processing. In this thesis we tackle these challenges. We have successfully built an unsupervised multilingual POS tagger, but additionally, exploiting parallel data to copy tag information from resource-rich to resource-poor languages. In our tagger, we also employ the Consensus 12 Universal Tagset across languages which will resolve the third challenge. 
+
+Chapter \ref{chap:backGround} thoroughly reviewed approaches for POS tagging for both monolingual and multilingual taggers. Chapter \ref{chap:uniTagger} proposed the initial method for building Universal Tagger. That is, given a source language tagger and parallel data, we successfully construct a target language tagger. This tagger performs on par with the state-of-the-art system for the same 8 languages \cite{Das:2011}. However, we use less data, simper methods -- i.e. a huge difference in running speed, easier to replicate which actually makes our proposed method stronger. Unlike \namecite{Das:2011}, we are able to publish the implementation\footnote{https://code.google.com/p/universal-tagger/} which might aid other researchers not only in multilingual POS tagging but also on other cross-languages NLP tasks such as parsing, grammar induction and so forth. 
+
+Out of 8 languages, the  Universal Tagger performs better than the state-of-the-art on 4 Germanic languages which are in the same family as source language (English). It appears that choice of source language might substantially affect the target language tagger. This idea motivates our work in chapter \ref{chap:sourceLanguageSelection}. This chapter is the effort to further improve unsupervised multilingual POS tagger (Universal Tagger) accuracy by investigating the effect of choosing better source language(s). We found out that English is usually not the best source language.  Just based on monolingual features, we are able to predict the best source language for a given target language. On average, the source language prediction gave better tagger performance than always fixing the source language. Even better accuracy can be obtain if we have parallel data. When multiple source languages are available, we shown that combining all of them even further improve tagging accuracy. 
+
+This thesis described a consensus works and thoroughly analysis of many aspects of building unsupervised multilingual POS tagger. Nevertheless, there are many points that could be improved. The program for future research is divided into 3 categories: (1) immediate works, which require less effort and can be done in few weeks; (2) near future works, which might require few months to complete; and (3) longer future works, which require years to complete. 
+\subsubsection{Immediate works}
+\begin{enumerate}
+\itemsep0pt
+\item Use a larger and more diverse traning corpus. 
+
+The Universal Tagger we constructed in chapter \ref{chap:uniTagger} only uses the Europarl parallel corpus~\cite{europarl}. Whereas the state-of-the-art~\cite{Das:2011} additionally uses the ODS United Nations data set. Thus, we would like to acquire this corpus and add to the current Universal Tagger. This way, our model and the state-of-the-art will become fully comparable. Moreover, the current high rate of unknown word (OOV) when evaluating Universal Tagger against 8 languages suggested that enlarging the corpus might be the easiest and most promising way to improve performance. 
+
+\item Try bidirectional alignments
+
+Alignment is the one of the core modules of our Universal Tagger. Currently, we only employ one directional alignment from source to target language. It is possible to align in another direction from target to source language and then merge the results from these two alignments. In this way, we might have more and even better alignments. Actually, bidirectional alignment is widely used in statistical machine translation systems i.e. Moses~\cite{Koehn:2007:MOS}. We acknowledge this idea beforehand. However, alignment is the most time-consuming step in our model, bidirectional alignment doubles the running time, thus, we leave it for future work. 
+
+\item Build predicting model for many more languages
+
+This is a trivial extension of chapter \ref{chap:sourceLanguageSelection}. Currently, we are able to build a predicting model that predicts best source language given target language for 9 European languages, i.e. English, Dutch, Danish, German, Greek, Italian, Portuguese, Spanish, Swedish. We distinguish between two predicting models, that is, a \emph{monolingual model} which just exploits monolingual data and an \emph{all features model} which additionally exploits parallel data. We would like to extend this to more languages, in a different strategy. First, for all 22 European languages in the JRC-Acquis Corpus ~\cite{SteinbergerAcquis}, we have parallel data for each language pair, thus, we will build \emph{all feature model} for better prediction. Second, we can further expand to more languages by just exploiting a \textit{monolingual model} which only needs monolingual data. For example, we can easily build \textit{monolingual model} for all languages presented in Wikipedia. 
+
+\end{enumerate}
+
+\subsubsection{Near future works}
+\begin{enumerate}
+\itemsep0pt
+\item Investigate methods for handling unknown word (OOV) case.
+
+As mentioned above, OOV rate stays high (nearly 10\%) when evaluating the Universal Tagger on 8 languages. Currently, for unknown words (OOV), the model just uses the tag sequence to predict. For example, the tag sequence ``\textit{DET ADJ NOUN}" is commonly observed. So, if two previous words of unknown word are tagged as \textit{DET} and \textit{ADJ}, model infers \textit{NOUN} for this word. The performance of this method on unknown words varies between languages but stays quite low i.e. 50-60\% for Italian (Figure \ref{fig:italian}, page \pageref{fig:italian}). Thus, given the high rate and currently low performance on OOV words, if we can incorporate other evidences to have better prediction for unknown words, we hope to improve the final performance. 
+
+\item Implement HMM inference algorithms
+
+We can use the Universal Tagger to initialize the first state of a Hidden Markov Model (HMM) and then use inference algorithms such as  Expectation Maximization (EM),  Variational Bayes (VB) or Gibbs Sampling (GS) to estimate the new set of parameters (emission probability and transition probability).~\namecite{Gao:2008} compare EM, VB and GS for the same task of POS tagging, it seems that GS outperforms EM and VB. Thus, we would like to try GS first for our model. 
+
+\item Investigate more on combining multiple resources algorithms
+
+Chapter \ref{chap:sourceLanguageSelection} shows that combining multiple source languages improves the overall accuracy. The current combining scheme is just concatenation, that is, ignore the existence of sentences that are shared among all languages. Thus, we would like to investigate methods that treat these sentences separately and propose a better combining scheme. 
+\end{enumerate}
+
+\subsubsection{Longer future works}
+
+Our experience with parallel data, alignment, label projection, etc. will be the advantage for investigating similar unsupervised cross-language NLP tasks such as parsing, name entity recognition, noun phrase bracketing etc. The first task we would like to investigate is sentence parsing which is built upon POS information. However the ultimate goal for this thread of work is building a framework for resource-poor languages, exploiting parallel data as the bridge between resource-rich and resource-poor languages. After being able to build another cross-lingual NLP applications, we would like to verify the source language predictive model proposed in Chapter \ref{chap:sourceLanguageSelection} against these other applications. 
+

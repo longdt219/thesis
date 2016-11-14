@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: lsalike.bst
+A level-1 auxiliary file: frontmatter.aux
+A level-1 auxiliary file: b.aux
+Illegal, another \bibstyle command---line 182 of file b.aux
+ : \bibstyle
+ :          {aclnat}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: References.bib
+A bad cross reference---entry "DBLP:conf/lrec/ZemanMPRSZH12"
+refers to entry "DBLP:conf/lrec/2012", which doesn't exist
+A bad cross reference---entry "DBLP:conf/lrec/MarneffeDSHGNM14"
+refers to entry "DBLP:conf/lrec/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icml/LeM14"
+refers to entry "DBLP:conf/icml/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/acl/BruniBBT12"
+refers to entry "DBLP:conf/acl/2012-1", which doesn't exist
+A bad cross reference---entry "JohnsonGG06"
+refers to entry "DBLP:conf/nips/2006", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icassp/GravesMH13"
+refers to entry "DBLP:conf/icassp/2013", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/icassp/2013"
+Warning--I didn't find a database entry for "DBLP:conf/nips/2006"
+Warning--I didn't find a database entry for "DBLP:conf/acl/2012-1"
+Warning--I didn't find a database entry for "DBLP:conf/icml/2014"
+Warning--I didn't find a database entry for "DBLP:conf/lrec/2012"
+Warning--I didn't find a database entry for "DBLP:conf/lrec/2014"
+Warning--empty journal in 1264361
+Warning--empty chapter and pages in kamper-etalInterspeech2015
+Warning--empty publisher in kamper-etalInterspeech2015
+Warning--empty school in Park:2007:UPD:1329638
+Warning--empty year in prys2006blark
+You've used 179 entries,
+            2590 wiz_defined-function locations,
+            1674 strings with 49574 characters,
+and the built_in function-call counts, 128560 in all, are:
+= -- 11751
+> -- 7640
+< -- 74
++ -- 3252
+- -- 3225
+* -- 10125
+:= -- 25110
+add.period$ -- 776
+call.type$ -- 179
+change.case$ -- 1749
+chr.to.int$ -- 170
+cite$ -- 184
+duplicate$ -- 4979
+empty$ -- 6908
+format.name$ -- 3775
+if$ -- 24332
+int.to.chr$ -- 10
+int.to.str$ -- 0
+missing$ -- 357
+newline$ -- 1070
+num.names$ -- 1247
+pop$ -- 1761
+preamble$ -- 1
+purify$ -- 1577
+quote$ -- 0
+skip$ -- 3801
+stack$ -- 0
+substring$ -- 7312
+swap$ -- 1340
+text.length$ -- 899
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1064
+warning$ -- 5
+while$ -- 1282
+width$ -- 0
+write$ -- 2605
+(There were 7 error messages)

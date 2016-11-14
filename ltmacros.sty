@@ -1,0 +1,25 @@
+%% CITATION MACROS
+
+\newcommand{\myex}[1]{\textit{#1}}
+\newcommand{\mygl}[1]{``#1''}
+
+%\makeatletter
+\DeclareRobustCommand{\mycite}%
+{\@ifnextchar[{\@citeformglossx}{\@citeformx}}
+\def\@citeformx#1{\myex{#1}}
+\def\@citeformglossx[#1]#2{\myex{#2}\ \mygl{#1}}
+%\makeatother
+
+
+
+\newcommand{\mydefine}[1]{\textbf{#1}}
+
+
+
+\newcommand{\mysecref}[2][]{Section#1~\ref{#2}}
+\newcommand{\mychapref}[2][]{Chapter#1~\ref{#2}}
+\newcommand{\mytabref}[2][]{Table#1~\ref{#2}}
+\newcommand{\myfigref}[2][]{Figure#1~\ref{#2}}
+\newcommand{\mypagref}[2][]{page#1~\ref{#2}}
+\newcommand{\myeqnref}[2][]{equation#1~(\ref{#2})}
+\newcommand{\myappref}[2][]{Appendix#1~\ref{#2}}

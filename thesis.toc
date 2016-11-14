@@ -1,0 +1,100 @@
+\contentsline {section}{Title Page}{i}
+\contentsline {section}{Abstract}{iii}
+\contentsline {section}{Table of Contents}{iv}
+\contentsline {section}{List of Figures}{vi}
+\contentsline {section}{List of Tables}{vii}
+\contentsline {section}{Citations to Previously Published Work}{viii}
+\contentsline {section}{Acknowledgments}{ix}
+\contentsline {section}{Dedication}{x}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Research Questions}{4}
+\contentsline {section}{\numberline {1.3}Scope}{5}
+\contentsline {section}{\numberline {1.4}Contributions}{6}
+\contentsline {paragraph}{POS tagging}{6}
+\contentsline {paragraph}{Dependency Parsing}{7}
+\contentsline {paragraph}{Crosslingual Word Embeddings}{8}
+\contentsline {paragraph}{Unwritten language processing}{9}
+\contentsline {section}{\numberline {1.5}Thesis Overview}{10}
+\contentsline {chapter}{\numberline {2}Background}{11}
+\contentsline {section}{\numberline {2.1}Low-resource Natural Language Processing}{11}
+\contentsline {subsection}{\numberline {2.1.1}What is a low-resource language? }{11}
+\contentsline {subsection}{\numberline {2.1.2}What resources can we expect?}{13}
+\contentsline {subsubsection}{Field linguist annotation}{13}
+\contentsline {subsubsection}{Monolingual Corpora}{14}
+\contentsline {subsubsection}{Comparable and Bilingual Corpora}{14}
+\contentsline {subsubsection}{Bilingual Dictionary}{16}
+\contentsline {subsubsection}{Small annotated data}{17}
+\contentsline {subsection}{\numberline {2.1.3}Transfer learning}{18}
+\contentsline {subsubsection}{Annotation transfer}{18}
+\contentsline {subsubsection}{Model transfer}{19}
+\contentsline {subsection}{\numberline {2.1.4}Notable work}{20}
+\contentsline {section}{\numberline {2.2}POS tagging}{20}
+\contentsline {subsubsection}{Supervised Learning}{22}
+\contentsline {subsubsection}{Unsupervised learning}{22}
+\contentsline {subsubsection}{Semi-supervised learning}{23}
+\contentsline {subsection}{\numberline {2.2.1}Typologically related information}{23}
+\contentsline {subsection}{\numberline {2.2.2}Projected information}{24}
+\contentsline {subsection}{\numberline {2.2.3}Dictionary Information}{25}
+\contentsline {subsection}{\numberline {2.2.4}Small Annotated Data Information}{26}
+\contentsline {subsection}{\numberline {2.2.5}Universal tagset}{28}
+\contentsline {section}{\numberline {2.3}Dependency Parsing}{29}
+\contentsline {subsection}{\numberline {2.3.1}Supervised dependency parsing}{31}
+\contentsline {subsubsection}{Grammar-based approach}{31}
+\contentsline {subsubsection}{Transition-based approach}{31}
+\contentsline {paragraph}{Configuration}{32}
+\contentsline {paragraph}{Transition}{32}
+\contentsline {paragraph}{Parsing Algorithm}{33}
+\contentsline {subsubsection}{Graph-based approach }{33}
+\contentsline {subsubsection}{Evaluation}{34}
+\contentsline {subsubsection}{Universal Treebank}{34}
+\contentsline {subsection}{\numberline {2.3.2}Low-resource Dependency Parsing}{35}
+\contentsline {subsubsection}{Delexicalization approach}{35}
+\contentsline {subsubsection}{Projection approach}{36}
+\contentsline {subsection}{\numberline {2.3.3}Summary of Approaches}{37}
+\contentsline {section}{\numberline {2.4}Crosslingual Word Embeddings}{38}
+\contentsline {subsection}{\numberline {2.4.1}Monolingual Word Embeddings}{39}
+\contentsline {subsubsection}{Evaluation}{41}
+\contentsline {subsection}{\numberline {2.4.2}Building Crosslingual Word Embeddings}{41}
+\contentsline {subsection}{\numberline {2.4.3}Evaluation}{45}
+\contentsline {section}{\numberline {2.5}Unwritten Language Processing}{46}
+\contentsline {subsection}{\numberline {2.5.1}Unsupervised segmentation and lexical discovery}{47}
+\contentsline {paragraph}{Unsupervised term detection (UTD)}{47}
+\contentsline {paragraph}{Speech segmentation}{49}
+\contentsline {paragraph}{Speech feature extraction}{49}
+\contentsline {subsection}{\numberline {2.5.2}Speech recognition for low-resource language}{50}
+\contentsline {subsubsection}{Conventional approach}{51}
+\contentsline {paragraph}{Acoustic model}{51}
+\contentsline {paragraph}{Lexical model}{52}
+\contentsline {paragraph}{Language model}{52}
+\contentsline {subsubsection}{Modern approach}{53}
+\contentsline {subsection}{\numberline {2.5.3}Low-resource Speech Data Collection}{53}
+\contentsline {subsection}{\numberline {2.5.4}The Propose Task}{54}
+\contentsline {chapter}{\numberline {3}Research Summary}{56}
+\contentsline {section}{\numberline {3.1}Publications}{57}
+\contentsline {subsection}{\numberline {3.1.1}EMNLP 2014}{57}
+\contentsline {subsubsection}{Research process}{57}
+\contentsline {subsubsection}{Retrospective view}{57}
+\contentsline {subsection}{\numberline {3.1.2}ACL 2015}{71}
+\contentsline {subsubsection}{Research process}{71}
+\contentsline {subsubsection}{Retrospective view}{71}
+\contentsline {subsection}{\numberline {3.1.3}EMNLP 2015}{78}
+\contentsline {subsubsection}{Research process}{78}
+\contentsline {subsubsection}{Retrospective view}{78}
+\contentsline {subsection}{\numberline {3.1.4}CoNLL 2015}{89}
+\contentsline {subsection}{\numberline {3.1.5}EMNLP 2016}{100}
+\contentsline {subsection}{\numberline {3.1.6}EACL 2017 - if accept}{112}
+\contentsline {subsection}{\numberline {3.1.7}NAACL 2016}{112}
+\contentsline {section}{\numberline {3.2}Evaluation of Contribution}{124}
+\contentsline {subsection}{\numberline {3.2.1}Research question revisited}{124}
+\contentsline {section}{\numberline {3.3}Future Work}{124}
+\contentsline {section}{\numberline {3.4}Conclusion}{124}
+\contentsline {chapter}{\numberline {4}Included Papers}{152}
+\contentsline {section}{\numberline {4.1}EMNLP 2014}{152}
+\contentsline {section}{\numberline {4.2}CoNLL 2015}{152}
+\contentsline {section}{\numberline {4.3}ACL 2015}{152}
+\contentsline {section}{\numberline {4.4}EMNLP 2015}{152}
+\contentsline {section}{\numberline {4.5}EMNLP 2016}{152}
+\contentsline {section}{\numberline {4.6}EACL 2016 - if accepted}{152}
+\contentsline {section}{\numberline {4.7}NAACL 2016}{152}
+\contentsline {chapter}{\numberline {A}Other Papers}{153}

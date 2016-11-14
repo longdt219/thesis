@@ -1,0 +1,169 @@
+\chapter{Dependency Parsing}
+\section{Overview}
+\section{Cross-lingual Dependency Parsing}
+In this section, we are going to review previous approaches to build a dependency parser to a target resource-poor language. 
+
+\subsection{Delexicalization approach}
+This approach build a delexicalized parser from a resource-rich source languages where a treebank is available. The delexicalized parser is built simply by removing lexical features from any standard supervised monolingual parser. This parser is then applied directly to the target resource-poor language. The underlying hypothesis is that aside from lexical items, other features are similar between 2 languages. 
+
+Delexicalized parser is first proposed by~\textbf{\namecite{Zeman08cross-languageparser}}. They wanted to build parser for Swedish using Danish. Note that the hypothesis hold true between Swedish and Danish since they are very similar languages. Aside from lexical item, Swedish and Danish should share the same feature space. Thus, the first step to build delexicalized parser is mapping POS tagset between languages. For evaluation purposes, the Swedish and Danish treebank are also normalized so that the annotation are similar. They scored 66.4\% F1 labelled attachment score for Swedish. This is an encouraging result since they didn't use any external resource such as bilingual dictionary or parallel data. In an effort to further the performance, they applied the constructed parser on Swedish text to get a list of pseudo-gold tree. They applied self-training on these trees. They hope that by training on Swedish text, the parser might get the lexical context. Despite the fact that they didn't gain any improvement, this give the idea of re-lexicalized the delexicalized model. This idea is exploited successfully in the subsequent works. 
+
+\textbf{\namecite{McDonald:2011:MTD}} also exploit the idea of delexicalized parser. Their approaches are summarized as follow. First, they trained a transition-based delexicalized parser~\cite{Nivre:2008:ADI} on English. This parser only use POS features. They experiment with 8 European languages. The language specific POS tagset is mapped to the Universal POS tagset~\cite{UniversalTagSet} so that the POS features are in the same space across languages. If the algorithm stop here, then it should be exactly like~\namecite{Zeman08cross-languageparser}. The main contribution of this paper stem from the incorporation of parallel data to the model. They use the English delexicalized parser as the seed parser for the target languages. The seed parser is then updated according to the alignment using augmented-loss training~\cite{Hall:2011:TDP:}. This model update encourage the target language parsed tree to look similar to the source language parsed tree with respect to the head-modifier relation. Table~\ref{tab:mcdonal11:proj} showed the result of direct transfer parser which is similar to~\cite{Zeman08cross-languageparser} and English projecting parser which additionally taking word alignment information into consideration evaluated on 8 European languages. The first observation is that direct transfer performed relatively well given the modest resource usage, achieving 57\% (absolute) UAS on average. The underlying reason is because of the structural similarities for these Indo-European languages i.e. SVO structure, head-modifier POS tag sequence. The projecting parser further improve 3.4\% (absolute) thank to the parallel data. 
+% Todo : can expand here, can include the predicted POS to the result 
+\begin{table}
+\centering 
+\begin{tabular}{lcc}
+    & \textbf{en-dir} & \textbf{en-proj} \\
+da  & 45.9          & 48.2    \\
+de  & 47.2          & 50.9    \\
+el  & 63.9          & 66.8    \\
+es  & 53.3          & 55.8    \\
+it  & 57.7          & 60.8    \\
+nl  & 60.8          & 67.8    \\
+pt  & 69.2          & 71.3    \\
+sv  & 58.3          & 61.3    \\
+\hline
+avg & 57.0          & 60.4   
+\end{tabular}
+\label{tab:mcdonal11:proj}
+\caption{UAS for direct transfer parser (en-dir) and English projecting parser (en-proj) using gold POS.}
+\end{table}
+
+\cite{McDonald:2011:MTD} also experimented on multiple source languages scenario. First, they build and evaluate target language parser using each source language. Second, they wanted to combine multiple source languages in an attempt to further improve the performance. Since training the delexicalized parser only require POS, the combine scheme is simple. All the source language annotated corpora is concatenated into a big corpora. The delexicalized parser is trained on this big corpora and then transferred to the target language using English-target language parallel data. Table~\ref{tab:mcdonal11:mutisource} shows the UAS for each target language using a single best source language or combined source languages. From this table, we can see that English is hardly the best source languages. For 8 considered languages, Portuguese (pt) or Italian (it) tent to perform better. Compared with table~\ref{tab:mcdonal11:proj} on using English as source language, using multiple source language helps improving both the direct transfer (-dir) and projection (-proj) by $\sim$ 4\% (absolute). It's clearly beneficial using multiple source language but only on par with using single best source language. 
+It seems that different source language does substantially change the performance. However, given a target language, choosing a best source language from a pool of possible source language remaining a challenging question. 
+\begin{table}
+\centering
+\begin{tabular}{lccc}
+    & \textbf{best source} & \textbf{multi-dir} & \textbf{multi-proj} \\
+da  & 48.6 (it)   & 48.9      & 49.5       \\
+de  & 55.8 (nl)   & 56.7      & 56.6       \\
+el  & 63.9 (en)   & 60.1      & 65.1       \\
+es  & 68.4 (it)   & 64.2      & 64.5       \\
+it  & 69.1 (pt)   & 64.1      & 65.0       \\
+nl  & 62.1 (el)   & 55.8      & 65.7       \\
+pt  & 74.8 (it)   & 74.0      & 75.6       \\
+sv  & 66.8 (pt)   & 65.3      & 68.0       \\
+\hline
+avg & 63.7        & 61.1      & 63.8      
+\end{tabular}
+\caption{UAS for each target language using the best source language, directly transferred from multiple source (multi-dir), or projected from multiple source (multi-proj).}
+\label{tab:mcdonal11:mutisource}
+\end{table}
+
+\textbf{\namecite{Sogaard:2011:DPS}} is another example exploiting the delexicalized parser for a target language. The previous approaches~\cite{McDonald:2011:MTD,Zeman08cross-languageparser}, more or less focused on choosing the source language that is similar to the target language. This approach investigate on choosing the data points from source language that are similar with the target language. He run experiments on 4 less related languages Arabic, Bulgarian, Danish and Portuguese probably to emphasize the effectiveness of choosing data points. The language specific tagset is mapped to a common tagset using method similar to~\cite{Zeman08cross-languageparser}. In a similar vein to~\cite{McDonald:2011:MTD}, they construct the target language parser by combining the resource from all other 3 languages. The data points from these combined resources are ranked according to target language POS tag sequence statistic. That is, data points that have similar tag sequence to the target language are selected. A non-projective graph based dependency parser~\cite{McDonald:2005:NDP} is trained on these selected points and applied directly to the target language. Table~\ref{tab:sogaard11:subset} shows the result for 4 languages using all and the first 90\% of the data points. The gain for Danish and Arabic are modest compared to massive improvement $\sim 30\%$ (absolute) for Bulgarian and Portuguese. 
+\begin{table}
+\centering 
+\begin{tabular}{lcccc}
+               & \textbf{Arabic} & \textbf{Bulgarian} & \textbf{Danish} & \textbf{Portuguese} \\
+Baseline (all) & 45.5   & 44.5      & 51.7   & 37.1       \\
+Subset (90\%)  & 48.4   & 70.2      & 51.9   & 75.1      
+\end{tabular}
+\caption{UAS using delexicalized transfer parser trained on all  (baseline) or selected first 90\% (subset) of the data points. }
+\label{tab:sogaard11:subset}
+\end{table}
+
+They also report the best result for each language pair using a subset of source data (10\%, 20\%, ...100\%) as described in Table~\ref{tab:sogaard11:eachlangpair}. Using Arabic as the source language is the bad choice for both Bulgarian and Portuguese. This is because Arabic has very different structure compared with Bulgarian and Portuguese. Table~\ref{tab:sogaard11:eachlangpair} partially explained the massive gain of Bulgarian and Portuguese in Table~\ref{tab:sogaard11:subset}. It seems that this gain mainly stems from removing Arabic sentences. It will be much clearer if the author report the result for each language pair (similar to Table~\ref{tab:sogaard11:eachlangpair}) but for each cut off. 
+
+\begin{table}
+\centering
+\begin{tabular}{llllll}
+                        &            & \multicolumn{4}{c}{\textbf{Target}}               \\
+                        &            & Arabic & Bulgarian & Danish & Portuguese \\
+\multirow{4}{*}{\textbf{Source}} & Arabic     & -      & 45.8      & 56.5   & 37.8       \\
+                        & Bulgarian  & 50.2   & -         & 50.8   & 76.9       \\
+                        & Danish     & 46.9   & 60.4      & -      & 63.5       \\
+                        & Portuguese & 50.1   & 70.3      & 52.2   & -         
+\end{tabular}
+\caption{The best UAS for each language pair trained on subset (10\%, 20\% ... 100\%) of the source corpora. }
+\label{tab:sogaard11:eachlangpair}
+\end{table}
+
+So far, the delexicalized parser only use POS information. Surprisingly, using POS features alone is quite effective for dependency parser. For example, an English lexicalized discriminative arc-factored dependency parser~\cite{McDonald:2005:NDP} achieved 84.1\% UAS, however, delexicalized version achieved 78.9\%~\cite{tackstrom:2013:NAACL-HLT}. This is one of the key underlying idea for delexicalized transfer parsing.~\textbf{\namecite{tackstrom:2013:NAACL-HLT}} extended the POS features to other cross-lingual features. These features must be common across languages. They adopted the WALS -- World Atlas of Language Structures~\cite{wals} --  typological features in the similar vein with~\cite{Naseem:2012:SSM}. WALS covered basic information such as order of \textit{Subject}, \textit{Object}, \textit{Verb}; order of \textit{Adjective} and \textit{Noun}; order of \textit{Adposition} and \textit{Noun} etc.  about nearly 2700 languages. They experiment with 16 languages. Similar to~\cite{McDonald:2011:MTD,Sogaard:2011:DPS}, for each target language, the rest 15 languages will be the training data. The intuition here is very simple. They want to take advantage of multiple source-languages. However, for a target language, some source-languages are not particularly useful. For example adding Arabic as the source language for building Portuguese parser substantially reduces the performance. Thus, they want to use WALS features to filter out features that are not relevant to the target language. Table~\ref{tab:tackstrom2013:WALSfeatures} shows the UAS for each language using different models. Delex is a graph based delexicalized direct transfer parser. Share is similar to Delex but additionally use WALS features. The Similar or Family model are similar to Share model but additionally use a binary feature which fires when source and target language in the same group. The group of language is can be defined by WALS features (Similar model) or language family (Family model). Compared with the Delex model, Share model performs better 2.3\% (absolute) improvement on average. This show that WALS features are informative. Involving language group information indeed further the improvement. They observed bigger improvement when using language family tree than using WALS grouping. To summarize, including WALS and language family tree information to the multi-source delexicalized parser gains $\sim 7$\% (absolute) improvement on average for 16 studies languages. 
+
+\begin{table}
+\centering
+\begin{tabular}{lcccccc}
+    & \textbf{Delex} & \textbf{Share} & \textbf{Similar} & \textbf{Family}& \textbf{AAST} & \textbf{AAET} \\
+ar  & 43.3  & 52.7  & 52.7    & 52.7   & 53.5 & 58.7 \\
+bg  & 64.5  & 65.4  & 62.4    & 65.4   & 67.9 & 73.0 \\
+ca  & 72.0  & 66.1  & 80.2    & 77.6   & 79.9 & 76.1 \\
+cs  & 40.5  & 42.5  & 45.3    & 43.5   & 44.4 & 48.3 \\
+de  & 57.0  & 55.2  & 58.1    & 59.2   & 62.5 & 61.5 \\
+el  & 63.2  & 62.9  & 59.9    & 63.2   & 65.5 & 69.6 \\
+es  & 66.9  & 59.3  & 69.0    & 67.1   & 68.5 & 66.9 \\
+eu  & 29.5  & 46.8  & 46.8    & 46.8   & 48.6 & 49.4 \\
+hu  & 56.2  & 64.5  & 64.5    & 64.5   & 65.6 & 67.5 \\
+it  & 70.8  & 63.5  & 74.6    & 72.5   & 72.4 & 73.4 \\
+ja  & 38.9  & 57.1  & 64.6    & 65.9   & 68.8 & 72.0 \\
+nl  & 57.9  & 55.0  & 51.8    & 56.8   & 58.1 & 60.2 \\
+pt  & 77.5  & 72.7  & 78.4    & 78.4   & 80.7 & 79.9 \\
+sv  & 61.4  & 58.8  & 48.8    & 63.5   & 65.5 & 65.5 \\
+tr  & 37.4  & 41.7  & 59.5    & 59.4   & 64.1 & 64.2 \\
+zh  & 45.1  & 54.8  & 54.8    & 54.8   & 57.9 & 60.7 \\
+\hline
+avg & 55.1  & 57.4  & 60.7    & 62.0   & 64.0 & 65.4    
+\end{tabular}
+\caption{UAS for multi-source direct transfer model (Delex), plus the WALS features (Share), plus the language group features from WALS (Share) or from language family (Family). AAST and AAET are result from ambiguity-aware self-training and ambiguity-aware ensemble-training.}
+\label{tab:tackstrom2013:WALSfeatures}
+\end{table}
+Taking the idea of relexicalizing the delexicalized parser from \cite{Zeman08cross-languageparser}, \namecite{tackstrom:2013:NAACL-HLT} want to further improve the performance by applying self-training for adding back lexical item to the model. They use the Family model as the starting point to parse the target language. They used the set of target languages parsed trees to build a set of ambiguous (pseudo-gold) arcs. Using the set of ambiguous arcs to build a a set of ambiguous trees. They re-train the model on this set of ambiguous trees. They called this model as Ambiguity-Aware Self-Training (AAST). Instead of using ambiguous arcs to build set of ambiguous tree, they also use the prediction of different parsers. They called it Ambiguity-Aware Ensemble-Training (AAET). Table~\ref{tab:tackstrom2013:WALSfeatures} also shows the UAS of AAST and AAET. Unlike~\namecite{Zeman08cross-languageparser}, they observed improvement using self-training. Despite simpler, AAET give higher improvement compared with AAST. Compared with Family model, AAET gain 3.4\% (absolute) on average meanwhile AAST gain only 2\% (absolute). We compared the result from Table~\ref{tab:mcdonal11:mutisource} and Table~\ref{tab:tackstrom2013:WALSfeatures} for 7 common languages (de, el, es, it, nl, pt, sv)\footnote{Note that, these 2 papers are not strictly comparable.~\namecite{McDonald:2011:MTD} evaluate on full sentence length but~\namecite{tackstrom:2013:NAACL-HLT} restrict the sentence length to 50 words.}. Table~\ref{tab:tackstrom13:compare} shows the average UAS for 7 languages. Delex and Multi-dir model employs the same algorithm, it seems that incorporating multiple source languages does help to improve the performance of delexicalized transfer parser. The Multi-proj model improve around 3\% (absolute) compared with Multi-dir model. Meanwhile, AAET give rise to the same amount compared with Delex model. AAET and Multi-proj approach using different source of information and are expect to complementary each other. Thus, we can expect to further improve the performance by simply using multi-proj as the seed model and apply self-training as in AAET model. 
+\begin{table}
+\centering 
+\begin{tabular}{lc}
+           & \textbf{Avg} (7)  \\
+Multi-dir  & 62.9 \\
+Multi-proj & 65.8 \\
+Delex      & 65.0 \\
+Family     & 65.8 \\
+AAET       & 68.1
+\end{tabular}
+\caption{Compare different models from \protect \namecite{tackstrom:2013:NAACL-HLT} and \protect \namecite{McDonald:2011:MTD}}
+\label{tab:tackstrom13:compare}
+\end{table}
+
+%Todo : Can talk about word embedding here since it's cross-lingual features 
+
+%Looking for different features that shared across languages 
+%- Word embedding 
+%- Universal POS tagset
+%- Durrett et al 2012 
+
+
+%delexicalized transfer approach to multilingual syntactic
+%parsing (Zeman and Resnik, 2008; McDonald et al.,
+%2011; Cohen et al., 2011; Søgaard, 2011). 
+
+%Note : hard to say, what is the state-of-the-art (probably because of tagset mapping...)
+
+\subsection{Projection approach}
+In contrast to the approach using language relatedness clues, i.e. delexicalized parser. In this section, we are going to investigate on method exploiting parallel data to project the annotation from source to the target language. The difficulty for projection approach stem from (1) the partial word alignments, many words are null aligned (2) the poor quality of word-alignment and (3) the annotation differences, language differences etc. 
+
+\textbf{\namecite{Hwa:2005:BPV}} is the first to exploit this idea. The key assumption of this paper is the direct correspondence hypothesis between parallel text. That is, given a source and target sentence, if source word $w^i_s$ and $w^j_s$ are aligned with target word $w^i_t$ and $w^j_t$ respectively, and there are syntactic relationship between $w^i_s$ and $w^j_s$, the same relationship must hold between $w^i_t$ and $w^j_t$. Using this assumption, they define a set of actions for each of the one-to-one, one-to-many, many-to-one, one-to-null or many-to-many alignment. Given a source-language parsed tree and the word alignments, they can apply series of actions to generate the target-language parsed tree. However, the performance of this direct transfer is quite poor. They wanted to project English parser to Chinese and Spanish. Under the oracle alignment and English parsing, the direct projection only scored 36.8\% and 38.1\% UAS for Spanish and Chinese respectively. This poor performance shows the inadequacy of purely projection. They resolve this by applying set of post-processing rules which capture the language specific knowledge. Applying these rules substantially improve the accuracy. Under the same oracle setting, we observed $\sim$ 30\% (absolute) improvement for both Spanish and Chinese, reaching 70.3\% and 67.3\% UAS. The error analysis shows that, even after the transformation, there are many bad target language trees.~\namecite{Hwa:2005:BPV} apply some heuristic rules to remove more trees. The resulting trees become the pseudo-gold training data for a supervised dependency parser. Table~\ref{tab:hwa05:result} shows the result with and without filtering. We can see that a simple heuristic filtering make a huge gain ($\sim 5\%$ and $\sim10\% $ absolute) for both Spanish and Chinese respectively. However, the approach of~\namecite{Hwa:2005:BPV} contains many heuristics and rules, which will be difficult to adapt to different languages. 
+%To do: why POS projection is very successful but not for parsing ??? 
+\begin{table}
+\centering
+\begin{tabular}{lcc}
+                      & \textbf{Spanish} & \textbf{Chinese} \\
+Proj + Trans          & 67.3    & 44.3    \\
+Proj + Trans + Filter & 72.1    & 53.9   
+\end{tabular}
+\caption{UAS using different model where Proj means the annotation is projected from source language. Trans means that the annotation is transformed using set of language specific rules. Filter means that annotation is filtered using set of heuristic rules.}
+\label{tab:hwa05:result}
+\end{table}
+%%%%%%%%%%%%%%%%%%%Different paper %%%%%%%%
+
+
+
+
+
+In contrast to annotation projection approaches (Yarowsky et al.,
+2001; Hwa et al., 2005; Ganchev et al., 2009; Spreyer
+and Kuhn, 2009), 
+
+SOTA : Fei Xia ACL 14. Unsupervised Dependency Parsing with Transferring Distribution via Parallel Guidance and Entropy Regularization (hard copy)
+\subsection{Dictionary Approach}
+Syntactic transfer using a bilingual lexicon (Durrett et al 2012)
+
+\subsection{Semi-supervised approach}
+
+Interlinear Glossed Text approach, manually annotate some trees in the target language. (mainly help to improve the alignment)

@@ -1,0 +1,1614 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Adams {\em
+  et~al.\/}}{2016}]{adams-EtAl:2016:EMNLP2016}
+{\sc Adams, Oliver}, {\sc Graham Neubig}, {\sc Trevor Cohn}, {\sc Steven Bird},
+  {\sc Quoc~Truong Do},  \lsaand {\sc Satoshi Nakamura}.
+\newblock 2016.
+\newblock Learning a lexicon and translation model from phoneme lattices.
+\newblock In {\em Proceedings of the 2016 Conference on Empirical Methods in
+  Natural Language Processing\/}, 2377--2382, Austin, Texas. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Agarwal {\em
+  et~al.\/}}{2011}]{Agarwal:2011:SAT:2021109.2021114}
+{\sc Agarwal, Apoorv}, {\sc Boyi Xie}, {\sc Ilia Vovsha}, {\sc Owen Rambow},
+  \lsaand {\sc Rebecca Passonneau}.
+\newblock 2011.
+\newblock Sentiment analysis of twitter data.
+\newblock In {\em Proceedings of the Workshop on Languages in Social Media\/},
+  LSM '11, 30--38, Stroudsburg, PA, USA. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Ammar {\em
+  et~al.\/}}{2016}]{DBLP:AmmarMTLDS16}
+{\sc Ammar, Waleed}, {\sc George Mulcaire}, {\sc Yulia Tsvetkov}, {\sc
+  Guillaume Lample}, {\sc Chris Dyer},  \lsaand {\sc Noah~A. Smith}.
+\newblock 2016.
+\newblock Massively multilingual word embeddings.
+\newblock {\em CoRR\/} abs/1602.01925.
+
+\bibitem[\protect\citeauthoryear{Andreas \lsaand
+  Klein}{2014}]{andreas-klein:2014:P14-2}
+{\sc Andreas, Jacob},  \lsaand {\sc Dan Klein}.
+\newblock 2014.
+\newblock How much do word embeddings encode about syntax?
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics\/}, 822--827.
+
+\bibitem[\protect\citeauthoryear{Bahdanau {\em
+  et~al.\/}}{2014}]{DBLP:journals/corr/BahdanauCB14}
+{\sc Bahdanau, Dzmitry}, {\sc Kyunghyun Cho},  \lsaand {\sc Yoshua Bengio}.
+\newblock 2014.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em CoRR\/} abs/1409.0473.
+
+\bibitem[\protect\citeauthoryear{Banko \lsaand Moore}{2004}]{Banko:2004}
+{\sc Banko, Michele},  \lsaand {\sc Robert~C. Moore}.
+\newblock 2004.
+\newblock Part of speech tagging in context.
+\newblock In {\em Proceedings of the 20th International Conference on
+  Computational Linguistics\/}, COLING '04.
+
+\bibitem[\protect\citeauthoryear{Bansal {\em et~al.\/}}{2014}]{mohit:ACL14}
+{\sc Bansal, Mohit}, {\sc Kevin Gimpel},  \lsaand {\sc Karen Livescu}.
+\newblock 2014.
+\newblock Tailoring continuous word representations for dependency parsing.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)\/}, 809--815.
+
+\bibitem[\protect\citeauthoryear{Baroni {\em
+  et~al.\/}}{2014}]{baroni-dinu-kruszewski:2014:P14-1}
+{\sc Baroni, Marco}, {\sc Georgiana Dinu},  \lsaand {\sc Germ\'{a}n
+  Kruszewski}.
+\newblock 2014.
+\newblock Don't count, predict! a systematic comparison of context-counting vs.
+  context-predicting semantic vectors.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 238--247, Baltimore,
+  Maryland. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Baumann \lsaand
+  Pierrehumbert}{2014}]{BAUMANN14}
+{\sc Baumann, Peter},  \lsaand {\sc Janet Pierrehumbert}.
+\newblock 2014.
+\newblock Using resource-rich languages to improve morphological analysis of
+  under-resourced languages.
+\newblock In {\em Proceedings of the Ninth International Conference on Language
+  Resources and Evaluation (LREC'14)\/}, 3355--3359, Reykjavik, Iceland.
+
+\bibitem[\protect\citeauthoryear{Bengio {\em
+  et~al.\/}}{2003}]{Bengio:2003:NPL:944919.944966}
+{\sc Bengio, Yoshua}, {\sc R{\'e}jean Ducharme}, {\sc Pascal Vincent},  \lsaand
+  {\sc Christian Janvin}.
+\newblock 2003.
+\newblock A neural probabilistic language model.
+\newblock {\em J. Mach. Learn. Res.\/} 3.1137--1155.
+
+\bibitem[\protect\citeauthoryear{Berg-Kirkpatrick {\em
+  et~al.\/}}{2010}]{featurebaseHMM}
+{\sc Berg-Kirkpatrick, Taylor}, {\sc Alexandre Bouchard-C{\^o}t{\'e}}, {\sc
+  John DeNero},  \lsaand {\sc Dan Klein}.
+\newblock 2010.
+\newblock Painless unsupervised learning with features.
+\newblock In {\em Proceeding of Human Language Technology - North Americal
+  Association for Computational Linguistics\/}, 582--590.
+
+\bibitem[\protect\citeauthoryear{Berment}{2004}]{berment:tel-00006313}
+{\sc Berment, Vincent}, 2004.
+\newblock {\em {Methods to computerize ''little equipped'' languages and groups
+  of languages}\/}.
+\newblock {Universit{\'e} Joseph-Fourier - Grenoble I} dissertation.
+
+\bibitem[\protect\citeauthoryear{Berndt \lsaand
+  Clifford}{1994}]{Berndt:1994:UDT:3000850.3000887}
+{\sc Berndt, Donald~J.},  \lsaand {\sc James Clifford}.
+\newblock 1994.
+\newblock Using dynamic time warping to find patterns in time series.
+\newblock In {\em Proceedings of the 3rd International Conference on Knowledge
+  Discovery and Data Mining\/}, AAAIWS'94, 359--370. AAAI Press.
+
+\bibitem[\protect\citeauthoryear{Besacier {\em
+  et~al.\/}}{2014}]{Besacier:2014:ASR:2533333.2533656}
+{\sc Besacier, Laurent}, {\sc Etienne Barnard}, {\sc Alexey Karpov},  \lsaand
+  {\sc Tanja Schultz}.
+\newblock 2014.
+\newblock Automatic speech recognition for under-resourced languages: A survey.
+\newblock {\em Speech Commun.\/} 56.85--100.
+
+\bibitem[\protect\citeauthoryear{Biemann}{2006a}]{chineseWhisper}
+{\sc Biemann, Chris}.
+\newblock 2006a.
+\newblock Chinese whispers: an efficient graph clustering algorithm and its
+  application to natural language processing problems.
+\newblock In {\em Proceedings of the First Workshop on Graph Based Methods for
+  Natural Language Processing\/}, TextGraphs-1, 73--80. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Biemann}{2006b}]{unSupPOSClustering}
+\lsadashify{{\sc Biemann, Chris}}.
+\newblock 2006b.
+\newblock Unsupervised part-of-speech tagging employing efficient graph
+  clustering.
+\newblock In {\em Proceedings of the 21st International Conference on
+  Computational Linguistics and 44th Annual Meeting of the Association for
+  Computational Linguistics: Student Research Workshop\/}, COLING ACL '06,
+  7--12. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Bird {\em
+  et~al.\/}}{2014a}]{bird-EtAl:2014:Coling}
+{\sc Bird, Steven}, {\sc Lauren Gawne}, {\sc Katie Gelbart},  \lsaand {\sc
+  Isaac McAlister}.
+\newblock 2014a.
+\newblock Collecting bilingual audio in remote indigenous communities.
+\newblock In {\em Proceedings of the 25th International Conference on
+  Computational Linguistics (COLING)\/}, 1015--1024, Dublin, Ireland. Dublin
+  City University and Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Bird {\em
+  et~al.\/}}{2014b}]{bird-EtAl:2014:W14-22}
+\lsadashifynew{{\sc Bird, Steven}}, {\sc Florian~R. Hanke}, {\sc Oliver Adams},
+   \lsaand {\sc Haejoong Lee}.
+\newblock 2014b.
+\newblock Aikuma: A mobile app for collaborative language documentation.
+\newblock In {\em Proceedings of the 2014 Workshop on the Use of Computational
+  Methods in the Study of Endangered Languages\/}, 1--5.
+
+\bibitem[\protect\citeauthoryear{Blachon {\em et~al.\/}}{2016}]{Blachon201661}
+{\sc Blachon, David}, {\sc Elodie Gauthier}, {\sc Laurent Besacier}, {\sc
+  Guy-Noël Kouarata}, {\sc Martine Adda-Decker},  \lsaand {\sc Annie
+  Rialland}.
+\newblock 2016.
+\newblock Parallel speech collection for under-resourced language studies using
+  the lig-aikuma mobile device app.
+\newblock {\em Procedia Computer Science\/} 81.61 -- 66.
+\newblock SLTU-2016 5th Workshop on Spoken Language Technologies for
+  Under-resourced languages 09-12 May 2016 Yogyakarta, Indonesia.
+
+\bibitem[\protect\citeauthoryear{Blacoe \lsaand
+  Lapata}{2012}]{blacoe-lapata:2012:EMNLP-CoNLL}
+{\sc Blacoe, William},  \lsaand {\sc Mirella Lapata}.
+\newblock 2012.
+\newblock A comparison of vector-based representations for semantic
+  composition.
+\newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
+  in Natural Language Processing and Computational Natural Language
+  Learning\/}, 546--556, Jeju Island, Korea. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Blunsom \lsaand Cohn}{2011}]{Blunsom:2011}
+{\sc Blunsom, Phil},  \lsaand {\sc Trevor Cohn}.
+\newblock 2011.
+\newblock A hierarchical pitman-yor process hmm for unsupervised part of speech
+  induction.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies - Volume 1\/}, HLT
+  '11, 865--874.
+
+\bibitem[\protect\citeauthoryear{Bocchieri \lsaand
+  Doddington}{1986}]{Tidigit_dataset}
+{\sc Bocchieri, E.},  \lsaand {\sc G.~Doddington}.
+\newblock 1986.
+\newblock Speaker independent digit recognition with reference frame-specific
+  distance measures.
+\newblock In {\em Acoustics, Speech, and Signal Processing, IEEE International
+  Conference on ICASSP '86.\/}, volume~11, 2699--2702.
+
+\bibitem[\protect\citeauthoryear{B\"{o}hmov\'{a} {\em
+  et~al.\/}}{2001}]{bohmovahhh:2001}
+{\sc B\"{o}hmov\'{a}, Alena}, {\sc Jan Haji\v{c}}, {\sc Eva Haji\v{c}ov\'{a}},
+  \lsaand {\sc Barbora Hladk\'{a}}.
+\newblock 2001.
+\newblock {The Prague Dependency Treebank: A Three-Level Annotation Scenario}.
+\newblock In {\em Treebanks: Building and Using Syntactically Annotated
+  Corpora\/}, ed. by Anne Abeill\'{e}, 103--127. Kluwer Academic Publishers.
+
+\bibitem[\protect\citeauthoryear{Brants}{2000}]{TNTTagger}
+{\sc Brants, Thorsten}.
+\newblock 2000.
+\newblock {TnT}: {A} statistical part-of-speech tagger.
+\newblock In {\em Proceedings of the Sixth Conference on Applied Natural
+  Language Processing (ANLP '00)\/}, 224--231, Seattle, Washington, USA.
+
+\bibitem[\protect\citeauthoryear{Brill}{1995}]{Brill95transformation}
+{\sc Brill, Eric}.
+\newblock 1995.
+\newblock Transformation-based error-driven learning and natural language
+  processing: A case study in part-of-speech tagging.
+\newblock {\em Computational Linguistics\/} 21.543--565.
+
+\bibitem[\protect\citeauthoryear{Brown {\em et~al.\/}}{1992}]{Brown:1992}
+{\sc Brown, Peter~F.}, {\sc Peter~V. deSouza}, {\sc Robert~L. Mercer}, {\sc
+  Vincent J.~Della Pietra},  \lsaand {\sc Jenifer~C. Lai}.
+\newblock 1992.
+\newblock Class-based n-gram models of natural language.
+\newblock {\em Computational Linguistics\/} 18.467--479.
+
+\bibitem[\protect\citeauthoryear{Bruni {\em
+  et~al.\/}}{2012}]{DBLP:conf/acl/BruniBBT12}
+{\sc Bruni, Elia}, {\sc Gemma Boleda}, {\sc Marco Baroni},  \lsaand {\sc
+  Nam{-}Khanh Tran}.
+\newblock 2012.
+\newblock Distributional semantics in technicolor.
+\newblock In {\em The 50th Annual Meeting of the Association for Computational
+  Linguistics, Proceedings of the Conference, July 8-14, 2012, Jeju Island,
+  Korea - Volume 1: Long Papers\/}, 136--145.
+
+\bibitem[\protect\citeauthoryear{Camacho-Collados {\em
+  et~al.\/}}{2015}]{camachocollados:2015:ACL-IJCNLP}
+{\sc Camacho-Collados, Jos\'{e}}, {\sc Mohammad~Taher Pilehvar},  \lsaand {\sc
+  Roberto Navigli}.
+\newblock 2015.
+\newblock A framework for the construction of monolingual and cross-lingual
+  word similarity datasets.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 2: Short Papers)\/}, 1--7, Beijing,
+  China. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Chan {\em
+  et~al.\/}}{2015}]{DBLP:journals/corr/ChanJLV15}
+{\sc Chan, William}, {\sc Navdeep Jaitly}, {\sc Quoc~V. Le},  \lsaand {\sc
+  Oriol Vinyals}.
+\newblock 2015.
+\newblock Listen, attend and spell.
+\newblock {\em CoRR\/} abs/1508.01211.
+
+\bibitem[\protect\citeauthoryear{Chandar A~P {\em
+  et~al.\/}}{2014}]{Chandar-nips-14}
+{\sc Chandar A~P, Sarath}, {\sc Stanislas Lauly}, {\sc Hugo Larochelle}, {\sc
+  Mitesh Khapra}, {\sc Balaraman Ravindran}, {\sc Vikas~C Raykar},  \lsaand
+  {\sc Amrita Saha}.
+\newblock 2014.
+\newblock An autoencoder approach to learning bilingual word representations.
+\newblock In {\em Advances in Neural Information Processing Systems 27\/}, ed.
+  by Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, \lsaand K.~Q.
+  Weinberger, 1853--1861. Curran Associates, Inc.
+
+\bibitem[\protect\citeauthoryear{Chen \lsaand
+  Manning}{2014}]{chen-manning:2014:EMNLP2014}
+{\sc Chen, Danqi},  \lsaand {\sc Christopher Manning}.
+\newblock 2014.
+\newblock A fast and accurate dependency parser using neural networks.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)\/}, 740--750, Doha, Qatar. Association
+  for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Chen {\em
+  et~al.\/}}{2014a}]{chen-zhang-zhang:2014:Coling}
+{\sc Chen, Wenliang}, {\sc Yue Zhang},  \lsaand {\sc Min Zhang}.
+\newblock 2014a.
+\newblock Feature embedding for dependency parsing.
+\newblock In {\em Proceedings of the 25th International Conference on
+  Computational Linguistics (COLING)\/}, 816--826, Dublin, Ireland. Dublin City
+  University and Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Chen {\em
+  et~al.\/}}{2014b}]{chen-liu-sun:2014:EMNLP2014}
+{\sc Chen, Xinxiong}, {\sc Zhiyuan Liu},  \lsaand {\sc Maosong Sun}.
+\newblock 2014b.
+\newblock A unified model for word sense representation and disambiguation.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)\/}, 1025--1035, Doha, Qatar. Association
+  for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Chorowski {\em
+  et~al.\/}}{2014}]{DBLP:journals/corr/ChorowskiBCB14}
+{\sc Chorowski, Jan}, {\sc Dzmitry Bahdanau}, {\sc Kyunghyun Cho},  \lsaand
+  {\sc Yoshua Bengio}.
+\newblock 2014.
+\newblock End-to-end continuous speech recognition using attention-based
+  recurrent {NN:} first results.
+\newblock {\em CoRR\/} abs/1412.1602.
+
+\bibitem[\protect\citeauthoryear{Christodoulopoulos {\em
+  et~al.\/}}{2010}]{Christodoulopoulos:2010}
+{\sc Christodoulopoulos, Christos}, {\sc Sharon Goldwater},  \lsaand {\sc Mark
+  Steedman}.
+\newblock 2010.
+\newblock Two decades of unsupervised {POS} induction: How far have we come?
+\newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing\/}, EMNLP '10, 575--584.
+
+\bibitem[\protect\citeauthoryear{Chu \lsaand Liu}{1965}]{1264361}
+{\sc Chu, Y.~J.},  \lsaand {\sc T.~H. Liu}.
+\newblock 1965.
+\newblock {On the shortest arborescence of a directed graph}.
+
+\bibitem[\protect\citeauthoryear{Collobert \lsaand
+  Weston}{2008}]{Collobert:2008}
+{\sc Collobert, Ronan},  \lsaand {\sc Jason Weston}.
+\newblock 2008.
+\newblock A unified architecture for natural language processing: Deep neural
+  networks with multitask learning.
+\newblock In {\em Proceedings of the 25th International Conference on Machine
+  Learning\/}, ICML '08, 160--167, New York, NY, USA. ACM.
+
+\bibitem[\protect\citeauthoryear{Coulmance {\em
+  et~al.\/}}{2015}]{coulmance-EtAl:2015:EMNLP}
+{\sc Coulmance, Jocelyn}, {\sc Jean-Marc Marty}, {\sc Guillaume Wenzek},
+  \lsaand {\sc Amine Benhalloum}.
+\newblock 2015.
+\newblock Trans-gram, fast cross-lingual word-embeddings.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing\/}, 1109--1113, Lisbon, Portugal. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Crystal}{2002}]{crystal2002language}
+{\sc Crystal, D.}
+\newblock 2002.
+\newblock {\em Language Death\/}.
+\newblock Canto Refresh Your Series. Cambridge University Press.
+
+\bibitem[\protect\citeauthoryear{Cucu {\em et~al.\/}}{2012}]{Cucu2012}
+{\sc Cucu, H.}, {\sc L.~Besacier}, {\sc C.~Burileanu},  \lsaand {\sc A.~Buzo}.
+\newblock 2012.
+\newblock Asr domain adaptation methods for low-resourced languages:
+  Application to romanian language.
+\newblock In {\em Signal Processing Conference (EUSIPCO), 2012 Proceedings of
+  the 20th European\/}, 1648--1652.
+
+\bibitem[\protect\citeauthoryear{Darwish}{2013}]{darwish:2013:ACL2013}
+{\sc Darwish, Kareem}.
+\newblock 2013.
+\newblock Named entity recognition using cross-lingual resources: Arabic as an
+  example.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 1558--1567, Sofia,
+  Bulgaria. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Das \lsaand Petrov}{2011}]{Das:2011}
+{\sc Das, Dipanjan},  \lsaand {\sc Slav Petrov}.
+\newblock 2011.
+\newblock Unsupervised part-of-speech tagging with bilingual graph-based
+  projections.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies - Volume 1\/},
+  600--609.
+
+\bibitem[\protect\citeauthoryear{de~Marneffe {\em
+  et~al.\/}}{2014}]{DBLP:conf/lrec/MarneffeDSHGNM14}
+{\sc de~Marneffe, Marie{-}Catherine}, {\sc Timothy Dozat}, {\sc Natalia
+  Silveira}, {\sc Katri Haverinen}, {\sc Filip Ginter}, {\sc Joakim Nivre},
+  \lsaand {\sc Christopher~D. Manning}.
+\newblock 2014.
+\newblock Universal stanford dependencies: {A} cross-linguistic typology.
+\newblock In {\em Proceedings of the Ninth International Conference on Language
+  Resources and Evaluation, {LREC} 2014, Reykjavik, Iceland, May 26-31,
+  2014.\/}, 4585--4592.
+
+\bibitem[\protect\citeauthoryear{de~Marneffe {\em
+  et~al.\/}}{2006}]{Marneffe06generatingtyped}
+{\sc de~Marneffe, Marie-Catherine}, {\sc Bill MacCartney},  \lsaand {\sc
+  Christopher~D. Manning}.
+\newblock 2006.
+\newblock Generating typed dependency parses from phrase structure parses.
+\newblock In {\em IN PROC. International Conference on Language Resources and
+  Evaluation (LREC\/}, 449--454.
+
+\bibitem[\protect\citeauthoryear{de~Marneffe \lsaand
+  Manning}{2008}]{deMarneffe:2008:STD:1608858.1608859}
+\lsadashifynew{{\sc de~Marneffe, Marie-Catherine}},  \lsaand {\sc
+  Christopher~D. Manning}.
+\newblock 2008.
+\newblock The stanford typed dependencies representation.
+\newblock In {\em Coling 2008: Proceedings of the Workshop on Cross-Framework
+  and Cross-Domain Parser Evaluation\/}, CrossParser '08, 1--8, Stroudsburg,
+  PA, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Dryer \lsaand Haspelmath}{2013}]{wals}
+{\sc Dryer, Matthew~S.},  \lsaand {\sc Martin Haspelmath} (eds.)
+\newblock 2013.
+\newblock {\em WALS Online\/}.
+\newblock Leipzig: Max Planck Institute for Evolutionary Anthropology.
+
+\bibitem[\protect\citeauthoryear{Duong {\em et~al.\/}}{2013a}]{duongIJCNLP}
+{\sc Duong, Long}, {\sc Paul Cook}, {\sc Steven Bird},  \lsaand {\sc Pavel
+  Pecina}.
+\newblock 2013a.
+\newblock Increasing the quality and quantity of source language data for
+  {U}nsupervised {C}ross-{L}ingual {POS} tagging.
+\newblock In {\em Proceedings of the Sixth International Joint Conference on
+  Natural Language Processing\/}, 1243--1249, Nagoya, Japan.
+
+\bibitem[\protect\citeauthoryear{Duong {\em et~al.\/}}{2013b}]{Duongacl13}
+\lsadashify{{\sc Duong, Long}}, \lsadashify{{\sc Paul Cook}}, \lsadashify{{\sc
+  Steven Bird}},  \lsaand \lsadashify{{\sc Pavel Pecina}}.
+\newblock 2013b.
+\newblock Simpler unsupervised {POS} tagging with bilingual projections.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)\/}, 634--639, Sofia,
+  Bulgaria.
+
+\bibitem[\protect\citeauthoryear{Dyer {\em
+  et~al.\/}}{2015}]{dyer-EtAl:2015:ACL-IJCNLP}
+{\sc Dyer, Chris}, {\sc Miguel Ballesteros}, {\sc Wang Ling}, {\sc Austin
+  Matthews},  \lsaand {\sc Noah~A. Smith}.
+\newblock 2015.
+\newblock Transition-based dependency parsing with stack long short-term
+  memory.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)\/}, 334--343, Beijing,
+  China. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Eisner \lsaand
+  Blatz}{2007}]{eisner-blatz-2007}
+{\sc Eisner, Jason},  \lsaand {\sc John Blatz}.
+\newblock 2007.
+\newblock Program transformations for optimization of parsing algorithms and
+  other weighted logic programs.
+\newblock In {\em Proceedings of FG 2006: The 11th Conference on Formal
+  Grammar\/}, ed. by Shuly Wintner, 45--85. CSLI Publications.
+
+\bibitem[\protect\citeauthoryear{Fang {\em
+  et~al.\/}}{2001}]{Fang:2001:CDI:569577.569587}
+{\sc Fang, Zheng}, {\sc Zhang Guoliang},  \lsaand {\sc Song Zhanjiang}.
+\newblock 2001.
+\newblock Comparison of different implementations of mfcc.
+\newblock {\em J. Comput. Sci. Technol.\/} 16.582--589.
+
+\bibitem[\protect\citeauthoryear{Faruqui \lsaand
+  Dyer}{2014}]{faruqui-dyer:2014:EACL}
+{\sc Faruqui, Manaal},  \lsaand {\sc Chris Dyer}.
+\newblock 2014.
+\newblock Improving vector space word representations using multilingual
+  correlation.
+\newblock In {\em Proceedings of the 14th Conference of the European Chapter of
+  the Association for Computational Linguistics\/}, 462--471, Gothenburg,
+  Sweden. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Feldman {\em et~al.\/}}{2006}]{Feldman06}
+{\sc Feldman, Anna}, {\sc Jirka Hana},  \lsaand {\sc Chris Brew}.
+\newblock 2006.
+\newblock A cross-language approach to rapid creation of new
+  morpho-syntactically annotated resources.
+\newblock In {\em Proceedings of the Eighth International Conference on
+  Language Resources and Evaluation (LREC'06)\/}, 549--554, Genoa, Italy.
+
+\bibitem[\protect\citeauthoryear{Finkelstein {\em et~al.\/}}{2001}]{ws353}
+{\sc Finkelstein, Lev}, {\sc Evgeniy Gabrilovich}, {\sc Yossi Matias}, {\sc
+  Ehud Rivlin}, {\sc Zach Solan}, {\sc Gadi Wolfman},  \lsaand {\sc Eytan
+  Ruppin}.
+\newblock 2001.
+\newblock Placing search in context: The concept revisited.
+\newblock In {\em Proceedings of the 10th International Conference on World
+  Wide Web\/}, WWW '01, 406--414, New York, NY, USA. ACM.
+
+\bibitem[\protect\citeauthoryear{Ganchev {\em
+  et~al.\/}}{2009}]{Ganchev:2009:DGI:1687878.1687931}
+{\sc Ganchev, Kuzman}, {\sc Jennifer Gillenwater},  \lsaand {\sc Ben Taskar}.
+\newblock 2009.
+\newblock Dependency grammar induction via bitext projection constraints.
+\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference on Natural
+  Language Processing of the AFNLP: Volume 1 - Volume 1\/}, ACL '09, 369--377,
+  Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Garofolo {\em et~al.\/}}{1993}]{timit}
+{\sc Garofolo, J.~S.}, {\sc L.~F. Lamel}, {\sc W.~M. Fisher}, {\sc J.~G.
+  Fiscus}, {\sc D.~S. Pallett},  \lsaand {\sc N.~L. Dahlgren}, 1993.
+\newblock {DARPA} {TIMIT} acoustic phonetic continuous speech corpus {CDROM}.
+
+\bibitem[\protect\citeauthoryear{Garrette \lsaand
+  Baldridge}{2013}]{garrette:naacl13}
+{\sc Garrette, Dan},  \lsaand {\sc Jason Baldridge}.
+\newblock 2013.
+\newblock Learning a part-of-speech tagger from two hours of annotation.
+\newblock In {\em Proceedings of the North American Chapter of the Association
+  for Computational Linguistics: Human Language Technologies (NAACL-HLT-13)\/},
+  138--147, Atlanta, GA.
+
+\bibitem[\protect\citeauthoryear{Garrette {\em
+  et~al.\/}}{2013}]{garrette:acl13}
+\lsadashifynew{{\sc Garrette, Dan}}, {\sc Jason Mielens},  \lsaand {\sc Jason
+  Baldridge}.
+\newblock 2013.
+\newblock Real-world semi-supervised learning of pos-taggers for low-resource
+  languages.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (ACL-2013)\/}, 583--592, Sofia, Bulgaria.
+
+\bibitem[\protect\citeauthoryear{Gelling {\em
+  et~al.\/}}{2012}]{Gelling:2012:PCG:2390426.2390437}
+{\sc Gelling, Douwe}, {\sc Trevor Cohn}, {\sc Phil Blunsom},  \lsaand {\sc
+  Jo\~{a}o Gra\c{c}a}.
+\newblock 2012.
+\newblock The pascal challenge on grammar induction.
+\newblock In {\em Proceedings of the NAACL-HLT Workshop on the Induction of
+  Linguistic Structure\/}, WILS '12, 64--80, Stroudsburg, PA, USA. Association
+  for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Georgi {\em
+  et~al.\/}}{2013}]{georgi-xia-lewis:2013:Short}
+{\sc Georgi, Ryan}, {\sc Fei Xia},  \lsaand {\sc William~D. Lewis}.
+\newblock 2013.
+\newblock Enhanced and portable dependency projection algorithms using
+  interlinear glossed text.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)\/}, 306--311, Sofia,
+  Bulgaria. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Ghitza}{2011}]{ghitza2011linking}
+{\sc Ghitza, Oded}.
+\newblock 2011.
+\newblock Linking speech perception and neurophysiology: speech decoding guided
+  by cascaded oscillators locked to the input rhythm.
+\newblock {\em Frontiers in psychology\/} 2.130.
+
+\bibitem[\protect\citeauthoryear{Gimpel {\em
+  et~al.\/}}{2011}]{gimpel-EtAl:2011:ACL-HLT2011}
+{\sc Gimpel, Kevin}, {\sc Nathan Schneider}, {\sc Brendan O'Connor}, {\sc
+  Dipanjan Das}, {\sc Daniel Mills}, {\sc Jacob Eisenstein}, {\sc Michael
+  Heilman}, {\sc Dani Yogatama}, {\sc Jeffrey Flanigan},  \lsaand {\sc Noah~A.
+  Smith}.
+\newblock 2011.
+\newblock Part-of-speech tagging for twitter: Annotation, features, and
+  experiments.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies\/}, 42--47, Portland,
+  Oregon, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Goldberg {\em
+  et~al.\/}}{2008}]{Goldberg08emcan}
+{\sc Goldberg, Yoav}, {\sc Meni Adler},  \lsaand {\sc Michael Elhadad}.
+\newblock 2008.
+\newblock Em can find pretty good hmm pos-taggers (when given a good start.
+\newblock In {\em In Proc. ACL\/}, 746--754.
+
+\bibitem[\protect\citeauthoryear{Goldberg \lsaand Nivre}{2012}]{C12-1059}
+\lsadashifynew{{\sc Goldberg, Yoav}},  \lsaand {\sc Joakim Nivre}.
+\newblock 2012.
+\newblock A dynamic oracle for arc-eager dependency parsing.
+\newblock In {\em Proceedings of COLING 2012\/}, 959--976. The COLING 2012
+  Organizing Committee.
+
+\bibitem[\protect\citeauthoryear{Goldhahn {\em
+  et~al.\/}}{2012}]{GOLDHAHN12.327.L12-1154}
+{\sc Goldhahn, Dirk}, {\sc Thomas Eckart},  \lsaand {\sc Uwe Quasthoff}.
+\newblock 2012.
+\newblock Building large monolingual dictionaries at the leipzig corpora
+  collection: From 100 to 200 languages.
+\newblock In {\em Proceedings of the Eighth International Conference on
+  Language Resources and Evaluation (LREC-2012)\/}, ed. by Nicoletta Calzolari,
+  Khalid Choukri, Thierry Declerck, Mehmet~U\u{g}ur Do\u{g}an, Bente Maegaard,
+  Joseph Mariani, Jan Odijk, \lsaand Stelios Piperidis, 759--765, Istanbul,
+  Turkey. European Language Resources Association (ELRA).
+\newblock ACL Anthology Identifier: L12-1154.
+
+\bibitem[\protect\citeauthoryear{Gouws {\em et~al.\/}}{2015}]{icml2015_gouws15}
+{\sc Gouws, Stephan}, {\sc Yoshua Bengio},  \lsaand {\sc Greg Corrado}.
+\newblock 2015.
+\newblock Bilbowa: Fast bilingual distributed representations without word
+  alignments.
+\newblock In {\em Proceedings of the 32nd International Conference on Machine
+  Learning (ICML-15)\/}, ed. by David Blei \lsaand Francis Bach, 748--756. JMLR
+  Workshop and Conference Proceedings.
+
+\bibitem[\protect\citeauthoryear{Gouws \lsaand
+  S{\o}gaard}{2015}]{gouws-sogaard:2015:NAACL-HLT}
+\lsadashifynew{{\sc Gouws, Stephan}},  \lsaand {\sc Anders S{\o}gaard}.
+\newblock 2015.
+\newblock Simple task-specific bilingual word embeddings.
+\newblock In {\em Proceedings of the 2015 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies\/}, 1386--1390, Denver, Colorado. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Graves {\em
+  et~al.\/}}{2006}]{Graves06connectionisttemporal}
+{\sc Graves, Alex}, {\sc Santiago Fernández},  \lsaand {\sc Faustino Gomez}.
+\newblock 2006.
+\newblock Connectionist temporal classification: Labelling unsegmented sequence
+  data with recurrent neural networks.
+\newblock In {\em Proceeding of International Conference in Machine Learning
+  (ICML)\/}, 369--376.
+
+\bibitem[\protect\citeauthoryear{Graves {\em
+  et~al.\/}}{2013}]{DBLP:conf/icassp/GravesMH13}
+\lsadashifynew{{\sc Graves, Alex}}, {\sc Abdel{-}rahman Mohamed},  \lsaand {\sc
+  Geoffrey~E. Hinton}.
+\newblock 2013.
+\newblock Speech recognition with deep recurrent neural networks.
+\newblock In {\em {IEEE} International Conference on Acoustics, Speech and
+  Signal Processing, {ICASSP} 2013, Vancouver, BC, Canada, May 26-31, 2013\/},
+  6645--6649.
+
+\bibitem[\protect\citeauthoryear{Grezl {\em et~al.\/}}{2007}]{GrezlBottleNeck}
+{\sc Grezl, F.}, {\sc M.~Karafiat}, {\sc S.~Kontar},  \lsaand {\sc
+  J.~Cernocky}.
+\newblock 2007.
+\newblock Probabilistic and bottle-neck features for lvcsr of meetings.
+\newblock In {\em 2007 IEEE International Conference on Acoustics, Speech and
+  Signal Processing - ICASSP '07\/}, volume~4, IV--757--IV--760.
+
+\bibitem[\protect\citeauthoryear{Han \lsaand
+  Baldwin}{2011}]{han-baldwin:2011:ACL-HLT2011}
+{\sc Han, Bo},  \lsaand {\sc Timothy Baldwin}.
+\newblock 2011.
+\newblock Lexical normalisation of short text messages: Makn sens a \#twitter.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies\/}, 368--378,
+  Portland, Oregon, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Hana {\em et~al.\/}}{2004}]{Hana04}
+{\sc Hana, Jiri}, {\sc Anna Feldman},  \lsaand {\sc Chris Brew}.
+\newblock 2004.
+\newblock A resource-light approach to {R}ussian morphology: Tagging {R}ussian
+  using {C}zech resources.
+\newblock In {\em Proceedings of the 2004 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP '04)\/}, 222--229, Barcelona, Spain.
+
+\bibitem[\protect\citeauthoryear{Hermann \lsaand
+  Blunsom}{2014}]{DBLP:journals/corr/HermannB14}
+{\sc Hermann, Karl~Moritz},  \lsaand {\sc Phil Blunsom}.
+\newblock 2014.
+\newblock Multilingual models for compositional distributed semantics.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 58--68, Baltimore,
+  Maryland. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Hermansky {\em
+  et~al.\/}}{2000}]{HermanskyTandem}
+{\sc Hermansky, H.}, {\sc D.~P.~W. Ellis},  \lsaand {\sc S.~Sharma}.
+\newblock 2000.
+\newblock Tandem connectionist feature extraction for conventional hmm systems.
+\newblock In {\em Acoustics, Speech, and Signal Processing, 2000. ICASSP '00.
+  Proceedings. 2000 IEEE International Conference on\/}, volume~3, 1635--1638
+  vol.3.
+
+\bibitem[\protect\citeauthoryear{Hermansky}{1990}]{Hermansky90plpspeech}
+{\sc Hermansky, Hynek}.
+\newblock 1990.
+\newblock Perceptual linear predictive (plp) analysis for speech.
+\newblock {\em Acoustical Society of America\/} 1738--1752.
+
+\bibitem[\protect\citeauthoryear{Hill {\em
+  et~al.\/}}{2015}]{DBLP:journals/coling/HillRK15}
+{\sc Hill, Felix}, {\sc Roi Reichart},  \lsaand {\sc Anna Korhonen}.
+\newblock 2015.
+\newblock Simlex-999: Evaluating semantic models with (genuine) similarity
+  estimation.
+\newblock {\em Computational Linguistics\/} 41.665--695.
+
+\bibitem[\protect\citeauthoryear{Huang {\em
+  et~al.\/}}{2012}]{Huang:2012:IWR:2390524.2390645}
+{\sc Huang, Eric~H.}, {\sc Richard Socher}, {\sc Christopher~D. Manning},
+  \lsaand {\sc Andrew~Y. Ng}.
+\newblock 2012.
+\newblock Improving word representations via global context and multiple word
+  prototypes.
+\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
+  Computational Linguistics: Long Papers - Volume 1\/}, ACL '12, 873--882,
+  Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Huang {\em
+  et~al.\/}}{2015}]{huang-EtAl:2015:EMNLP}
+{\sc Huang, Kejun}, {\sc Matt Gardner}, {\sc Evangelos Papalexakis}, {\sc
+  Christos Faloutsos}, {\sc Nikos Sidiropoulos}, {\sc Tom Mitchell}, {\sc
+  Partha~P. Talukdar},  \lsaand {\sc Xiao Fu}.
+\newblock 2015.
+\newblock Translation invariant word embeddings.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing\/}, 1084--1088, Lisbon, Portugal. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Hwa {\em et~al.\/}}{2005}]{Hwa:2005:BPV}
+{\sc Hwa, Rebecca}, {\sc Philip Resnik}, {\sc Amy Weinberg}, {\sc Clara
+  Cabezas},  \lsaand {\sc Okan Kolak}.
+\newblock 2005.
+\newblock Bootstrapping parsers via syntactic projection across parallel texts.
+\newblock {\em Natural Language Engineering\/} 11.311--325.
+
+\bibitem[\protect\citeauthoryear{Iacobacci {\em
+  et~al.\/}}{2015}]{iacobacci-pilehvar-navigli:2015:ACL-IJCNLP}
+{\sc Iacobacci, Ignacio}, {\sc Mohammad~Taher Pilehvar},  \lsaand {\sc Roberto
+  Navigli}.
+\newblock 2015.
+\newblock Sensembed: Learning sense embeddings for word and relational
+  similarity.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)\/}, 95--105, Beijing,
+  China. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Jansen \lsaand Durme}{2011}]{6163965}
+{\sc Jansen, A.},  \lsaand {\sc B.~Van Durme}.
+\newblock 2011.
+\newblock Efficient spoken term discovery using randomized algorithms.
+\newblock In {\em Automatic Speech Recognition and Understanding (ASRU), 2011
+  IEEE Workshop on\/}, 401--406.
+
+\bibitem[\protect\citeauthoryear{Johnson}{2007}]{MarkP07-1022}
+{\sc Johnson, Mark}.
+\newblock 2007.
+\newblock Transforming projective bilexical dependency grammars into
+  efficiently-parsable cfgs with unfold-fold.
+\newblock In {\em Proceedings of the 45th Annual Meeting of the Association of
+  Computational Linguistics\/}, 168--175. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Johnson {\em et~al.\/}}{2006}]{JohnsonGG06}
+\lsadashify{{\sc Johnson, Mark}}, {\sc Thomas~L. Griffiths},  \lsaand {\sc
+  Sharon Goldwater}.
+\newblock 2006.
+\newblock Adaptor grammars: {A} framework for specifying compositional
+  nonparametric bayesian models.
+\newblock In {\em Advances in Neural Information Processing Systems 19,
+  Proceedings of the Twentieth Annual Conference on Neural Information
+  Processing Systems, Vancouver, British Columbia, Canada, December 4-7,
+  2006\/}, 641--648.
+
+\bibitem[\protect\citeauthoryear{Kalchbrenner {\em
+  et~al.\/}}{2014}]{kalchbrenner-grefenstette-blunsom:2014:P14-1}
+{\sc Kalchbrenner, Nal}, {\sc Edward Grefenstette},  \lsaand {\sc Phil
+  Blunsom}.
+\newblock 2014.
+\newblock A convolutional neural network for modelling sentences.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 655--665, Baltimore,
+  Maryland. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Kamholz {\em et~al.\/}}{2014}]{Kamholz14}
+{\sc Kamholz, David}, {\sc Jonathan Pool},  \lsaand {\sc Susan Colowick}.
+\newblock 2014.
+\newblock Panlex: Building a resource for panlingual lexical translation.
+\newblock In {\em Proceedings of the Ninth International Conference on Language
+  Resources and Evaluation (LREC'14)\/}, 3145--50, Reykjavik, Iceland. European
+  Language Resources Association (ELRA).
+
+\bibitem[\protect\citeauthoryear{Kamper {\em et~al.\/}}{2015a}]{Kamper15AE}
+{\sc Kamper, H.}, {\sc M.~Elsner}, {\sc A.~Jansen},  \lsaand {\sc
+  S.~Goldwater}.
+\newblock 2015a.
+\newblock Unsupervised neural network based feature extraction using weak
+  top-down constraints.
+\newblock In {\em 2015 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)\/}, 5818--5822.
+
+\bibitem[\protect\citeauthoryear{Kamper {\em
+  et~al.\/}}{2015b}]{kamper-etalInterspeech2015}
+{\sc Kamper, Herman}, {\sc Aren Jansen},  \lsaand {\sc Sharon Goldwater}.
+\newblock 2015b.
+\newblock {\em Fully Unsupervised Small-Vocabulary Speech Recognition Using a
+  Segmental Bayesian Model\/}.
+
+\bibitem[\protect\citeauthoryear{Kamper {\em
+  et~al.\/}}{2015c}]{Kamper2015FullyUS}
+\lsadashify{{\sc Kamper, Herman}}, \lsadashify{{\sc Aren Jansen}},  \lsaand
+  \lsadashify{{\sc Sharon Goldwater}}.
+\newblock 2015c.
+\newblock Fully unsupervised small-vocabulary speech recognition using a
+  segmental bayesian model.
+\newblock In {\em INTERSPEECH\/}.
+
+\bibitem[\protect\citeauthoryear{Kamper {\em et~al.\/}}{2016a}]{KamperJG16a}
+\lsadashify{{\sc Kamper, Herman}}, \lsadashify{{\sc Aren Jansen}},  \lsaand
+  \lsadashify{{\sc Sharon Goldwater}}.
+\newblock 2016a.
+\newblock A segmental framework for fully-unsupervised large-vocabulary speech
+  recognition.
+\newblock {\em CoRR\/} abs/1606.06950.
+
+\bibitem[\protect\citeauthoryear{Kamper {\em
+  et~al.\/}}{2016b}]{Kamper:2016:UWS:2992449.2992455}
+\lsadashify{{\sc Kamper, Herman}}, \lsadashify{{\sc Aren Jansen}},  \lsaand
+  \lsadashify{{\sc Sharon Goldwater}}.
+\newblock 2016b.
+\newblock Unsupervised word segmentation and lexicon discovery using acoustic
+  word embeddings.
+\newblock {\em IEEE/ACM Trans. Audio, Speech and Lang. Proc.\/} 24.669--679.
+
+\bibitem[\protect\citeauthoryear{Karanasou \lsaand
+  Lamel}{2010}]{Karanasou:2010:CSM}
+{\sc Karanasou, Panagiota},  \lsaand {\sc Lori Lamel}.
+\newblock 2010.
+\newblock Comparing smt methods for automatic generation of pronunciation
+  variants.
+\newblock In {\em Proceedings of the 7th International Conference on Advances
+  in Natural Language Processing\/}, IceTAL'10, 167--178, Berlin, Heidelberg.
+  Springer-Verlag.
+
+\bibitem[\protect\citeauthoryear{Khanagha {\em
+  et~al.\/}}{2014}]{Khanagha:2014:PSS:2844738.2844801}
+{\sc Khanagha, Vahid}, {\sc Khalid Daoudi}, {\sc Oriol Pont},  \lsaand {\sc
+  Hussein Yahia}.
+\newblock 2014.
+\newblock Phonetic segmentation of speech signal using local singularity
+  analysis.
+\newblock {\em Digit. Signal Process.\/} 35.86--94.
+
+\bibitem[\protect\citeauthoryear{Kiros {\em
+  et~al.\/}}{2015}]{DBLP:journals/corr/KirosZSZTUF15}
+{\sc Kiros, Ryan}, {\sc Yukun Zhu}, {\sc Ruslan Salakhutdinov}, {\sc Richard~S.
+  Zemel}, {\sc Antonio Torralba}, {\sc Raquel Urtasun},  \lsaand {\sc Sanja
+  Fidler}.
+\newblock 2015.
+\newblock Skip-thought vectors.
+\newblock {\em CoRR\/} abs/1506.06726.
+
+\bibitem[\protect\citeauthoryear{Klementiev {\em
+  et~al.\/}}{2012}]{klementiev-titov-bhattarai:2012}
+{\sc Klementiev, Alexandre}, {\sc Ivan Titov},  \lsaand {\sc Binod Bhattarai}.
+\newblock 2012.
+\newblock Inducing crosslingual distributed representations of words.
+\newblock In {\em Proceedings of COLING 2012\/}, 1459--1474, Mumbai, India. The
+  COLING 2012 Organizing Committee.
+
+\bibitem[\protect\citeauthoryear{Koehn}{2005}]{europarl}
+{\sc Koehn, Philipp}.
+\newblock 2005.
+\newblock {Europarl: A Parallel Corpus for Statistical Machine Translation}.
+\newblock In {\em Proceedings of the {T}enth Machine Translation Summit (MT
+  Summit X)\/}, 79--86, Phuket, Thailand.
+
+\bibitem[\protect\citeauthoryear{Kong {\em
+  et~al.\/}}{2014}]{kong-EtAl:2014:EMNLP2014}
+{\sc Kong, Lingpeng}, {\sc Nathan Schneider}, {\sc Swabha Swayamdipta}, {\sc
+  Archna Bhatia}, {\sc Chris Dyer},  \lsaand {\sc Noah~A. Smith}.
+\newblock 2014.
+\newblock A dependency parser for tweets.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)\/}, 1001--1012, Doha, Qatar. Association
+  for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Kupiec}{1992}]{Kupiec1992225}
+{\sc Kupiec, Julian}.
+\newblock 1992.
+\newblock Robust part-of-speech tagging using a hidden markov model.
+\newblock {\em Computer Speech \& Language\/} 6.225 -- 242.
+
+\bibitem[\protect\citeauthoryear{Le \lsaand
+  Mikolov}{2014}]{DBLP:conf/icml/LeM14}
+{\sc Le, Quoc~V.},  \lsaand {\sc Tomas Mikolov}.
+\newblock 2014.
+\newblock Distributed representations of sentences and documents.
+\newblock In {\em Proceedings of the 31th International Conference on Machine
+  Learning, {ICML} 2014, Beijing, China, 21-26 June 2014\/}, 1188--1196.
+
+\bibitem[\protect\citeauthoryear{Le \lsaand Besacier}{2009}]{Le2009Vn}
+{\sc Le, V.~B.},  \lsaand {\sc L.~Besacier}.
+\newblock 2009.
+\newblock Automatic speech recognition for under-resourced languages:
+  Application to vietnamese language.
+\newblock {\em IEEE Transactions on Audio, Speech, and Language Processing\/}
+  17.1471--1482.
+
+\bibitem[\protect\citeauthoryear{Lee {\em et~al.\/}}{2015}]{Lee:TACL15}
+{\sc Lee, Chiaying}, {\sc Timothy O'Donnell},  \lsaand {\sc James Glass}.
+\newblock 2015.
+\newblock Unsupervised lexicon discovery from acoustic input.
+\newblock {\em Transactions of the Association for Computational Linguistics\/}
+  3.389--403.
+
+\bibitem[\protect\citeauthoryear{Levy {\em et~al.\/}}{2015}]{Levy_TACL570}
+{\sc Levy, Omer}, {\sc Yoav Goldberg},  \lsaand {\sc Ido Dagan}.
+\newblock 2015.
+\newblock Improving distributional similarity with lessons learned from word
+  embeddings.
+\newblock {\em Transactions of the Association for Computational Linguistics\/}
+  3.211--225.
+
+\bibitem[\protect\citeauthoryear{Lewis}{2009}]{lewis2009}
+{\sc Lewis, P.}
+\newblock 2009.
+\newblock {\em Ethnologue: Languages of the World\/}.
+\newblock SIL International.
+
+\bibitem[\protect\citeauthoryear{Li {\em et~al.\/}}{2012}]{Li:2012}
+{\sc Li, Shen}, {\sc Jo\~{a}o~V. Gra\c{c}a},  \lsaand {\sc Ben Taskar}.
+\newblock 2012.
+\newblock Wiki-ly supervised part-of-speech tagging.
+\newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
+  in Natural Language Processing and Computational Natural Language
+  Learning\/}, EMNLP-CoNLL '12, 1389--1398, Jeju Island, Korea.
+
+\bibitem[\protect\citeauthoryear{Luong {\em
+  et~al.\/}}{2015}]{Luong-etal:naacl15:bivec}
+{\sc Luong, Minh-Thang}, {\sc Hieu Pham},  \lsaand {\sc Christopher~D.
+  Manning}.
+\newblock 2015.
+\newblock Bilingual word representations with monolingual quality in mind.
+\newblock In {\em NAACL Workshop on Vector Space Modeling for NLP\/}, Denver,
+  United States.
+
+\bibitem[\protect\citeauthoryear{Lyzinski {\em
+  et~al.\/}}{2015}]{Lyzinski2015AnEO}
+{\sc Lyzinski, Vince}, {\sc Gregory Sell},  \lsaand {\sc Aren Jansen}.
+\newblock 2015.
+\newblock An evaluation of graph clustering methods for unsupervised term
+  discovery.
+\newblock In {\em INTERSPEECH\/}.
+
+\bibitem[\protect\citeauthoryear{Ma \lsaand Xia}{2014}]{P14-1126}
+{\sc Ma, Xuezhe},  \lsaand {\sc Fei Xia}.
+\newblock 2014.
+\newblock Unsupervised dependency parsing with transferring distribution via
+  parallel guidance and entropy regularization.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 1337--1348.
+
+\bibitem[\protect\citeauthoryear{Maas {\em
+  et~al.\/}}{2015}]{maas-EtAl:2015:NAACL-HLT}
+{\sc Maas, Andrew}, {\sc Ziang Xie}, {\sc Dan Jurafsky},  \lsaand {\sc Andrew
+  Ng}.
+\newblock 2015.
+\newblock Lexicon-free conversational speech recognition with neural networks.
+\newblock In {\em Proceeding of Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies .
+  NAACL HLT\/}, 345--354.
+
+\bibitem[\protect\citeauthoryear{Marcus {\em et~al.\/}}{1993}]{PenTreeBank}
+{\sc Marcus, Mitchell~P.}, {\sc Beatrice Santorini},  \lsaand {\sc Mary~Ann
+  Marcinkiewicz}.
+\newblock 1993.
+\newblock Building a large annotated corpus of {English}: The {Penn}
+  {Treebank}.
+\newblock {\em Computational Linguistics\/} 19.313--330.
+
+\bibitem[\protect\citeauthoryear{McDonald {\em
+  et~al.\/}}{2013}]{mcdonald-EtAl:2013:Short}
+{\sc McDonald, Ryan}, {\sc Joakim Nivre}, {\sc Yvonne Quirmbach-Brundage}, {\sc
+  Yoav Goldberg}, {\sc Dipanjan Das}, {\sc Kuzman Ganchev}, {\sc Keith Hall},
+  {\sc Slav Petrov}, {\sc Hao Zhang}, {\sc Oscar T\"{a}ckstr\"{o}m}, {\sc
+  Claudia Bedini}, {\sc N\'{u}ria Bertomeu~Castell\'{o}},  \lsaand {\sc Jungmee
+  Lee}.
+\newblock 2013.
+\newblock Universal dependency annotation for multilingual parsing.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)\/}, 92--97.
+
+\bibitem[\protect\citeauthoryear{McDonald {\em
+  et~al.\/}}{2005}]{McDonald:2005:NDP}
+\lsadashifynew{{\sc McDonald, Ryan}}, {\sc Fernando Pereira}, {\sc Kiril
+  Ribarov},  \lsaand {\sc Jan Haji\v{c}}.
+\newblock 2005.
+\newblock Non-projective dependency parsing using spanning tree algorithms.
+\newblock In {\em Proceedings of the Conference on Human Language Technology
+  and Empirical Methods in Natural Language Processing\/}, HLT '05, 523--530.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{McDonald {\em
+  et~al.\/}}{2011}]{McDonald:2011:MTD}
+\lsadashifynew{{\sc McDonald, Ryan}}, {\sc Slav Petrov},  \lsaand {\sc Keith
+  Hall}.
+\newblock 2011.
+\newblock Multi-source transfer of delexicalized dependency parsers.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing\/}, EMNLP '11, 62--72.
+
+\bibitem[\protect\citeauthoryear{Merialdo}{1994}]{Merialdo:1994}
+{\sc Merialdo, Bernard}.
+\newblock 1994.
+\newblock Tagging english text with a probabilistic model.
+\newblock {\em Computational Linguistics\/} 20.155--171.
+
+\bibitem[\protect\citeauthoryear{Mikolov {\em
+  et~al.\/}}{2013a}]{DBLP:journals/corr/abs-1301-3781}
+{\sc Mikolov, Tomas}, {\sc Kai Chen}, {\sc Greg Corrado},  \lsaand {\sc Jeffrey
+  Dean}.
+\newblock 2013a.
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em CoRR\/} abs/1301.3781.
+
+\bibitem[\protect\citeauthoryear{Mikolov {\em
+  et~al.\/}}{2013b}]{DBLP:journals/corr/MikolovLS13}
+\lsadashifynew{{\sc Mikolov, Tomas}}, {\sc Quoc~V. Le},  \lsaand {\sc Ilya
+  Sutskever}.
+\newblock 2013b.
+\newblock Exploiting similarities among languages for machine translation.
+\newblock {\em CoRR\/} abs/1309.4168.
+
+\bibitem[\protect\citeauthoryear{Mikolov {\em
+  et~al.\/}}{2013c}]{mikolov-yih-zweig:2013:NAACL-HLT}
+\lsadashifynew{{\sc Mikolov, Tomas}}, {\sc Wen-tau Yih},  \lsaand {\sc Geoffrey
+  Zweig}.
+\newblock 2013c.
+\newblock Linguistic regularities in continuous space word representations.
+\newblock In {\em Proceedings of the 2013 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies\/}, 746--751, Atlanta, Georgia. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Miller}{1995}]{Miller:1995:WLD:219717.219748}
+{\sc Miller, George~A.}
+\newblock 1995.
+\newblock Wordnet: A lexical database for english.
+\newblock {\em Commun. ACM\/} 38.39--41.
+
+\bibitem[\protect\citeauthoryear{Mnih \lsaand
+  Kavukcuoglu}{2013}]{NIPS2013_5165}
+{\sc Mnih, Andriy},  \lsaand {\sc Koray Kavukcuoglu}.
+\newblock 2013.
+\newblock Learning word embeddings efficiently with noise-contrastive
+  estimation.
+\newblock In {\em Advances in Neural Information Processing Systems 26\/}, ed.
+  by C.~J.~C. Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, \lsaand K.~Q.
+  Weinberger, 2265--2273. Curran Associates, Inc.
+
+\bibitem[\protect\citeauthoryear{Naseem {\em et~al.\/}}{2012}]{Naseem:2012:SSM}
+{\sc Naseem, Tahira}, {\sc Regina Barzilay},  \lsaand {\sc Amir Globerson}.
+\newblock 2012.
+\newblock Selective sharing for multilingual dependency parsing.
+\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
+  Computational Linguistics: Long Papers - Volume 1\/}, ACL '12, 629--637,
+  Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Nivre}{2002}]{Nivre_twomodels}
+{\sc Nivre, Joakim}, 2002.
+\newblock Two models of stochastic dependency grammar.
+
+\bibitem[\protect\citeauthoryear{Nivre}{2008}]{Nivre:2008:ADI}
+\lsadashify{{\sc Nivre, Joakim}}.
+\newblock 2008.
+\newblock Algorithms for deterministic incremental dependency parsing.
+\newblock {\em Comput. Linguist.\/} 34.513--553.
+
+\bibitem[\protect\citeauthoryear{Nivre}{2009}]{Nivre:2009:NDP:1687878}
+\lsadashify{{\sc Nivre, Joakim}}.
+\newblock 2009.
+\newblock Non-projective dependency parsing in expected linear time.
+\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference on Natural
+  Language Processing of the AFNLP: Volume 1 - Volume 1\/}, ACL '09, 351--359,
+  Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Nivre {\em et~al.\/}}{2016}]{11234/1-1699}
+\lsadashify{{\sc Nivre, Joakim}}, {\sc {\v Z}eljko Agi{\'c}}, {\sc Lars
+  Ahrenberg}, {\sc Maria~Jesus Aranzabe}, {\sc Masayuki Asahara}, {\sc Aitziber
+  Atutxa}, {\sc Miguel Ballesteros}, {\sc John Bauer}, {\sc Kepa Bengoetxea},
+  {\sc Yevgeni Berzak}, {\sc Riyaz~Ahmad Bhat}, {\sc Cristina Bosco}, {\sc
+  Gosse Bouma}, {\sc Sam Bowman}, {\sc G{\"u}l{\c s}en Cebiroğlu~Eryiğit},
+  {\sc Giuseppe G.~A. Celano}, {\sc {\c C}ağrı {\c C}{\"o}ltekin}, {\sc
+  Miriam Connor}, {\sc Marie-Catherine de~Marneffe}, {\sc Arantza Diaz~de
+  Ilarraza}, {\sc Kaja Dobrovoljc}, {\sc Timothy Dozat}, {\sc Kira Droganova},
+  {\sc Toma{\v z} Erjavec}, {\sc Rich{\'a}rd Farkas}, {\sc Jennifer Foster},
+  {\sc Daniel Galbraith}, {\sc Sebastian Garza}, {\sc Filip Ginter}, {\sc Iakes
+  Goenaga}, {\sc Koldo Gojenola}, {\sc Memduh Gokirmak}, {\sc Yoav Goldberg},
+  {\sc Xavier G{\'o}mez~Guinovart}, {\sc Berta Gonz{\'a}les~Saavedra}, {\sc
+  Normunds Gr{\= u}z{\=i}tis}, {\sc Bruno Guillaume}, {\sc Jan Haji{\v c}},
+  {\sc Dag Haug}, {\sc Barbora Hladk{\'a}}, {\sc Radu Ion}, {\sc Elena Irimia},
+  {\sc Anders Johannsen}, {\sc H{\"u}ner Ka{\c s}ıkara}, {\sc Hiroshi
+  Kanayama}, {\sc Jenna Kanerva}, {\sc Boris Katz}, {\sc Jessica Kenney}, {\sc
+  Simon Krek}, {\sc Veronika Laippala}, {\sc Lucia Lam}, {\sc Alessandro
+  Lenci}, {\sc Nikola Ljube{\v s}i{\'c}}, {\sc Olga Lyashevskaya}, {\sc Teresa
+  Lynn}, {\sc Aibek Makazhanov}, {\sc Christopher Manning}, {\sc C{\u a}t{\u
+  a}lina M{\u a}r{\u a}nduc}, {\sc David Mare{\v c}ek}, {\sc H{\'e}ctor
+  Mart{\'i}nez~Alonso}, {\sc Jan Ma{\v s}ek}, {\sc Yuji Matsumoto}, {\sc Ryan
+  {McDonald}}, {\sc Anna Missil{\"a}}, {\sc Verginica Mititelu}, {\sc Yusuke
+  Miyao}, {\sc Simonetta Montemagni}, {\sc Keiko~Sophie Mori}, {\sc Shunsuke
+  Mori}, {\sc Kadri Muischnek}, {\sc Nina Mustafina}, {\sc Kaili
+  M{\"u}{\"u}risep}, {\sc Vitaly Nikolaev}, {\sc Hanna Nurmi}, {\sc Petya
+  Osenova}, {\sc Lilja {\O}vrelid}, {\sc Elena Pascual}, {\sc Marco
+  Passarotti}, {\sc Cenel-Augusto Perez}, {\sc Slav Petrov}, {\sc Jussi
+  Piitulainen}, {\sc Barbara Plank}, {\sc Martin Popel}, {\sc Lauma
+  Pretkalniņa}, {\sc Prokopis Prokopidis}, {\sc Tiina Puolakainen}, {\sc Sampo
+  Pyysalo}, {\sc Loganathan Ramasamy}, {\sc Laura Rituma}, {\sc Rudolf Rosa},
+  {\sc Shadi Saleh}, {\sc Baiba Saul{\=i}te}, {\sc Sebastian Schuster}, {\sc
+  Wolfgang Seeker}, {\sc Mojgan Seraji}, {\sc Lena Shakurova}, {\sc Mo~Shen},
+  {\sc Natalia Silveira}, {\sc Maria Simi}, {\sc Radu Simionescu}, {\sc Katalin
+  Simk{\'o}}, {\sc Kiril Simov}, {\sc Aaron Smith}, {\sc Carolyn Spadine}, {\sc
+  Alane Suhr}, {\sc Umut Sulubacak}, {\sc Zsolt Sz{\'a}nt{\'o}}, {\sc Takaaki
+  Tanaka}, {\sc Reut Tsarfaty}, {\sc Francis Tyers}, {\sc Sumire Uematsu}, {\sc
+  Larraitz Uria}, {\sc Gertjan van Noord}, {\sc Viktor Varga}, {\sc Veronika
+  Vincze}, {\sc Jing~Xian Wang}, {\sc Jonathan~North Washington}, {\sc Zden{\v
+  e}k {\v Z}abokrtsk{\'y}}, {\sc Daniel Zeman},  \lsaand {\sc Hanzhi Zhu},
+  2016.
+\newblock Universal dependencies 1.3.
+\newblock {LINDAT}/{CLARIN} digital library at Institute of Formal and Applied
+  Linguistics, Charles University in Prague.
+
+\bibitem[\protect\citeauthoryear{Nivre \lsaand
+  Mcdonald}{2008}]{Nivre08integratinggraphbased}
+\lsadashify{{\sc Nivre, Joakim}},  \lsaand {\sc Ryan Mcdonald}.
+\newblock 2008.
+\newblock Integrating graphbased and transition-based dependency parsers.
+\newblock In {\em In Proceedings of the 46th Annual Meeting of the Association
+  for Computational Linguistics: Human Language Technologies (ACL-08: HLT\/},
+  950--958.
+
+\bibitem[\protect\citeauthoryear{Nothman {\em
+  et~al.\/}}{2013}]{Nothman:2013:LMN:2405838.2405915}
+{\sc Nothman, Joel}, {\sc Nicky Ringland}, {\sc Will Radford}, {\sc Tara
+  Murphy},  \lsaand {\sc James~R. Curran}.
+\newblock 2013.
+\newblock Learning multilingual named entity recognition from wikipedia.
+\newblock {\em Artif. Intell.\/} 194.151--175.
+
+\bibitem[\protect\citeauthoryear{Park}{2007}]{Park:2007:UPD:1329638}
+{\sc Park, Alex~Seungryong}, 2007.
+\newblock {\em Unsupervised Pattern Discovery in Speech: Applications to Word
+  Acquisition and Speaker Segmentation\/}.
+\newblock Cambridge, MA, USA: .
+\newblock AAI0818385.
+
+\bibitem[\protect\citeauthoryear{Pennington {\em
+  et~al.\/}}{2014}]{pennington2014glove}
+{\sc Pennington, Jeffrey}, {\sc Richard Socher},  \lsaand {\sc Christopher~D.
+  Manning}.
+\newblock 2014.
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em Empirical Methods in Natural Language Processing (EMNLP)\/},
+  1532--1543.
+
+\bibitem[\protect\citeauthoryear{Petrov {\em et~al.\/}}{2012}]{UniversalTagSet}
+{\sc Petrov, Slav}, {\sc Dipanjan Das},  \lsaand {\sc Ryan McDonald}.
+\newblock 2012.
+\newblock A universal part-of-speech tagset.
+\newblock In {\em Proceedings of the Eight International Conference on Language
+  Resources and Evaluation (LREC'12)\/}, Istanbul, Turkey.
+
+\bibitem[\protect\citeauthoryear{Plank {\em
+  et~al.\/}}{2014}]{plank-hovy-sogaard}
+{\sc Plank, Barbara}, {\sc Dirk Hovy},  \lsaand {\sc Anders S{\o}gaard}.
+\newblock 2014.
+\newblock Learning part-of-speech taggers with inter-annotator agreement loss.
+\newblock In {\em Proceedings of the 14th Conference of the European Chapter of
+  the Association for Computational Linguistics (EACL'14)\/}, 742--751,
+  Gothenburg, Sweden.
+
+\bibitem[\protect\citeauthoryear{Prys}{}]{prys2006blark}
+{\sc Prys, Delyth}.
+\newblock The blark matrix and its relation to the language resources situation
+  for the celtic languages.
+\newblock {\em Strategies for developing machine translation for minority
+  languages\/} p.~31.
+
+\bibitem[\protect\citeauthoryear{R\"{a}s\"{a}nen}{2012}]{RaSaNen:2012:CMP:2318326.2318449}
+{\sc R\"{a}s\"{a}nen, Okko}.
+\newblock 2012.
+\newblock Computational modeling of phonetic and lexical learning in early
+  language acquisition: Existing models and future directions.
+\newblock {\em Speech Commun.\/} 54.975--997.
+
+\bibitem[\protect\citeauthoryear{R{\"{a}}s{\"{a}}nen {\em
+  et~al.\/}}{2015}]{RasanenDF15}
+{\sc R{\"{a}}s{\"{a}}nen, Okko}, {\sc Gabriel Doyle},  \lsaand {\sc Michael~C.
+  Frank}.
+\newblock 2015.
+\newblock Unsupervised word discovery from speech using automatic segmentation
+  into syllable-like units.
+\newblock In {\em {INTERSPEECH} 2015, 16th Annual Conference of the
+  International Speech Communication Association, Dresden, Germany, September
+  6-10, 2015\/}, 3204--3208.
+
+\bibitem[\protect\citeauthoryear{Reddy \lsaand
+  Sharoff}{2011}]{reddy2011crosspos}
+{\sc Reddy, Siva},  \lsaand {\sc Serge Sharoff}.
+\newblock 2011.
+\newblock Cross language {POS} taggers (and other tools) for {I}ndian
+  languages: An experiment with {K}annada using {T}elugu resources.
+\newblock In {\em Proceedings of IJCNLP workshop on Cross Lingual Information
+  Access: Computational Linguistics and the Information Need of Multilingual
+  Societies. (CLIA 2011 at IJNCLP 2011)\/}, Chiang Mai, Thailand.
+
+\bibitem[\protect\citeauthoryear{Resnik \lsaand
+  Smith}{2003}]{Resnik:2003:WPC:964751.964753}
+{\sc Resnik, Philip},  \lsaand {\sc Noah~A. Smith}.
+\newblock 2003.
+\newblock The web as a parallel corpus.
+\newblock {\em Comput. Linguist.\/} 29.349--380.
+
+\bibitem[\protect\citeauthoryear{Rosa {\em et~al.\/}}{2014}]{ROSA14.915}
+{\sc Rosa, Rudolf}, {\sc Jan Mašek}, {\sc David Mareček}, {\sc Martin Popel},
+  {\sc Daniel Zeman},  \lsaand {\sc Zdeněk Žabokrtský}.
+\newblock 2014.
+\newblock Hamledt 2.0: Thirty dependency treebanks stanfordized.
+\newblock In {\em Proceedings of the Ninth International Conference on Language
+  Resources and Evaluation (LREC'14)\/}, ed. by Nicoletta Calzolari~(Conference
+  Chair), Khalid Choukri, Thierry Declerck, Hrafn Loftsson, Bente Maegaard,
+  Joseph Mariani, Asuncion Moreno, Jan Odijk, \lsaand Stelios Piperidis,
+  Reykjavik, Iceland. European Language Resources Association (ELRA).
+
+\bibitem[\protect\citeauthoryear{Rothe \lsaand
+  Sch\"{u}tze}{2015}]{rothe-schutze:2015:ACL-IJCNLP}
+{\sc Rothe, Sascha},  \lsaand {\sc Hinrich Sch\"{u}tze}.
+\newblock 2015.
+\newblock Autoextend: Extending word embeddings to embeddings for synsets and
+  lexemes.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)\/}, 1793--1803, Beijing,
+  China. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Scannell}{2007}]{Scannell07thecrubadan}
+{\sc Scannell, Kevin~P.}, 2007.
+\newblock The cr\'ubad\'an project: Corpus building for under-resourced
+  languages.
+
+\bibitem[\protect\citeauthoryear{Schlippe {\em
+  et~al.\/}}{2014}]{Schlippe2014101}
+{\sc Schlippe, Tim}, {\sc Sebastian Ochs},  \lsaand {\sc Tanja Schultz}.
+\newblock 2014.
+\newblock Web-based tools and methods for rapid pronunciation dictionary
+  creation.
+\newblock {\em Speech Communication\/} 56.101 -- 118.
+
+\bibitem[\protect\citeauthoryear{Shrawankar \lsaand
+  Thakare}{2013}]{DBLP:journals/corr/abs-1305-1145}
+{\sc Shrawankar, Urmila},  \lsaand {\sc Vilas~M. Thakare}.
+\newblock 2013.
+\newblock Techniques for feature extraction in speech recognition system : {A}
+  comparative study.
+\newblock {\em CoRR\/} abs/1305.1145.
+
+\bibitem[\protect\citeauthoryear{Siniscalchi {\em
+  et~al.\/}}{2013}]{Siniscalchi2013209}
+{\sc Siniscalchi, Sabato~Marco}, {\sc Jeremy Reed}, {\sc Torbjørn Svendsen},
+  \lsaand {\sc Chin-Hui Lee"}.
+\newblock 2013.
+\newblock "universal attribute characterization of spoken languages for
+  automatic spoken language recognition ".
+\newblock {\em "Computer Speech and Language "\/} 209 -- 227.
+
+\bibitem[\protect\citeauthoryear{Socher {\em
+  et~al.\/}}{2013}]{socher-EtAl:2013:EMNLP}
+{\sc Socher, Richard}, {\sc Alex Perelygin}, {\sc Jean Wu}, {\sc Jason Chuang},
+  {\sc Christopher~D. Manning}, {\sc Andrew Ng},  \lsaand {\sc Christopher
+  Potts}.
+\newblock 2013.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing\/}, 1631--1642, Seattle, Washington, USA.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{S{\o}gaard}{2011}]{Sogaard:2011:DPS}
+{\sc S{\o}gaard, Anders}.
+\newblock 2011.
+\newblock Data point selection for cross-language adaptation of dependency
+  parsers.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies: Short Papers - Volume
+  2\/}, HLT '11, 682--686. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{S{\o}gaard {\em
+  et~al.\/}}{2015}]{sogaard-EtAl:2015:ACL-IJCNLP}
+\lsadashifynew{{\sc S{\o}gaard, Anders}}, {\sc \v{Z}eljko Agi\'{c}}, {\sc
+  H\'{e}ctor Mart\'{i}nez~Alonso}, {\sc Barbara Plank}, {\sc Bernd Bohnet},
+  \lsaand {\sc Anders Johannsen}.
+\newblock 2015.
+\newblock Inverted indexing for cross-lingual nlp.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)\/}, 1713--1722, Beijing,
+  China. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Stahlberg {\em
+  et~al.\/}}{2012}]{stahlberg2012word}
+{\sc Stahlberg, Felix}, {\sc Tim Schlippe}, {\sc Sue Vogel},  \lsaand {\sc
+  Tanja Schultz}.
+\newblock 2012.
+\newblock Word segmentation through cross-lingual word-to-phoneme alignment.
+\newblock In {\em IEEE Spoken Language Technology Workshop (SLT)\/}, 85--90.
+
+\bibitem[\protect\citeauthoryear{Stolcke {\em et~al.\/}}{2006}]{Stolcke06Share}
+{\sc Stolcke, A.}, {\sc F.~Grezl}, {\sc Mei-Yuh Hwang}, {\sc Xin Lei}, {\sc
+  N.~Morgan},  \lsaand {\sc D.~Vergyri}.
+\newblock 2006.
+\newblock Cross-domain and cross-language portability of acoustic features
+  estimated by multilayer perceptrons.
+\newblock In {\em 2006 IEEE International Conference on Acoustics Speech and
+  Signal Processing Proceedings\/}, volume~1, I--I.
+
+\bibitem[\protect\citeauthoryear{Stuker {\em et~al.\/}}{2003}]{Stuker2003}
+{\sc Stuker, S.}, {\sc T.~Schultz}, {\sc F.~Metze},  \lsaand {\sc A.~Waibel}.
+\newblock 2003.
+\newblock Multilingual articulatory features.
+\newblock In {\em Acoustics, Speech, and Signal Processing, 2003. Proceedings.
+  (ICASSP '03). 2003 IEEE International Conference on\/}, volume~1,
+  I--144--I--147 vol.1.
+
+\bibitem[\protect\citeauthoryear{St{\"{u}ker}}{2008}]{Stker2008IntegratingTG}
+{\sc St{\"{u}ker}, Sebastian}.
+\newblock 2008.
+\newblock Integrating thai grapheme based acoustic models into the ml-mix
+  framework - for language independent and cross-language asr.
+\newblock In {\em SLTU\/}.
+
+\bibitem[\protect\citeauthoryear{Sun {\em
+  et~al.\/}}{2014}]{sun-mielens-baldridge:2014:EMNLP2014}
+{\sc Sun, Liang}, {\sc Jason Mielens},  \lsaand {\sc Jason Baldridge}.
+\newblock 2014.
+\newblock Parsing low-resource languages using gibbs sampling for pcfgs with
+  latent annotations.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)\/}, 290--300, Doha, Qatar. Association
+  for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{T{\"a}ckstr{\"o}m {\em
+  et~al.\/}}{2013}]{TackstromDPMN13}
+{\sc T{\"a}ckstr{\"o}m, Oscar}, {\sc Dipanjan Das}, {\sc Slav Petrov}, {\sc
+  Ryan McDonald},  \lsaand {\sc Joakim Nivre}.
+\newblock 2013.
+\newblock Token and type constraints for cross-lingual part-of-speech tagging.
+\newblock {\em Transactions of the Association for Computational Linguistics\/}
+  1.1--12.
+
+\bibitem[\protect\citeauthoryear{T\"{a}ckstr\"{o}m {\em
+  et~al.\/}}{2013}]{tackstrom:2013:NAACL-HLT}
+{\sc T\"{a}ckstr\"{o}m, Oscar}, {\sc Ryan McDonald},  \lsaand {\sc Joakim
+  Nivre}.
+\newblock 2013.
+\newblock Target language adaptation of discriminative transfer parsers.
+\newblock In {\em Proceedings of the 2013 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies\/}, 1061--1071, Atlanta, Georgia. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{T\"{a}ckstr\"{o}m {\em
+  et~al.\/}}{2012}]{Tackstrom:2012:CWC}
+\lsadashifynew{{\sc T\"{a}ckstr\"{o}m, Oscar}}, {\sc Ryan McDonald},  \lsaand
+  {\sc Jakob Uszkoreit}.
+\newblock 2012.
+\newblock Cross-lingual word clusters for direct transfer of linguistic
+  structure.
+\newblock In {\em Proceedings of the 2012 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies\/}, NAACL HLT '12, 477--487. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Tai {\em
+  et~al.\/}}{2015}]{DBLP:journals/corr/TaiSM15}
+{\sc Tai, Kai~Sheng}, {\sc Richard Socher},  \lsaand {\sc Christopher~D.
+  Manning}.
+\newblock 2015.
+\newblock Improved semantic representations from tree-structured long
+  short-term memory networks.
+\newblock {\em CoRR\/} abs/1503.00075.
+
+\bibitem[\protect\citeauthoryear{Thomas {\em
+  et~al.\/}}{2012}]{ThomasMLPfeatures12}
+{\sc Thomas, S.}, {\sc S.~Ganapathy},  \lsaand {\sc H.~Hermansky}.
+\newblock 2012.
+\newblock Multilingual mlp features for low-resource lvcsr systems.
+\newblock In {\em 2012 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)\/}, 4269--4272.
+
+\bibitem[\protect\citeauthoryear{Tian {\em
+  et~al.\/}}{2014}]{tian-EtAl:2014:Coling}
+{\sc Tian, Fei}, {\sc Hanjun Dai}, {\sc Jiang Bian}, {\sc Bin Gao}, {\sc Rui
+  Zhang}, {\sc Enhong Chen},  \lsaand {\sc Tie-Yan Liu}.
+\newblock 2014.
+\newblock A probabilistic model for learning multi-prototype word embeddings.
+\newblock In {\em Proceedings of COLING 2014, the 25th International Conference
+  on Computational Linguistics: Technical Papers\/}, 151--160, Dublin, Ireland.
+  Dublin City University and Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Tiedemann}{2012}]{TIEDEMANN12.463.L12-1246}
+{\sc Tiedemann, J{\"o}rg}.
+\newblock 2012.
+\newblock Parallel data, tools and interfaces in opus.
+\newblock In {\em Proceedings of the Eighth International Conference on
+  Language Resources and Evaluation (LREC-2012)\/}, ed. by Nicoletta Calzolari,
+  Khalid Choukri, Thierry Declerck, Mehmet~U\u{g}ur Do\u{g}an, Bente Maegaard,
+  Joseph Mariani, Jan Odijk, \lsaand Stelios Piperidis, 2214--2218, Istanbul,
+  Turkey. European Language Resources Association (ELRA).
+\newblock ACL Anthology Identifier: L12-1246.
+
+\bibitem[\protect\citeauthoryear{Toutanova {\em
+  et~al.\/}}{2003}]{Toutanova:2003}
+{\sc Toutanova, Kristina}, {\sc Dan Klein}, {\sc Christopher~D. Manning},
+  \lsaand {\sc Yoram Singer}.
+\newblock 2003.
+\newblock Feature-rich part-of-speech tagging with a cyclic dependency network.
+\newblock In {\em Proceedings of the 2003 Conference of the North American
+  Chapter of the Association for Computational Linguistics on Human Language
+  Technology - Volume 1 (NAACL '03)\/}, 173--180, Edmonton, Canada.
+
+\bibitem[\protect\citeauthoryear{Tsai {\em et~al.\/}}{2016}]{TsaiMaRo16}
+{\sc Tsai, Chen-Tse}, {\sc Stephen Mayhew},  \lsaand {\sc Dan Roth}.
+\newblock 2016.
+\newblock Cross-lingual named entity recognition via wikification.
+\newblock In {\em CoNLL\/}.
+
+\bibitem[\protect\citeauthoryear{Turian {\em
+  et~al.\/}}{2010}]{Turian:2010:WRS:1858681.1858721}
+{\sc Turian, Joseph}, {\sc Lev Ratinov},  \lsaand {\sc Yoshua Bengio}.
+\newblock 2010.
+\newblock Word representations: A simple and general method for semi-supervised
+  learning.
+\newblock In {\em Proceedings of the 48th Annual Meeting of the Association for
+  Computational Linguistics\/}, ACL '10, 384--394, Stroudsburg, PA, USA.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Upadhyay {\em
+  et~al.\/}}{2016}]{upadhyay-EtAl:2016:P16-1}
+{\sc Upadhyay, Shyam}, {\sc Manaal Faruqui}, {\sc Chris Dyer},  \lsaand {\sc
+  Dan Roth}.
+\newblock 2016.
+\newblock Cross-lingual models of word embeddings: An empirical comparison.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 1661--1670, Berlin,
+  Germany. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Versteegh {\em
+  et~al.\/}}{2016}]{Versteegh201667}
+{\sc Versteegh, Maarten}, {\sc Xavier Anguera}, {\sc Aren Jansen},  \lsaand
+  {\sc Emmanuel Dupoux}.
+\newblock 2016.
+\newblock The zero resource speech challenge 2015: Proposed approaches and
+  results.
+\newblock {\em Procedia Computer Science\/} 81.67 -- 72.
+\newblock SLTU-2016 5th Workshop on Spoken Language Technologies for
+  Under-resourced languages 09-12 May 2016 Yogyakarta, Indonesia.
+
+\bibitem[\protect\citeauthoryear{Veselý {\em et~al.\/}}{2012}]{Vesely12}
+{\sc Veselý, K.}, {\sc M.~Karafiát}, {\sc F.~Grézl}, {\sc M.~Janda},
+  \lsaand {\sc E.~Egorova}.
+\newblock 2012.
+\newblock The language-independent bottleneck features.
+\newblock In {\em Spoken Language Technology Workshop (SLT), 2012 IEEE\/},
+  336--341.
+
+\bibitem[\protect\citeauthoryear{Villing {\em et~al.\/}}{2004}]{nuimeprn1268}
+{\sc Villing, Rudi}, {\sc Joseph Timoney},  \lsaand {\sc Tomas Ward}.
+\newblock 2004.
+\newblock Automatic blind syllable segmentation for continuous speech.
+\newblock In {\em Irish Signals and Systems Conference 2004\/}.
+
+\bibitem[\protect\citeauthoryear{Villing {\em
+  et~al.\/}}{2006}]{villing2006performance}
+\lsadashifynew{{\sc Villing, Rudi}}, {\sc Tomas Ward},  \lsaand {\sc Joseph
+  Timoney}.
+\newblock 2006.
+\newblock Performance limits for envelope based automatic syllable
+  segmentation.
+\newblock In {\em Irish Signals and Systems Conference, 2006. IET\/}, 521--526.
+  IET.
+
+\bibitem[\protect\citeauthoryear{Vries {\em et~al.\/}}{2014}]{deVries2014119}
+{\sc Vries, Nic}, {\sc Marelie~H. Davel}, {\sc Jaco Badenhorst}, {\sc Willem~D.
+  Basson}, {\sc Febe de~Wet}, {\sc Etienne Barnard},  \lsaand {\sc Alta
+  de~Waal}.
+\newblock 2014.
+\newblock A smartphone-based \{ASR\} data collection tool for under-resourced
+  languages.
+\newblock {\em Speech Communication\/} 56.119 -- 131.
+
+\bibitem[\protect\citeauthoryear{Vuli\'{c} \lsaand
+  Moens}{2015}]{vulic-moens:2015:ACL-IJCNLP}
+{\sc Vuli\'{c}, Ivan},  \lsaand {\sc Marie-Francine Moens}.
+\newblock 2015.
+\newblock Bilingual word embeddings from non-parallel document-aligned data
+  applied to bilingual lexicon induction.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 2: Short Papers)\/}, 719--725, Beijing,
+  China. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Wang {\em
+  et~al.\/}}{2013}]{wang-che-manning:2013:ACL2013}
+{\sc Wang, Mengqiu}, {\sc Wanxiang Che},  \lsaand {\sc Christopher~D. Manning}.
+\newblock 2013.
+\newblock Joint word alignment and bilingual named entity recognition using
+  dual decomposition.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)\/}, 1073--1082, Sofia,
+  Bulgaria. Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Wang \lsaand
+  Manning}{2013}]{DBLP:journals/corr/WangM13b}
+\lsadashifynew{{\sc Wang, Mengqiu}},  \lsaand {\sc Christopher~D. Manning}.
+\newblock 2013.
+\newblock Cross-lingual pseudo-projected expectation regularization for weakly
+  supervised learning.
+\newblock {\em CoRR\/} abs/1310.1597.
+
+\bibitem[\protect\citeauthoryear{Xia \lsaand Lewis}{2007}]{xia-lewis:2007:main}
+{\sc Xia, Fei},  \lsaand {\sc William Lewis}.
+\newblock 2007.
+\newblock Multilingual structural projection across interlinear text.
+\newblock In {\em Human Language Technologies 2007: The Conference of the North
+  American Chapter of the Association for Computational Linguistics;
+  Proceedings of the Main Conference\/}, 452--459, Rochester, New York.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Xiao \lsaand Guo}{2014}]{W14-1613}
+{\sc Xiao, Min},  \lsaand {\sc Yuhong Guo}.
+\newblock 2014.
+\newblock {\em Proceedings of the Eighteenth Conference on Computational
+  Natural Language Learning\/}, chapter Distributed Word Representation
+  Learning for Cross-Lingual Dependency Parsing, 119--129.
+\newblock Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Yamada \lsaand
+  Matsumoto}{2003}]{Yamada03statisticaldependency}
+{\sc Yamada, Hiroyasu},  \lsaand {\sc Yuji Matsumoto}.
+\newblock 2003.
+\newblock Statistical dependency analysis with support vector machines.
+\newblock In {\em In Proceedings of IWPT\/}, 195--206.
+
+\bibitem[\protect\citeauthoryear{Yang \lsaand
+  Eisenstein}{2016}]{yang-eisenstein:2016:N16-1}
+{\sc Yang, Yi},  \lsaand {\sc Jacob Eisenstein}.
+\newblock 2016.
+\newblock Part-of-speech tagging for historical english.
+\newblock In {\em Proceedings of the 2016 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies\/}, 1318--1328, San Diego, California. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Yarowsky \lsaand Ngai}{2001}]{YarowskyAndNgai}
+{\sc Yarowsky, David},  \lsaand {\sc Grace Ngai}.
+\newblock 2001.
+\newblock Inducing multilingual {POS} taggers and {NP} bracketers via robust
+  projection across aligned corpora.
+\newblock In {\em Proceedings of the Second Meeting of the North American
+  Chapter of the Association for Computational Linguistics on Language
+  technologies\/}, NAACL '01, 1--8, Pittsburgh, Pennsylvania.
+
+\bibitem[\protect\citeauthoryear{Younger}{1967}]{Younger1967189}
+{\sc Younger, Daniel~H.}
+\newblock 1967.
+\newblock Recognition and parsing of context-free languages in time n3.
+\newblock {\em Information and Control\/} 10.189 -- 208.
+
+\bibitem[\protect\citeauthoryear{Zeman {\em
+  et~al.\/}}{2008}]{Zeman08cross-languageparser}
+{\sc Zeman, Daniel}, {\sc Univerzita Karlova},  \lsaand {\sc Philip Resnik}.
+\newblock 2008.
+\newblock Cross-language parser adaptation between related languages.
+\newblock In {\em In IJCNLP-08 Workshop on NLP for Less Privileged
+  Languages\/}, 35--42.
+
+\bibitem[\protect\citeauthoryear{Zeman {\em
+  et~al.\/}}{2012}]{DBLP:conf/lrec/ZemanMPRSZH12}
+\lsadashifynew{{\sc Zeman, Daniel}}, {\sc David Marecek}, {\sc Martin Popel},
+  {\sc Loganathan Ramasamy}, {\sc Jan Step{\'{a}}nek}, {\sc Zdenek
+  Zabokrtsk{\'{y}}},  \lsaand {\sc Jan Hajic}.
+\newblock 2012.
+\newblock Hamledt: To parse or not to parse?
+\newblock In {\em Proceedings of the Eighth International Conference on
+  Language Resources and Evaluation, {LREC} 2012, Istanbul, Turkey, May 23-25,
+  2012\/}, 2735--2741.
+
+\bibitem[\protect\citeauthoryear{Zhang {\em et~al.\/}}{2012}]{6289082}
+{\sc Zhang, Y.}, {\sc R.~Salakhutdinov}, {\sc H.~A. Chang},  \lsaand {\sc
+  J.~Glass}.
+\newblock 2012.
+\newblock Resource configurable spoken query detection using deep boltzmann
+  machines.
+\newblock In {\em 2012 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)\/}, 5161--5164.
+
+\bibitem[\protect\citeauthoryear{Zhang \lsaand
+  Barzilay}{2015}]{zhang-barzilay:2015:EMNLP}
+{\sc Zhang, Yuan},  \lsaand {\sc Regina Barzilay}.
+\newblock 2015.
+\newblock Hierarchical low-rank tensors for multilingual transfer parsing.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing\/}, 1857--1867, Lisbon, Portugal. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Zhang \lsaand Clark}{2008}]{Zhang:2008:TTP}
+{\sc Zhang, Yue},  \lsaand {\sc Stephen Clark}.
+\newblock 2008.
+\newblock A tale of two parsers: Investigating and combining graph-based and
+  transition-based dependency parsing using beam-search.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing\/}, EMNLP '08, 562--571, Stroudsburg, PA, USA.
+  Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Zoph \lsaand
+  Knight}{2016}]{zoph-knight:2016:N16-1}
+{\sc Zoph, Barret},  \lsaand {\sc Kevin Knight}.
+\newblock 2016.
+\newblock Multi-source neural translation.
+\newblock In {\em Proceedings of the 2016 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies\/}, 30--34, San Diego, California. Association for Computational
+  Linguistics.
+
+\bibitem[\protect\citeauthoryear{Zou {\em
+  et~al.\/}}{2013}]{zou-EtAl:2013:EMNLP}
+{\sc Zou, Will~Y.}, {\sc Richard Socher}, {\sc Daniel Cer},  \lsaand {\sc
+  Christopher~D. Manning}.
+\newblock 2013.
+\newblock Bilingual word embeddings for phrase-based machine translation.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing\/}, 1393--1398, Seattle, Washington, USA.
+  Association for Computational Linguistics.
+
+\end{thebibliography}
