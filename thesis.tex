@@ -1256,33 +1256,70 @@ Long Duong, Trevor Cohn, Steven Bird, Paul Cook. 2015. A Neural Network Model fo
 
 \subsubsection{Research process}
 In our \aclv\ paper, we train the model in the cascade style where source language parser is trained first and then used as the prior for the target language 
-parser. However, as also noted in the future work, we might benefit more from jointly train the source and target language together as this allow better 
-parameter sharing. 
+parser. However, we might benefit more from jointly train the source and target language together as this allows better 
+parameter sharing, which is the motivation for this paper. 
 
 In this paper, I design and run experiments. Other co-authors which are my supervisors contribute ideas during our weekly 
-meeting and participated in the paper writing. 
+meeting and participate in the paper writing. 
 
 \subsubsection{Retrospective view}
-It is nice to see that the transfer learning technique through regularization terms is still applicable for dependency parsing task. Moreover, we only 
-require the same POS annotation and dependency type between source and target language. This is a much better 
-assumption compared with parallel data as used in ~\emnlpiv\ paper. Nevertheless, this paper still suffer similar drawback with the assumption of 
-small annotated corpus in the target language. However, since annotating dependency treebank is much more costly and time consuming than POS annotation, 
-applying our technique instead of annotating more data, is more compelling.  
-
-
-
-
+As shown in the paper, joint training is substantially better than cascade training across various data size. Also, joint training is more flexible, we can 
+even relax the requirement of the same POS or dependency type annotation imposed in cascade training in \aclv\ paper. The model can automatically learn the 
+annotation mapping between source and target language as part of the training. However, it is usually slower and more challenging to efficiently train the 
+join model. Moreover, in this paper, we mainly compare with prior work using similar neural network transitional based parser. Despite the fact that the 
+proposed joint model is generic and can apply to various architectures, how this work apply to or compare  with prior work using different parsing 
+architecture such as graph based, is unknown. 
 \includepdf[pages={1-},offset=0mm -7mm,scale=0.95,pagecommand={}]{Papers/emnlp15.pdf}
+
 \subsection{CoNLL 2015}
 \label{sec:conll15}
+Long Duong, Trevor Cohn, Steven Bird, Paul Cook. 2015. Cross-lingual Transfer for Unsupervised Dependency Parsing Without Parallel Data. 
+In \textit{Proceedings of the Nineteenth Conference on Computational Natural Language Learning (CoNLL 2015)}. 113--122, Beijing, China. 
+
+\subsubsection{Research process}
+In both \aclv\ and \emnlpv\ papers, we assume a small annotated treebank in the target language. However, this treebank might not be available for 
+many low-resource languages. That is why we want to further relax this requirement, motivating this paper. 
+
+In this paper, I design and run experiments. Other co-authors which are my supervisors contribute ideas during our weekly 
+meeting and participate in the paper writing. 
+
+\subsubsection{Retrospective view}
+% Make much different in the downstream application ? 
+It is good to see that we still improve the delexicalized parser without using any additional resource. This is thank to the syntactic word embeddings 
+that only requires the same POS annotation between source and target language. However, for a single source language the improvement is modest. The biggest 
+gain is from taking advantage of multiple source languages. However, the gain is not consistent across languages and usually higher for languages that share 
+some commonalities with source languages. 
+
 \includepdf[pages={1-},offset=0mm -7mm,scale=0.95,pagecommand={}]{Papers/conll15.pdf}
+
+
 \subsection{EMNLP 2016}
 \label{sec:emnlp16}
-%\includepdf[pages={1-},scale=1]{Papers/emnlp16.pdf}
+Long Duong, Hiroshi Kanayama, Tengfei Ma, Steven Bird, Trevor Cohn. Learning Crosslingual Word Embeddings without Bilingual Corpora. In \textit{Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP 2016)}. 1285--1295, Austin, Texas, USA
+
+\subsubsection{Research process}
+Transfer learning is the core idea of all our previous paper. Lexical transfer is one of the most important part. Investigating a better way to 
+do lexical transfer would benefit not only POS tagging or dependency parsing but also many other transfer learning task, motivating this paper. 
+This paper is done during my intern-ship at IBM research Tokyo where they interested in transfer learning for their data mining system. 
+
+Aside from Steven and Trevor from Melbourne university, I also have Hiroshi and Tengfei as my IBM side supervisor. In this paper, I implement the algorithm
+and run all experiments. Other co-authors contribute ideas during our weekly meeting and participate in the paper writing. 
+
+\subsubsection{Retrospective view}
+This paper uses dictionary for building crosslingual word embeddings applied successfully for both intrinsic tasks (monolingual similarity and bilingual lexicon
+induction task) and extrinsic task (crosslingual word embeddings). However, because of space constrain, we haven't evaluated on syntactic extrinsic task such as 
+crosslingual dependency parsing. Moreover, crosslingual word embeddings currently only work for a pair of language, it is shown in~\conllv\ that crosslingual word embeddings for multiple languages are more beneficial in transfer learning. 
+%In addition, the experiment with low-resource language Serbian need to compare with several other dictionary based cross-lingual word embeddings such as 
+% Low-resource scenario 
+% dictionary is more widely available than parallel data 
+% should test it on dependency parsing task  => OK 
+% Test Bilingual Lexicon Induction task (some overlaping with test set)
+
 \includepdf[pages={1-},offset=0mm 0mm,scale=1,pagecommand={}]{Papers/emnlp16.pdf}
+
 \subsection{EACL 2017 - if accept}
 \label{sec:eacl17}
-%\includepdf[pages={1-},offset=0mm -7mm,scale=0.95,pagecommand={}]{Papers/eacl17.pdf}
+\includepdf[pages={1-},offset=0mm -7mm,scale=0.95,pagecommand={}]{Papers/eacl17.pdf}
 \subsection{NAACL 2016}
 \label{sec:naacl16}
 \includepdf[pages={1-},offset=0mm 0mm,scale=1,pagecommand={}]{Papers/naacl16.pdf}
@@ -1314,20 +1351,12 @@ Real case for low-resource language (cost for annotation, cost for adapting to d
 
 
 % bibliography:
+\footnotesize
 \include{b}
-
-\chapter{Included Papers}
-\section{EMNLP 2014}
-
-\section{CoNLL 2015}
-\section{ACL 2015}
-\section{EMNLP 2015}
-\section{EMNLP 2016}
-\section{EACL 2016 - if accepted}
-\section{NAACL 2016}
-
+\normalsize
 \appendix
 \chapter{Other Papers}
+this is other chapter
 %\include{ap1}
 
 % insert other appendices here...

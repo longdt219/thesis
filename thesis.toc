@@ -82,19 +82,15 @@
 \contentsline {subsubsection}{Research process}{78}
 \contentsline {subsubsection}{Retrospective view}{78}
 \contentsline {subsection}{\numberline {3.1.4}CoNLL 2015}{89}
+\contentsline {subsubsection}{Research process}{89}
+\contentsline {subsubsection}{Retrospective view}{89}
 \contentsline {subsection}{\numberline {3.1.5}EMNLP 2016}{100}
+\contentsline {subsubsection}{Research process}{100}
+\contentsline {subsubsection}{Retrospective view}{100}
 \contentsline {subsection}{\numberline {3.1.6}EACL 2017 - if accept}{112}
-\contentsline {subsection}{\numberline {3.1.7}NAACL 2016}{112}
-\contentsline {section}{\numberline {3.2}Evaluation of Contribution}{124}
-\contentsline {subsection}{\numberline {3.2.1}Research question revisited}{124}
-\contentsline {section}{\numberline {3.3}Future Work}{124}
-\contentsline {section}{\numberline {3.4}Conclusion}{124}
-\contentsline {chapter}{\numberline {4}Included Papers}{152}
-\contentsline {section}{\numberline {4.1}EMNLP 2014}{152}
-\contentsline {section}{\numberline {4.2}CoNLL 2015}{152}
-\contentsline {section}{\numberline {4.3}ACL 2015}{152}
-\contentsline {section}{\numberline {4.4}EMNLP 2015}{152}
-\contentsline {section}{\numberline {4.5}EMNLP 2016}{152}
-\contentsline {section}{\numberline {4.6}EACL 2016 - if accepted}{152}
-\contentsline {section}{\numberline {4.7}NAACL 2016}{152}
-\contentsline {chapter}{\numberline {A}Other Papers}{153}
+\contentsline {subsection}{\numberline {3.1.7}NAACL 2016}{123}
+\contentsline {section}{\numberline {3.2}Evaluation of Contribution}{135}
+\contentsline {subsection}{\numberline {3.2.1}Research question revisited}{135}
+\contentsline {section}{\numberline {3.3}Future Work}{135}
+\contentsline {section}{\numberline {3.4}Conclusion}{135}
+\contentsline {chapter}{\numberline {A}Other Papers}{154}
