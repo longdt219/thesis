@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {1.2}Research Questions}{4}
 \contentsline {section}{\numberline {1.3}Scope}{5}
 \contentsline {section}{\numberline {1.4}Contributions}{6}
-\contentsline {paragraph}{POS tagging}{6}
+\contentsline {paragraph}{POS tagging}{7}
 \contentsline {paragraph}{Dependency Parsing}{7}
 \contentsline {paragraph}{Crosslingual Word Embeddings}{8}
 \contentsline {paragraph}{Unwritten language processing}{9}
@@ -53,14 +53,14 @@
 \contentsline {subsubsection}{Projection approach}{36}
 \contentsline {subsection}{\numberline {2.3.3}Summary of Approaches}{37}
 \contentsline {section}{\numberline {2.4}Crosslingual Word Embeddings}{38}
-\contentsline {subsection}{\numberline {2.4.1}Monolingual Word Embeddings}{39}
-\contentsline {subsubsection}{Evaluation}{41}
+\contentsline {subsection}{\numberline {2.4.1}Monolingual Word Embeddings}{38}
+\contentsline {subsubsection}{Evaluation}{40}
 \contentsline {subsection}{\numberline {2.4.2}Building Crosslingual Word Embeddings}{41}
 \contentsline {subsection}{\numberline {2.4.3}Evaluation}{45}
 \contentsline {section}{\numberline {2.5}Unwritten Language Processing}{46}
 \contentsline {subsection}{\numberline {2.5.1}Unsupervised segmentation and lexical discovery}{47}
 \contentsline {paragraph}{Unsupervised term detection (UTD)}{47}
-\contentsline {paragraph}{Speech segmentation}{49}
+\contentsline {paragraph}{Speech segmentation}{48}
 \contentsline {paragraph}{Speech feature extraction}{49}
 \contentsline {subsection}{\numberline {2.5.2}Speech recognition for low-resource language}{50}
 \contentsline {subsubsection}{Conventional approach}{51}
@@ -70,27 +70,34 @@
 \contentsline {subsubsection}{Modern approach}{53}
 \contentsline {subsection}{\numberline {2.5.3}Low-resource Speech Data Collection}{53}
 \contentsline {subsection}{\numberline {2.5.4}The Propose Task}{54}
-\contentsline {chapter}{\numberline {3}Research Summary}{56}
-\contentsline {section}{\numberline {3.1}Publications}{57}
-\contentsline {subsection}{\numberline {3.1.1}EMNLP 2014}{57}
+\contentsline {chapter}{\numberline {3}Research Contribution}{56}
+\contentsline {section}{\numberline {3.1}EMNLP 2014 -- Low-resource POS Tagging}{57}
 \contentsline {subsubsection}{Research process}{57}
 \contentsline {subsubsection}{Retrospective view}{57}
-\contentsline {subsection}{\numberline {3.1.2}ACL 2015}{71}
+\contentsline {section}{\numberline {3.2}ACL 2015 -- Low Resource Dependency Parsing}{71}
 \contentsline {subsubsection}{Research process}{71}
 \contentsline {subsubsection}{Retrospective view}{71}
-\contentsline {subsection}{\numberline {3.1.3}EMNLP 2015}{78}
+\contentsline {section}{\numberline {3.3}EMNLP 2015 -- Universal Dependency Parsing}{78}
 \contentsline {subsubsection}{Research process}{78}
 \contentsline {subsubsection}{Retrospective view}{78}
-\contentsline {subsection}{\numberline {3.1.4}CoNLL 2015}{89}
+\contentsline {section}{\numberline {3.4}CoNLL 2015 -- Unsupervised Dependency Parsing}{89}
 \contentsline {subsubsection}{Research process}{89}
 \contentsline {subsubsection}{Retrospective view}{89}
-\contentsline {subsection}{\numberline {3.1.5}EMNLP 2016}{100}
+\contentsline {section}{\numberline {3.5}EMNLP 2016 -- Crosslingual Word Embeddings}{100}
 \contentsline {subsubsection}{Research process}{100}
 \contentsline {subsubsection}{Retrospective view}{100}
-\contentsline {subsection}{\numberline {3.1.6}EACL 2017 - if accept}{112}
-\contentsline {subsection}{\numberline {3.1.7}NAACL 2016}{123}
-\contentsline {section}{\numberline {3.2}Evaluation of Contribution}{135}
-\contentsline {subsection}{\numberline {3.2.1}Research question revisited}{135}
-\contentsline {section}{\numberline {3.3}Future Work}{135}
-\contentsline {section}{\numberline {3.4}Conclusion}{135}
-\contentsline {chapter}{\numberline {A}Other Papers}{154}
+\contentsline {section}{\numberline {3.6}EACL 2017 -- Multilingual Word Embeddings}{112}
+\contentsline {subsubsection}{Research process}{112}
+\contentsline {subsubsection}{Retrospective view}{112}
+\contentsline {section}{\numberline {3.7}NAACL 2016 -- Speech Translation}{123}
+\contentsline {subsubsection}{Research process}{123}
+\contentsline {subsubsection}{Retrospective view}{123}
+\contentsline {chapter}{\numberline {4}Discussion and Conclusions}{135}
+\contentsline {section}{\numberline {4.1}Evaluation of Contribution}{135}
+\contentsline {subsection}{\numberline {4.1.1}Task coverage}{136}
+\contentsline {subsection}{\numberline {4.1.2}Research question revisited}{138}
+\contentsline {section}{\numberline {4.2}Future Work}{139}
+\contentsline {subsection}{\numberline {4.2.1}More evaluations for low-resource languages}{139}
+\contentsline {subsection}{\numberline {4.2.2}Re-evaluate assumptions}{140}
+\contentsline {subsection}{\numberline {4.2.3}Filling in the gap}{141}
+\contentsline {section}{\numberline {4.3}Conclusion}{142}

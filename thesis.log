@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.31)  14 NOV 2016 17:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.31)  17 NOV 2016 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,19 +1174,19 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux (./frontmatter.aux) (./b.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -1300,7 +1300,7 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 18.
 [3]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 39.
  (./thesis.toc [4
 
 ])
@@ -1339,13 +1339,20 @@ is from Kamholz
  [7
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
-LaTeX Warning: Reference `chap:uniTagger' on page viii undefined on input line 
-46.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--48
+Overfull \hbox (4.73367pt too wide) in paragraph at lines 61--62
+\OT1/ppl/m/n/12 source De-pen-dency Pars-ing: Cross-lingual Pa-ram-e-ters Shar-
+ing in a Neu-
+ []
 
+
+Overfull \hbox (2.35857pt too wide) in paragraph at lines 71--72
+[]\OT1/ppl/b/n/12 Long Duong\OT1/ppl/m/n/12 , Hi-roshi Kanayama, Tengfei Ma, St
+even Bird, Trevor Cohn.
  []
 
 [8] [9] [10])
@@ -1357,8 +1364,8 @@ Chapter 1.
 File: Figures/ring_plot_languages.pdf Graphic file (type pdf)
 
 <use Figures/ring_plot_languages.pdf>
-Package pdftex.def Info: Figures/ring_plot_languages.pdf used on input line 93.
-
+Package pdftex.def Info: Figures/ring_plot_languages.pdf used on input line 101
+.
 (pdftex.def)             Requested size: 404.70483pt x 205.16286pt.
 
 
@@ -1368,7 +1375,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./Figures/ring_plot_languages.pdf>]
-Overfull \hbox (1.43533pt too wide) in paragraph at lines 108--109
+Overfull \hbox (1.43533pt too wide) in paragraph at lines 116--117
 \OT1/ppl/m/n/12 ploited to bridge lan-guages, and in par-tic-u-lar, trans-fer i
 n-for-ma-tion from a resource-
  []
@@ -1380,13 +1387,19 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Overfull \hbox (4.11958pt too wide) in paragraph at lines 150--151
+Overfull \hbox (4.11958pt too wide) in paragraph at lines 158--159
 []\OT1/ppl/m/n/12 Extending ex-ist-ing NLP meth-ods to cater for resource-poor 
 lan-guages is a highly
  []
 
 
-Overfull \hbox (1.6961pt too wide) in paragraph at lines 163--171
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Overfull \hbox (1.6961pt too wide) in paragraph at lines 172--180
 []\OT1/ppl/m/n/12 We aim at build-ing the NLP frame-work for pro-cess-ing resou
 rce-poor lan-guages.
  []
@@ -1397,26 +1410,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
-Overfull \hbox (11.23842pt too wide) in paragraph at lines 172--173
+[5]
+Overfull \hbox (11.23842pt too wide) in paragraph at lines 181--182
 []\OT1/ppl/m/n/12 Dependency pars-ing which shows the de-pen-dency re-la-tion-s
 hip be-tween words
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5]
-Overfull \hbox (8.50238pt too wide) in paragraph at lines 173--174
+Overfull \hbox (8.50238pt too wide) in paragraph at lines 182--183
 \OT1/ppl/m/n/12 be-tween re-source rich and resource-poor lan-guages al-low-ing
  for trans-fer learn-
  []
 
 
-Overfull \hbox (11.21419pt too wide) in paragraph at lines 174--175
+Overfull \hbox (11.21419pt too wide) in paragraph at lines 183--184
 \OT1/ppl/m/n/12 speech in a low-resource lan-guage and the trans-lated text in 
 the higher-resource
  []
@@ -1458,7 +1465,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [10]
 Chapter 2.
 
-Overfull \hbox (0.89581pt too wide) in paragraph at lines 266--283
+Overfull \hbox (0.89581pt too wide) in paragraph at lines 275--292
 \OT1/ppl/m/n/12 given any con-crete def-i-ni-tion for low-resource lan-guages. 
 Ac-cord-ing to LORELEI, []
  []
@@ -1480,7 +1487,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Overfull \hbox (0.75156pt too wide) in paragraph at lines 328--337
+Overfull \hbox (0.75156pt too wide) in paragraph at lines 337--346
 \OT1/ppl/m/n/12 lect-ing mono-lin-gual data which cur-rently cov-ers more than 
 200 lan-guages, crawled
  []
@@ -1516,7 +1523,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Figures/LabelProjection.pdf Graphic file (type pdf)
 
 <use Figures/LabelProjection.pdf>
-Package pdftex.def Info: Figures/LabelProjection.pdf used on input line 427.
+Package pdftex.def Info: Figures/LabelProjection.pdf used on input line 436.
 (pdftex.def)             Requested size: 196.73451pt x 108.40472pt.
 
 
@@ -1533,12 +1540,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-Underfull \hbox (badness 2600) in paragraph at lines 504--504
+Underfull \hbox (badness 2600) in paragraph at lines 513--513
 []|\OT1/ppl/m/n/12 dependency pars-ing and
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 504--504
+Underfull \hbox (badness 8056) in paragraph at lines 513--513
 []|\OT1/ppl/m/n/12 parallel cor-pus + Wikipedia
  []
 
@@ -1584,12 +1591,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-Overfull \hbox (12.14441pt too wide) in paragraph at lines 606--609
+Overfull \hbox (12.14441pt too wide) in paragraph at lines 615--618
 \OT1/ppl/m/n/12 age. Duong \OT1/ppl/m/it/12 et al. \OT1/ppl/m/n/12 (2013b) use 
 the least, i.e. only the Eu-roparl Cor-pus ( Koehn 2005). Das
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 612.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 621.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -1608,7 +1615,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Overfull \hbox (4.16116pt too wide) in paragraph at lines 668--669
+Overfull \hbox (4.16116pt too wide) in paragraph at lines 677--678
 []\OT1/ppl/m/n/12 The uni-ver-sal tagset from Petrov \OT1/ppl/m/it/12 et al. \O
 T1/ppl/m/n/12 (2012) con-sists of 12 com-mon tags: \OT1/ppl/m/it/12 NOUN,
  []
@@ -1697,7 +1704,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-Overfull \hbox (3.04427pt too wide) in paragraph at lines 901--907
+Overfull \hbox (3.04427pt too wide) in paragraph at lines 910--916
 \OT1/ppl/m/n/12 (2015) in-cor-po-rate in-for-ma-tion from knowl-edge base such 
 as Word-Net ( Miller 1995)
  []
@@ -1709,9 +1716,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-Overfull \hbox (0.19951pt too wide) in paragraph at lines 914--915
+Overfull \hbox (0.19951pt too wide) in paragraph at lines 923--924
 \OT1/ppl/m/n/12 trolled set-ting. Com-par-ing var-i-ous em-bed-dings mod-els, t
 hey ob-served that CBOW
+ []
+
+
+Overfull \hbox (6.57141pt too wide) in paragraph at lines 938--944
+\OT1/ppl/m/n/12 (2014) learn com-po-si-tional vec-tor rep-re-sen-ta-tions of se
+n-tences from in-di-vid-ual word
  []
 
 
@@ -1721,19 +1734,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
-Overfull \hbox (6.57141pt too wide) in paragraph at lines 929--935
-\OT1/ppl/m/n/12 (2014) learn com-po-si-tional vec-tor rep-re-sen-ta-tions of se
-n-tences from in-di-vid-ual word
- []
-
-
-Overfull \hbox (7.80739pt too wide) in paragraph at lines 936--942
+Overfull \hbox (7.80739pt too wide) in paragraph at lines 945--951
 \OT1/ppl/m/n/12 lem-ma-tized nouns in each com-pa-ra-ble doc-u-ment con-cate-na
 ted over both lan-guages.
  []
 
 
-Overfull \hbox (3.26001pt too wide) in paragraph at lines 936--942
+Overfull \hbox (3.26001pt too wide) in paragraph at lines 945--951
 \OT1/ppl/m/n/12 They rep-re-sent word us-ing Wikipedia en-tries which are share
 d for many lan-guages. 
  []
@@ -1745,13 +1752,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
-Overfull \hbox (20.65182pt too wide) in paragraph at lines 952--958
+Overfull \hbox (20.65182pt too wide) in paragraph at lines 961--967
 \OT1/ppl/m/n/12 re-lated work is the method for train-ing em-bed-dings. Mikolov
  \OT1/ppl/m/it/12 et al. \OT1/ppl/m/n/12 (2013b) and Faruqui
  []
 
 
-Overfull \hbox (14.26411pt too wide) in paragraph at lines 961--983
+Overfull \hbox (14.26411pt too wide) in paragraph at lines 970--992
  [][] 
  []
 
@@ -1863,11 +1870,11 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf>
-Package pdftex.def Info: Papers/emnlp14.pdf used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf used on input line 1241.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf>
-Package pdftex.def Info: Papers/emnlp14.pdf used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf used on input line 1241.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -1880,20 +1887,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1241.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -1904,18 +1911,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page1 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [59 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=289, page=2, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp14.pdf, page2 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page2 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp14.pdf, page2 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page2 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -1926,18 +1933,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp14.pdf, page2 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page2 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [60 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=293, page=3, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp14.pdf, page3 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page3 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp14.pdf, page3 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page3 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -1948,18 +1955,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp14.pdf, page3 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page3 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [61 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=302, page=4, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp14.pdf, page4 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page4 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp14.pdf, page4 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page4 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -1970,18 +1977,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp14.pdf, page4 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page4 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [62 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=311, page=5, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp14.pdf, page5 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page5 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp14.pdf, page5 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page5 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -1992,18 +1999,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp14.pdf, page5 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page5 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [63 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=326, page=6, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp14.pdf, page6 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page6 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp14.pdf, page6 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page6 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2014,18 +2021,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp14.pdf, page6 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page6 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [64 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=346, page=7, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp14.pdf, page7 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page7 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp14.pdf, page7 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page7 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2036,18 +2043,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp14.pdf, page7 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page7 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [65 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=364, page=8, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp14.pdf, page8 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page8 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp14.pdf, page8 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page8 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2058,18 +2065,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp14.pdf, page8 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page8 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [66 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=368, page=9, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp14.pdf, page9 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page9 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp14.pdf, page9 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page9 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2080,18 +2087,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp14.pdf, page9 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page9 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [67 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=372, page=10, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp14.pdf, page10 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page10 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp14.pdf, page10 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page10 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2102,18 +2109,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp14.pdf, page10 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page10 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [68 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=376, page=11, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 11>
-Package pdftex.def Info: Papers/emnlp14.pdf, page11 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page11 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 11>
-Package pdftex.def Info: Papers/emnlp14.pdf, page11 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page11 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2124,18 +2131,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 11>
-Package pdftex.def Info: Papers/emnlp14.pdf, page11 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page11 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [69 <./Papers/emnlp14.pdf>]
 <Papers/emnlp14.pdf, id=381, page=12, 597.50829pt x 845.0471pt>
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 
 <use Papers/emnlp14.pdf, page 12>
-Package pdftex.def Info: Papers/emnlp14.pdf, page12 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page12 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp14.pdf Graphic file (type pdf)
  <use Papers/emnlp14.pdf, page 12>
-Package pdftex.def Info: Papers/emnlp14.pdf, page12 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page12 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2146,18 +2153,23 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp14.pdf Graphic file (type pdf)
 <use Papers/emnlp14.pdf, page 12>
-Package pdftex.def Info: Papers/emnlp14.pdf, page12 used on input line 1221.
+Package pdftex.def Info: Papers/emnlp14.pdf, page12 used on input line 1241.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [70 <./Papers/emnlp14.pdf>]
+Overfull \hbox (4.73367pt too wide) in paragraph at lines 1252--1253
+\OT1/ppl/m/n/12 source De-pen-dency Pars-ing: Cross-lingual Pa-ram-e-ters Shar-
+ing in a Neu-
+ []
+
 <Papers/acl15.pdf, id=385, 597.50829pt x 845.0471pt>
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf>
-Package pdftex.def Info: Papers/acl15.pdf used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf used on input line 1275.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf>
-Package pdftex.def Info: Papers/acl15.pdf used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf used on input line 1275.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2170,20 +2182,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 1>
-Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1275.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 1>
-Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 1>
-Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 1>
-Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2194,18 +2206,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/acl15.pdf Graphic file (type pdf)
 <use Papers/acl15.pdf, page 1>
-Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page1 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [72 <./Papers/acl15.pdf>]
 <Papers/acl15.pdf, id=413, page=2, 597.50829pt x 845.0471pt>
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 2>
-Package pdftex.def Info: Papers/acl15.pdf, page2 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page2 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 2>
-Package pdftex.def Info: Papers/acl15.pdf, page2 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page2 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2216,18 +2228,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/acl15.pdf Graphic file (type pdf)
 <use Papers/acl15.pdf, page 2>
-Package pdftex.def Info: Papers/acl15.pdf, page2 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page2 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [73 <./Papers/acl15.pdf>]
 <Papers/acl15.pdf, id=475, page=3, 597.50829pt x 845.0471pt>
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 3>
-Package pdftex.def Info: Papers/acl15.pdf, page3 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page3 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 3>
-Package pdftex.def Info: Papers/acl15.pdf, page3 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page3 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2238,18 +2250,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/acl15.pdf Graphic file (type pdf)
 <use Papers/acl15.pdf, page 3>
-Package pdftex.def Info: Papers/acl15.pdf, page3 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page3 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [74 <./Papers/acl15.pdf>]
 <Papers/acl15.pdf, id=482, page=4, 597.50829pt x 845.0471pt>
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 4>
-Package pdftex.def Info: Papers/acl15.pdf, page4 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page4 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 4>
-Package pdftex.def Info: Papers/acl15.pdf, page4 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page4 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2260,18 +2272,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/acl15.pdf Graphic file (type pdf)
 <use Papers/acl15.pdf, page 4>
-Package pdftex.def Info: Papers/acl15.pdf, page4 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page4 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [75 <./Papers/acl15.pdf>]
 <Papers/acl15.pdf, id=494, page=5, 597.50829pt x 845.0471pt>
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 5>
-Package pdftex.def Info: Papers/acl15.pdf, page5 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page5 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 5>
-Package pdftex.def Info: Papers/acl15.pdf, page5 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page5 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2282,18 +2294,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/acl15.pdf Graphic file (type pdf)
 <use Papers/acl15.pdf, page 5>
-Package pdftex.def Info: Papers/acl15.pdf, page5 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page5 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [76 <./Papers/acl15.pdf>]
 <Papers/acl15.pdf, id=500, page=6, 597.50829pt x 845.0471pt>
 File: Papers/acl15.pdf Graphic file (type pdf)
 
 <use Papers/acl15.pdf, page 6>
-Package pdftex.def Info: Papers/acl15.pdf, page6 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page6 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/acl15.pdf Graphic file (type pdf)
  <use Papers/acl15.pdf, page 6>
-Package pdftex.def Info: Papers/acl15.pdf, page6 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page6 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2304,18 +2316,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/acl15.pdf Graphic file (type pdf)
 <use Papers/acl15.pdf, page 6>
-Package pdftex.def Info: Papers/acl15.pdf, page6 used on input line 1250.
+Package pdftex.def Info: Papers/acl15.pdf, page6 used on input line 1275.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [77 <./Papers/acl15.pdf>]
 <Papers/emnlp15.pdf, id=504, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf>
-Package pdftex.def Info: Papers/emnlp15.pdf used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf used on input line 1303.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf>
-Package pdftex.def Info: Papers/emnlp15.pdf used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf used on input line 1303.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2328,20 +2340,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1303.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2352,18 +2364,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page1 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [79 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=533, page=2, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp15.pdf, page2 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page2 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp15.pdf, page2 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page2 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2374,18 +2386,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp15.pdf, page2 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page2 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [80 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=552, page=3, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp15.pdf, page3 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page3 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp15.pdf, page3 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page3 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2396,18 +2408,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp15.pdf, page3 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page3 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [81 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=563, page=4, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp15.pdf, page4 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page4 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp15.pdf, page4 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page4 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2418,18 +2430,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp15.pdf, page4 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page4 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [82 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=567, page=5, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp15.pdf, page5 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page5 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp15.pdf, page5 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page5 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2440,18 +2452,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp15.pdf, page5 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page5 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [83 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=578, page=6, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp15.pdf, page6 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page6 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp15.pdf, page6 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page6 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2462,18 +2474,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp15.pdf, page6 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page6 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [84 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=589, page=7, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp15.pdf, page7 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page7 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp15.pdf, page7 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page7 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2484,18 +2496,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp15.pdf, page7 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page7 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [85 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=620, page=8, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp15.pdf, page8 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page8 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp15.pdf, page8 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page8 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2506,18 +2518,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp15.pdf, page8 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page8 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [86 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=624, page=9, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp15.pdf, page9 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page9 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp15.pdf, page9 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page9 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2528,18 +2540,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp15.pdf, page9 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page9 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [87 <./Papers/emnlp15.pdf>]
 <Papers/emnlp15.pdf, id=629, page=10, 597.50829pt x 845.0471pt>
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 
 <use Papers/emnlp15.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp15.pdf, page10 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page10 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/emnlp15.pdf Graphic file (type pdf)
  <use Papers/emnlp15.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp15.pdf, page10 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page10 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2550,18 +2562,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp15.pdf Graphic file (type pdf)
 <use Papers/emnlp15.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp15.pdf, page10 used on input line 1272.
+Package pdftex.def Info: Papers/emnlp15.pdf, page10 used on input line 1303.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [88 <./Papers/emnlp15.pdf>]
 <Papers/conll15.pdf, id=633, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf>
-Package pdftex.def Info: Papers/conll15.pdf used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf used on input line 1331.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf>
-Package pdftex.def Info: Papers/conll15.pdf used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf used on input line 1331.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -2574,20 +2586,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 1>
-Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1331.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 1>
-Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 1>
-Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 1>
-Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2598,18 +2610,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 1>
-Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page1 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [90 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=663, page=2, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 2>
-Package pdftex.def Info: Papers/conll15.pdf, page2 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page2 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 2>
-Package pdftex.def Info: Papers/conll15.pdf, page2 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page2 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2620,18 +2632,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 2>
-Package pdftex.def Info: Papers/conll15.pdf, page2 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page2 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [91 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=667, page=3, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 3>
-Package pdftex.def Info: Papers/conll15.pdf, page3 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page3 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 3>
-Package pdftex.def Info: Papers/conll15.pdf, page3 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page3 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2642,18 +2654,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 3>
-Package pdftex.def Info: Papers/conll15.pdf, page3 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page3 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [92 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=684, page=4, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 4>
-Package pdftex.def Info: Papers/conll15.pdf, page4 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page4 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 4>
-Package pdftex.def Info: Papers/conll15.pdf, page4 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page4 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2664,18 +2676,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 4>
-Package pdftex.def Info: Papers/conll15.pdf, page4 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page4 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [93 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=741, page=5, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 5>
-Package pdftex.def Info: Papers/conll15.pdf, page5 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page5 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 5>
-Package pdftex.def Info: Papers/conll15.pdf, page5 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page5 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2686,18 +2698,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 5>
-Package pdftex.def Info: Papers/conll15.pdf, page5 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page5 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [94 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=745, page=6, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 6>
-Package pdftex.def Info: Papers/conll15.pdf, page6 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page6 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 6>
-Package pdftex.def Info: Papers/conll15.pdf, page6 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page6 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2708,18 +2720,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 6>
-Package pdftex.def Info: Papers/conll15.pdf, page6 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page6 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [95 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=749, page=7, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 7>
-Package pdftex.def Info: Papers/conll15.pdf, page7 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page7 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 7>
-Package pdftex.def Info: Papers/conll15.pdf, page7 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page7 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2730,18 +2742,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 7>
-Package pdftex.def Info: Papers/conll15.pdf, page7 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page7 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [96 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=753, page=8, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 8>
-Package pdftex.def Info: Papers/conll15.pdf, page8 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page8 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 8>
-Package pdftex.def Info: Papers/conll15.pdf, page8 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page8 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2752,18 +2764,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 8>
-Package pdftex.def Info: Papers/conll15.pdf, page8 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page8 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [97 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=757, page=9, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 9>
-Package pdftex.def Info: Papers/conll15.pdf, page9 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page9 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 9>
-Package pdftex.def Info: Papers/conll15.pdf, page9 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page9 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2774,18 +2786,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 9>
-Package pdftex.def Info: Papers/conll15.pdf, page9 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page9 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [98 <./Papers/conll15.pdf>]
 <Papers/conll15.pdf, id=761, page=10, 597.50829pt x 845.0471pt>
 File: Papers/conll15.pdf Graphic file (type pdf)
 
 <use Papers/conll15.pdf, page 10>
-Package pdftex.def Info: Papers/conll15.pdf, page10 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page10 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/conll15.pdf Graphic file (type pdf)
  <use Papers/conll15.pdf, page 10>
-Package pdftex.def Info: Papers/conll15.pdf, page10 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page10 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -2796,18 +2808,23 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/conll15.pdf Graphic file (type pdf)
 <use Papers/conll15.pdf, page 10>
-Package pdftex.def Info: Papers/conll15.pdf, page10 used on input line 1293.
+Package pdftex.def Info: Papers/conll15.pdf, page10 used on input line 1331.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [99 <./Papers/conll15.pdf>]
+Overfull \hbox (0.61841pt too wide) in paragraph at lines 1342--1343
+[]\OT1/ppl/m/n/12 Long Duong, Hi-roshi Kanayama, Tengfei Ma, Steven Bird, Trevo
+r Cohn.
+ []
+
 <Papers/emnlp16.pdf, id=766, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf>
-Package pdftex.def Info: Papers/emnlp16.pdf used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf>
-Package pdftex.def Info: Papers/emnlp16.pdf used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2820,20 +2837,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2844,18 +2861,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 1>
-Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page1 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [101 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=787, page=2, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp16.pdf, page2 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page2 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp16.pdf, page2 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page2 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2866,18 +2883,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 2>
-Package pdftex.def Info: Papers/emnlp16.pdf, page2 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page2 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [102 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=794, page=3, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp16.pdf, page3 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page3 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp16.pdf, page3 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page3 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2888,18 +2905,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 3>
-Package pdftex.def Info: Papers/emnlp16.pdf, page3 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page3 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [103 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=836, page=4, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp16.pdf, page4 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page4 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp16.pdf, page4 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page4 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2910,18 +2927,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 4>
-Package pdftex.def Info: Papers/emnlp16.pdf, page4 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page4 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [104 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=858, page=5, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp16.pdf, page5 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page5 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp16.pdf, page5 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page5 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2932,18 +2949,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 5>
-Package pdftex.def Info: Papers/emnlp16.pdf, page5 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page5 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [105 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=872, page=6, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp16.pdf, page6 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page6 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp16.pdf, page6 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page6 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2954,18 +2971,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 6>
-Package pdftex.def Info: Papers/emnlp16.pdf, page6 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page6 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [106 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=876, page=7, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp16.pdf, page7 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page7 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp16.pdf, page7 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page7 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2976,18 +2993,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 7>
-Package pdftex.def Info: Papers/emnlp16.pdf, page7 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page7 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [107 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=880, page=8, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp16.pdf, page8 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page8 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp16.pdf, page8 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page8 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -2998,18 +3015,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 8>
-Package pdftex.def Info: Papers/emnlp16.pdf, page8 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page8 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [108 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=903, page=9, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp16.pdf, page9 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page9 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp16.pdf, page9 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page9 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3020,18 +3037,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 9>
-Package pdftex.def Info: Papers/emnlp16.pdf, page9 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page9 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [109 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=926, page=10, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp16.pdf, page10 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page10 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp16.pdf, page10 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page10 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3042,18 +3059,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 10>
-Package pdftex.def Info: Papers/emnlp16.pdf, page10 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page10 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [110 <./Papers/emnlp16.pdf>]
 <Papers/emnlp16.pdf, id=930, page=11, 614.295pt x 794.97pt>
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 
 <use Papers/emnlp16.pdf, page 11>
-Package pdftex.def Info: Papers/emnlp16.pdf, page11 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page11 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/emnlp16.pdf Graphic file (type pdf)
  <use Papers/emnlp16.pdf, page 11>
-Package pdftex.def Info: Papers/emnlp16.pdf, page11 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page11 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3064,18 +3081,23 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/emnlp16.pdf Graphic file (type pdf)
 <use Papers/emnlp16.pdf, page 11>
-Package pdftex.def Info: Papers/emnlp16.pdf, page11 used on input line 1318.
+Package pdftex.def Info: Papers/emnlp16.pdf, page11 used on input line 1364.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [111 <./Papers/emnlp16.pdf>]
+Overfull \hbox (0.61841pt too wide) in paragraph at lines 1373--1374
+[]\OT1/ppl/m/n/12 Long Duong, Hi-roshi Kanayama, Tengfei Ma, Steven Bird, Trevo
+r Cohn.
+ []
+
 <Papers/eacl17.pdf, id=935, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf>
-Package pdftex.def Info: Papers/eacl17.pdf used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf used on input line 1388.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf>
-Package pdftex.def Info: Papers/eacl17.pdf used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf used on input line 1388.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 
@@ -3088,20 +3110,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 1>
-Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1388.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 1>
-Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 1>
-Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 1>
-Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3112,18 +3134,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 1>
-Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page1 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [113 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=960, page=2, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 2>
-Package pdftex.def Info: Papers/eacl17.pdf, page2 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page2 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 2>
-Package pdftex.def Info: Papers/eacl17.pdf, page2 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page2 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3134,18 +3156,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 2>
-Package pdftex.def Info: Papers/eacl17.pdf, page2 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page2 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [114 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=997, page=3, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 3>
-Package pdftex.def Info: Papers/eacl17.pdf, page3 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page3 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 3>
-Package pdftex.def Info: Papers/eacl17.pdf, page3 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page3 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3156,18 +3178,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 3>
-Package pdftex.def Info: Papers/eacl17.pdf, page3 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page3 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [115 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1017, page=4, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 4>
-Package pdftex.def Info: Papers/eacl17.pdf, page4 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page4 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 4>
-Package pdftex.def Info: Papers/eacl17.pdf, page4 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page4 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3178,18 +3200,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 4>
-Package pdftex.def Info: Papers/eacl17.pdf, page4 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page4 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [116 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1037, page=5, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 5>
-Package pdftex.def Info: Papers/eacl17.pdf, page5 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page5 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 5>
-Package pdftex.def Info: Papers/eacl17.pdf, page5 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page5 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3200,18 +3222,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 5>
-Package pdftex.def Info: Papers/eacl17.pdf, page5 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page5 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [117 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1052, page=6, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 6>
-Package pdftex.def Info: Papers/eacl17.pdf, page6 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page6 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 6>
-Package pdftex.def Info: Papers/eacl17.pdf, page6 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page6 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3222,18 +3244,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 6>
-Package pdftex.def Info: Papers/eacl17.pdf, page6 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page6 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [118 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1056, page=7, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 7>
-Package pdftex.def Info: Papers/eacl17.pdf, page7 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page7 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 7>
-Package pdftex.def Info: Papers/eacl17.pdf, page7 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page7 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3244,18 +3266,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 7>
-Package pdftex.def Info: Papers/eacl17.pdf, page7 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page7 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [119 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1060, page=8, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 8>
-Package pdftex.def Info: Papers/eacl17.pdf, page8 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page8 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 8>
-Package pdftex.def Info: Papers/eacl17.pdf, page8 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page8 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3266,18 +3288,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 8>
-Package pdftex.def Info: Papers/eacl17.pdf, page8 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page8 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [120 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1069, page=9, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 9>
-Package pdftex.def Info: Papers/eacl17.pdf, page9 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page9 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 9>
-Package pdftex.def Info: Papers/eacl17.pdf, page9 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page9 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3288,18 +3310,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 9>
-Package pdftex.def Info: Papers/eacl17.pdf, page9 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page9 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [121 <./Papers/eacl17.pdf>]
 <Papers/eacl17.pdf, id=1073, page=10, 597.50829pt x 845.0471pt>
 File: Papers/eacl17.pdf Graphic file (type pdf)
 
 <use Papers/eacl17.pdf, page 10>
-Package pdftex.def Info: Papers/eacl17.pdf, page10 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page10 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: Papers/eacl17.pdf Graphic file (type pdf)
  <use Papers/eacl17.pdf, page 10>
-Package pdftex.def Info: Papers/eacl17.pdf, page10 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page10 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 
 
@@ -3310,18 +3332,23 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/eacl17.pdf Graphic file (type pdf)
 <use Papers/eacl17.pdf, page 10>
-Package pdftex.def Info: Papers/eacl17.pdf, page10 used on input line 1322.
+Package pdftex.def Info: Papers/eacl17.pdf, page10 used on input line 1388.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [122 <./Papers/eacl17.pdf>]
+Overfull \hbox (3.57143pt too wide) in paragraph at lines 1401--1403
+\OT1/ppl/m/n/12 nal. We for-mal-ize the prob-lem as se-quence to se-quence lear
+n-ing build-ing upon Bah-
+ []
+
 <Papers/naacl16.pdf, id=1077, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf>
-Package pdftex.def Info: Papers/naacl16.pdf used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf>
-Package pdftex.def Info: Papers/naacl16.pdf used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3334,20 +3361,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 1>
-Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 1>
-Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 1>
-Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 1>
-Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3358,18 +3385,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 1>
-Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page1 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [124 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1103, page=2, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 2>
-Package pdftex.def Info: Papers/naacl16.pdf, page2 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page2 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 2>
-Package pdftex.def Info: Papers/naacl16.pdf, page2 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page2 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3380,18 +3407,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 2>
-Package pdftex.def Info: Papers/naacl16.pdf, page2 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page2 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [125 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1133, page=3, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 3>
-Package pdftex.def Info: Papers/naacl16.pdf, page3 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page3 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 3>
-Package pdftex.def Info: Papers/naacl16.pdf, page3 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page3 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3402,18 +3429,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 3>
-Package pdftex.def Info: Papers/naacl16.pdf, page3 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page3 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [126 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1157, page=4, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 4>
-Package pdftex.def Info: Papers/naacl16.pdf, page4 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page4 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 4>
-Package pdftex.def Info: Papers/naacl16.pdf, page4 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page4 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3424,18 +3451,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 4>
-Package pdftex.def Info: Papers/naacl16.pdf, page4 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page4 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [127 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1175, page=5, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 5>
-Package pdftex.def Info: Papers/naacl16.pdf, page5 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page5 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 5>
-Package pdftex.def Info: Papers/naacl16.pdf, page5 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page5 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3446,18 +3473,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 5>
-Package pdftex.def Info: Papers/naacl16.pdf, page5 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page5 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [128 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1179, page=6, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 6>
-Package pdftex.def Info: Papers/naacl16.pdf, page6 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page6 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 6>
-Package pdftex.def Info: Papers/naacl16.pdf, page6 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page6 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3468,18 +3495,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 6>
-Package pdftex.def Info: Papers/naacl16.pdf, page6 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page6 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [129 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1184, page=7, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 7>
-Package pdftex.def Info: Papers/naacl16.pdf, page7 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page7 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 7>
-Package pdftex.def Info: Papers/naacl16.pdf, page7 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page7 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3490,18 +3517,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 7>
-Package pdftex.def Info: Papers/naacl16.pdf, page7 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page7 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [130 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1188, page=8, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 8>
-Package pdftex.def Info: Papers/naacl16.pdf, page8 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page8 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 8>
-Package pdftex.def Info: Papers/naacl16.pdf, page8 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page8 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3512,18 +3539,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 8>
-Package pdftex.def Info: Papers/naacl16.pdf, page8 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page8 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [131 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1242, page=9, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 9>
-Package pdftex.def Info: Papers/naacl16.pdf, page9 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page9 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 9>
-Package pdftex.def Info: Papers/naacl16.pdf, page9 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page9 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3534,18 +3561,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 9>
-Package pdftex.def Info: Papers/naacl16.pdf, page9 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page9 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [132 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1246, page=10, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 10>
-Package pdftex.def Info: Papers/naacl16.pdf, page10 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page10 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 10>
-Package pdftex.def Info: Papers/naacl16.pdf, page10 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page10 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3556,18 +3583,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 10>
-Package pdftex.def Info: Papers/naacl16.pdf, page10 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page10 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [133 <./Papers/naacl16.pdf>]
 <Papers/naacl16.pdf, id=1250, page=11, 614.295pt x 794.97pt>
 File: Papers/naacl16.pdf Graphic file (type pdf)
 
 <use Papers/naacl16.pdf, page 11>
-Package pdftex.def Info: Papers/naacl16.pdf, page11 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page11 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Papers/naacl16.pdf Graphic file (type pdf)
  <use Papers/naacl16.pdf, page 11>
-Package pdftex.def Info: Papers/naacl16.pdf, page11 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page11 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -3578,25 +3605,25 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 File: Papers/naacl16.pdf Graphic file (type pdf)
 <use Papers/naacl16.pdf, page 11>
-Package pdftex.def Info: Papers/naacl16.pdf, page11 used on input line 1325.
+Package pdftex.def Info: Papers/naacl16.pdf, page11 used on input line 1411.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [134 <./Papers/naacl16.pdf>]
+Chapter 4.
+[135
+
+]
+Overfull \hbox (6.95418pt too wide) in paragraph at lines 1432--1433
+\OT1/ppl/m/n/12 mis-match or ex-tremely low-resource sce-nario pro-cess-ing un-
+writ-ten lan-guages. 
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[135]
-\openout2 = `b.aux'.
-
- (./b.tex (./thesis.bbl [136
-
-
-]
-Missing character: There is no Ã in font pplrc7t!
-Missing character: There is no « in font pplrc7t!
-
+[136]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3618,6 +3645,11 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [139]
+Overfull \hbox (4.03888pt too wide) in paragraph at lines 1510--1516
+\OT1/ppl/m/n/12 resource lan-guage. The per-for-mance on bilin-gual lex-i-con i
+n-duc-tion task on English-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3632,14 +3664,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [141]
-Underfull \hbox (badness 1092) in paragraph at lines 542--552
-\OT1/ppl/m/sc/10 Ja-cob Eisen-stein\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Michael H
-eil-man\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Dani Yo-gatama\OT1/ppl/m/n/10 , \OT1/
-ppl/m/sc/10 Jef-frey Flani-gan\OT1/ppl/m/n/10 , and
- []
-
-Missing character: There is no Ã in font pplrc7t!
-Missing character: There is no ¡ in font pplrc7t!
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3647,6 +3671,11 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [142]
+Overfull \hbox (0.61946pt too wide) in paragraph at lines 1569--1570
+\OT1/ppl/m/n/12 ing, word sense dis-am-bigua-tion, speech recog-ni-tion, nat-u-
+ral lan-guage un-der-stand-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3654,13 +3683,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [143]
+\openout2 = `b.aux'.
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+ (./b.tex (./thesis.bbl [144
 
-[144]
+
+]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3668,6 +3696,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [145]
+Missing character: There is no Ã in font pplrc7t!
+Missing character: There is no « in font pplrc7t!
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3675,25 +3706,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [146]
-Missing character: There is no Ä in font pplrc7t!
-Missing character: There is no Ÿ in font pplrc7t!
-Missing character: There is no Ä in font pplrc7t!
-Missing character: There is no Ÿ in font pplrc7t!
-Missing character: There is no Ä in font pplrc7t!
-Missing character: There is no Ÿ in font pplrc7t!
-Missing character: There is no Ä in font pplrc7t!
-Missing character: There is no ± in font pplrc7t!
-Missing character: There is no Ä in font pplrc7t!
-Missing character: There is no ± in font pplrc7t!
-Missing character: There is no Å in font pplrc7t!
-Missing character: There is no † in font pplrc7t!
-
-Underfull \hbox (badness 1874) in paragraph at lines 1058--1101
-\OT1/ppl/m/sc/10 Prokopis Proko-pidis\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Ti-ina 
-Puo-lakainen\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Sampo Pyysalo\OT1/ppl/m/n/10 , \
-OT1/ppl/m/sc/10 Lo-ganathan Ra-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
@@ -3708,6 +3720,97 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [148]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[149]
+Underfull \hbox (badness 1092) in paragraph at lines 618--628
+\OT1/ppl/m/sc/10 Ja-cob Eisen-stein\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Michael H
+eil-man\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Dani Yo-gatama\OT1/ppl/m/n/10 , \OT1/
+ppl/m/sc/10 Jef-frey Flani-gan\OT1/ppl/m/n/10 , and
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[150]
+Missing character: There is no Ã in font pplrc7t!
+Missing character: There is no ¡ in font pplrc7t!
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[151]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[152]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[153]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[154]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[155]
+Missing character: There is no Ä in font pplrc7t!
+Missing character: There is no Ÿ in font pplrc7t!
+Missing character: There is no Ä in font pplrc7t!
+Missing character: There is no Ÿ in font pplrc7t!
+Missing character: There is no Ä in font pplrc7t!
+Missing character: There is no Ÿ in font pplrc7t!
+Missing character: There is no Ä in font pplrc7t!
+Missing character: There is no ± in font pplrc7t!
+Missing character: There is no Ä in font pplrc7t!
+Missing character: There is no ± in font pplrc7t!
+Missing character: There is no Å in font pplrc7t!
+Missing character: There is no † in font pplrc7t!
+
+Underfull \hbox (badness 1874) in paragraph at lines 1163--1206
+\OT1/ppl/m/sc/10 Prokopis Proko-pidis\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Ti-ina 
+Puo-lakainen\OT1/ppl/m/n/10 , \OT1/ppl/m/sc/10 Sampo Pyysalo\OT1/ppl/m/n/10 , \
+OT1/ppl/m/sc/10 Lo-ganathan Ra-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[156]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[157]
 Missing character: There is no Å in font pplrc7t!
 Missing character: There is no ¡ in font pplrc7t!
 Missing character: There is no Ä in font pplrc7t!
@@ -3727,21 +3830,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[149]
+[158]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[150]
+[159]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[151]
+[160]
 Missing character: There is no Ã in font pplrc7t!
 Missing character: There is no ½ in font pplrc7t!
 Missing character: There is no Ã in font pplrc7t!
@@ -3749,7 +3852,7 @@ Missing character: There is no ¡ in font pplrc7t!
 Missing character: There is no Ã in font pplrc7t!
 Missing character: There is no © in font pplrc7t!
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1466.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1580.
 
 
 
@@ -3758,15 +3861,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[152]))
+[161]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[153]
-Appendix A.
+[162]))
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[163]
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -3774,64 +3883,55 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[154
-
-
-] (./thesis.aux (./frontmatter.aux) (./b.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./thesis.aux (./frontmatter.aux) (./b.aux)) ) 
 Here is how much of TeX's memory you used:
- 25550 strings out of 494765
- 487721 string characters out of 6175712
- 663929 words of memory out of 5000000
- 28248 multiletter control sequences out of 15000+600000
+ 25565 strings out of 494765
+ 488113 string characters out of 6175712
+ 664391 words of memory out of 5000000
+ 28263 multiletter control sequences out of 15000+600000
  28457 words of font info for 85 fonts, out of 8000000 for 9000
  80 hyphenation exceptions out of 8191
  63i,19n,90p,10403b,1126s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-syb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
-o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (164 pages, 1518377 bytes).
+{/usr/share/texlive/texmf-dist/fo
+nts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/r
+txr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
+er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on thesis.pdf (173 pages, 1547084 bytes).
 PDF statistics:
- 1383 PDF objects out of 1440 (max. 8388607)
- 982 compressed objects within 10 object streams
+ 1412 PDF objects out of 1440 (max. 8388607)
+ 1001 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
  478 words of extra memory for PDF output out of 10000 (max. 10000000)
 
