@@ -83,43 +83,59 @@
 
 \chapter{Introduction}
 \label{chap:introduction}
-%A Part-of-speech (POS) is the morphological category of a lexical item (word). Lexical items which share the same POS are believed to have similar morphological behavior. Common POS include Verb, Noun, Adjective, Pronoun, Adverb, Preposition and so forth. POS information is used to disambiguate different morphological categories. For example, in the sentence ``\emph{We can can a can}", the word ``\textit{can}" belongs to different categories: (1)~a modal verb, ie, \textit{somebody can do something}; (2)~a verb which is making a bottle; (3)~a noun which refers to a container. A POS tagger is a system for automatically determining the POS tag in a given text, and it should be able to distinguish morphological categories by assigning tags to words. The above sentence can be tagged as ``\emph{We$_N$ can$_{MD}$ can$_V$ a$_{Det}$ can$_N$}" where \textit{N} is noun, \textit{MD} is modal verb, \textit{V} is verb, \textit{Det} is determiner. 
-\section{Motivation} 
 % 0. NLP tasks and the need for annotated data,
-Natural Language Processing (NLP) is an active field of research aim at teaching computer to understand human language. Achieving that goal is not easy as computer has to understand many aspect of the languages such as syntactic, semantic with respect to different input formats such as raw text, image and speech. Most NLP algorithms employ some form of machine learning techniques. Recently, many advancements in NLP are realized thanks to more computing resource, better understanding of the algorithm and most importantly, more annotated data. Solving a NLP task is usually involve annotating alot of data and then apply supervised machine learning approach. For example, if we interested in the part-of-speech (POS) tagging, we would imagine annotate each word in the sentence with the correct POS tag such as Noun, Verb, Adjective and then train a statistical classifier. In this approach, annotated data is crucial as it provides the only guidance for the model. Seeing the importance of annotated data, annotated resources have always been a part of most NLP conferences. Language Resources and Evaluation Conference (LREC) is the a major conference dedicated mainly for languages resources stressing their significance. 
+Natural Language Processing (NLP) is an active field of research which aims, broadly speaking, to teaching computers to understand human language. Achieving that goal is not easy as the computer must understand many facets of language such as syntactic, semantics, and work with different input formats such as raw text, image and speech. Most NLP algorithms employ some form of machine learning techniques. Recently, many advancements in NLP have been realized thanks to more computing resources, better understanding of the algorithms and more annotated data. 
+
+Solving a NLP task usually involves annotating a lot of data and then applying supervised machine learning algorithms. For example, if we are interested in part-of-speech (POS) tagging, we would imagine annotating each word in the sentence with the correct POS tag such as Noun, Verb, Adjective and then training a statistical classifier. In this approach, annotated data is crucial as it provides the only guidance for the model. In recognition of the importance of annotated data, annotated resources have long been a part of NLP conferences. Moreover, the Language Resources and Evaluation Conference (LREC) is a major conference dedicated to language resources. 
 
 % Annotated data is important but expensive/tedious/slow/ to get ... 
 % - for 1000 sentence in the parsing ... 
 % - time consuming and money 
 % - not task dependent 
-Clearly, clean annotated data is gold, however, it is expensive and slow to build since typically requires the careful design, testing, and subsequent refinement of annotator guidelines, as well as assessment and management of annotator quality. For example, in the
-case of the Prague Dependency Treebank (PDT), it took a year to annotate the first 1000 sentences and 8 years to finish version 1~\cite{bohmovahhh:2001}. Moreover, annotated data is 
-usually task specific, meaning that it can not be reuse for different purposes. In this fast changing world, realize solely on annotated data is risky and not a very good strategy, remedy for this is one of the focus of this thesis. 
+Clearly, annotated data is gold, however, it is expensive and time-consuming to build. Annotation projects typically require careful design, testing, and subsequent refinement of annotator's guidelines, as well as quality assessment and management. For example, in the case of the Prague Dependency Treebank (PDT), it took a year to annotate the first 1000 sentences and 8 years to finish version 1~\cite{bohmovahhh:2001}. Moreover, annotated data is 
+usually task specific, meaning that it cannot be reused for different purposes. In this fast changing field, sole reliance on annotated data is risky and not a good strategy. Thus, remedying this is one focus of this thesis. 
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.4]{Figures/ring_plot_languages}
-\caption{Fraction of world population (percentage) by number of native speaker in 2007. This diagram should be viewed in color. (source Wikipedia)}
+\caption[Fraction of world population by number of native speakers]{Fraction of world population (percentage) by number of native speakers in 2007. This diagram should be viewed in color. [sourced Wikipedia]}
 \label{fig:language_by_speakers}
 \end{figure}
 % Low-resource languages are not uncommon 
-Since it is expensive and hard to get, most annotated data is in resource-rich languages such as English, Mandarin and Portuguese. Doing NLP is much more challenging for so-called ``resource-poor'' languages for which there are limited available resources, particularly annotated data such as treebanks, wordnets, and the like. Standard supervised learning techniques require significant amounts of annotated data which is not suitable for resource-poor languages. There are approximately 7,000 languages in the world but of these only a small fraction (20 languages) are considered resource-rich~\cite{BAUMANN14}. 
-Resource-poor languages are in dire need of a method to overcome the resource barrier, such that advances in NLP can be realised much more widely. Figure~\ref{fig:language_by_speakers} shows proportion of the world language by native speaker. 
+Since it is expensive and hard to get, most annotated data is in high-resource or resource-rich languages such as English, Mandarin and Portuguese. Doing NLP is much more challenging for so-called ``low-resource" or ``resource-poor'' languages for which available resources, particularly annotated data such as treebanks, wordnets, and the like, are limited~\cite{AbneyBird2010}. Standard supervised learning techniques require significant amount of annotated data which is not suitable for many low-resource languages. There are approximately 7,000 languages in the world, but of these only a small fraction (20 languages) are considered high-resourced~\cite{BAUMANN14}. 
+Low-resource languages are in dire need of a method to overcome the resource barrier, such that advances in NLP can be realised much more widely. Figure~\ref{fig:language_by_speakers} shows the proportion of the world languages by number of native speakers. 
 %Table \ref{tab:majorLanguageLessData} shows some major languages with no or very limited annotated data available. 
-Despite the dearth of data, many languages are not uncommon and widely spoken such as Bengali, Punjabi, Javanese, Wu, Telugu, Vietnamese. Together the resource-poor languages show in Figure~\ref{fig:language_by_speakers} %Table~\ref{tab:majorLanguageLessData} 
+Despite the dearth of data, many languages are widely spoken such as Bengali, Punjabi, Javanese, Wu, Telugu and Vietnamese. Together, the low-resource languages shown in Figure~\ref{fig:language_by_speakers} %Table~\ref{tab:majorLanguageLessData} 
 are spoken by almost 2 billion people, roughly a third of the world's population. 
 % annotation to some degree 
 
 % 3. Abundant of complementary resource... 
 % - Parallel data 
 % - Transfer learning ? 
-Despite lack of annotated data, even for low-resource languages there are some unannotated data which we can exploit to learn more accurate model. With the growing quantity of text available online, and in particular, multilingual parallel texts from sources such as multilingual websites, government documents and large archives of human translations of books, news, and so forth, unannotated parallel data is becoming more widely available. This parallel data can be exploited to bridge languages, and in particular, transfer information from a resource-rich language to a resource-poor language. Knowledge bases such as dictionaries, wordnets and other lexical resources are another possible source of information, and exist in some form for many of the world's low-resource languages. The argument is that the the manually annotated data is hard to get yet dictionary is more widely available as part of the lexicon study. For instance, the Wiktionary project\footnote{wiktionary.org} uses crowd-sourcing to build dictionaries in many languages using the collaborative efforts of volunteers. In this way the dictionary grows in both size and language coverage over time. However, this resource is limited to only lexical items, and no deeper annotation. Panlex~\cite{Kamholz14} is another example of multilingual dictionary that covers thousands of languages. Clues from related languages can also compensate for the lack of annotated data, as we expect there to be information shared between closely related languages in terms of the lexical items, morphology and syntactic structure. In this thesis, we investigate the method for effectively harness these additional resources aside from annotated data aiming for complementary effect. 
+Despite the lack of annotated data, even for low-resource languages there are some unannotated data which we can exploit in order to learn more accurate model. With the growing 
+quantity of text available online, and in particular, multilingual parallel texts from sources such as multilingual websites, government documents and large archives 
+of human translations of books, news, and so forth, unannotated parallel data is becoming more widely available. This parallel data can be exploited to bridge 
+languages, and in particular, transfer information from a resource-rich language to a resource-poor language. 
+
+Knowledge bases such as dictionaries, wordnets and 
+other lexical resources are another sources of information, and exist in some form for many of the world's low-resource languages. The argument is that the 
+manually annotated data is hard to get yet bilingual lexical resources are more widely available. For instance, the Wiktionary 
+project\footnote{wiktionary.org} uses crowd-sourcing to build dictionaries in many languages using the collaborative efforts of volunteers. In this way the 
+dictionary grows in both size and language coverage over time. Panlex is another example of multilingual dictionary that covers thousands of 
+languages~\cite{Kamholz14}. However, these resources are limited to only lexical items without any deeper annotation. Clues from related languages can also compensate for the lack of 
+annotated data, as we expect there to be information shared between closely related languages in terms of the lexical items, morphology and syntactic structure. In 
+this thesis, we investigate the method for effectively harness these additional resources aside from annotated data aiming for complementary effect. 
 
 % 4. Speech part of the language 
 % Languages are dying and need to preserve
 % Speech is a natural way of communication, need to upderstand speech for low-resource languages
 % 
-Out of the 7,000 languages, most of them do not even have the writing system and many are dying. It is estimated that by the end of this century, half of the world languages will come to extinction as there are no speaker for that language~\cite{crystal2002language}. Since language captures the knowledge and wisdom. More attention is given for preserving the language before it lost forever.~\namecite{bird-EtAl:2014:W14-22} pioneers on using speech technology to preserve the language using their android application called Aikuma which records the speech in the low-resource language and the translation in the higher resource language. They use speech translation as a way to preserve the language. However, it is unclear how to automatically process and learn from this collected data which also motivate a part of this thesis. 
+Out of the 7,000 languages, half of them do not even have the writing system and many are dying~\cite{lewis2009}. It is estimated that by the end of this century, 
+half of the world's languages will become extinct as there are no speaker for that language~\cite{crystal2002language}. Since language captures knowledge and 
+wisdom, more attention is given for preserving the language before it is lost forever.~\namecite{bird-EtAl:2014:W14-22} pioneer on using speech technology to 
+preserve the language using their Android application called Aikuma which records speech in low-resource languages and translation in higher 
+resource languages. They use speech translation as a way to preserve the language. However, it is unclear how to automatically process and learn from this collected 
+data. This is one of the motivation for this thesis. 
 
 %\begin{table}[h]
 %  \centering
@@ -152,40 +168,36 @@ Out of the 7,000 languages, most of them do not even have the writing system and
 %\end{table}	
 
 \section{Research Questions}
-% R1: what is the realistic assumption for LR languages ? 
-% R2: Additional resource ? 
-% R3: 
-Extending existing NLP methods to cater for resource-poor languages is a highly active research area. For these languages, the conventional approach using supervised machine learning is inappropriate due to the lack of annotated data. Purely, unsupervised approaches appear to be a better fit, however, despite considerable efforts, their performance lags well behind supervised approaches, and is rarely adequate. A more pragmatic and fruitful research direction which is attracting much attention, is to exploit different source of information aside from simple annotated text. Moreover, in the extreme case, it is also unclear how to process unwritten languages which are surprisingly common for the world's languages. Thus our research questions are: 
-\begin{itemize}
+Extending existing NLP methods to cater for low-resource languages is an active area of investigation. For these languages, the conventional approaches using supervised machine learning are inappropriate due to the lack of annotated data. Purely unsupervised approaches appear to be a better fit. However, despite considerable effort, their performance lags well behind supervised approaches, and is rarely adequate. A more pragmatic and fruitful research direction which is attracting much attention, is to exploit different sources of information aside from simple annotated text. In this thesis, we want to investigate different levels of resource requirement for low-resource languages ranging from semi-supervised and unsupervised learning to the extreme case of processing unwritten languages. Thus our research questions are: 
+\begin{enumerate}
 %\item What is the performance gap between supervised and unsupervised approaches? Answer this question will give overview about previous approaches and the current state-of-the-art which will be the point of comparison. 
 %\item What is the realistic data assumption for low-resource languages ? 
-\item How can we achieve more accurate model for low-resource languages using less annotated data ? The assumption here is that annotated data is hard to get but other resources such as parallel data, monolingual text, bilingual dictionary are more widely available. %We will use these additional resource to constrain the model. 
-\item How can we achieve more accurate model for low-resource languages without annotated data ? The previous question still assume some small amount of annotated data in the target language. However, this assumption might not hold for many low-resource languages, motivating this question. 
-
-\item What can we learn from unwritten languages? This question aim at solving the extreme case where we do not even have the writing system. 
-\end{itemize}
-There questions are arranged in the increasing complexity by reducing resource requirement. Generally speaking the first and second question is how to improve
-the performance of semi-supervised and unsupervised learning applied for low-resource languages. The third question is very challenging as the resource requirements 
-are minimized dealing with extremely low-resource unwritten languages. 
+\item How can we achieve more accurate models for low-resource languages using less annotated data? The assumption here is that annotated data is hard to get but other resources such as parallel data, monolingual text and bilingual dictionaries are more widely available, and can be used to further improve the performance.
+\item How can we achieve more accurate models for low-resource languages without annotated data? The previous question still assumes some small amount of annotated data in the target language. However, this assumption does not always hold true.
+\item What can we learn from unwritten languages? This question aims at solving the extreme case where we do not even have the writing system for a low-resource language.  
+\end{enumerate}
+These questions are arranged in order of increasing complexity by reducing resource requirements. Generally speaking, the first and second questions are about how to improve
+the performance of semi-supervised and unsupervised learning applied to low-resource languages. The third question is particularly challenging as the resource requirements are minimized, concerning extremely low-resource unwritten languages. 
 
 \section{Scope}
-We aim at building the NLP framework for processing resource-poor languages. However, due to the complexity of a language, it is hard to say when a language is sufficiently processed. Even for high-resource language such as English, there is currently no framework to truly and completely understand English. However, there are well-established NLP tasks for processing a languages such as text summarization, part-of-speech tagging, correference resolution, machine translation, named entities recognition, optical character recognition, natural language understanding, parsing, sentiment analysis, speech recognition, speech segmentation, text-to-speech, word segmentation, word sense disambiguation, question answering, natural language generation. 
+We aim at building an NLP framework for processing low-resource languages. However, due to the language complexity, it is hard to say when a language is sufficiently processed. Even for high-resource language such as English, there is no framework to truly and completely understand English. However, there are well-established NLP tasks for processing a language such as text summarization, part-of-speech tagging, coreference resolution, machine translation, named entity recognition, optical character recognition, natural language understanding, parsing, sentiment analysis, speech recognition, speech segmentation, text-to-speech, word segmentation, word sense disambiguation, question answering and natural language generation. 
 % Syntac and semantic analysis is important 
-Each task has different objective and tackle very different problem however, they can be related to \textit{syntax} and \textit{semantics}. Some tasks such as part-of-speech tagging or parsing is purely about syntax, while word sense disambiguation is mainly about semantic. Nevertheless, most of tasks such as machine translation or sentiment analysis need some knowledge of both syntax and semantics. It appears that to process a language at least we need some basic tools to analyse the syntactic and semantic aspect of that language. 
+Each task has different object and tackle different problems. However, they can be related to \textit{syntax} and \textit{semantics}. Some tasks such as part-of-speech tagging or parsing is purely about syntax, while word sense disambiguation is mainly about semantics. Nevertheless, most tasks such as machine translation or sentiment analysis need some knowledge of both syntax and semantics. It appears that to process a language we need at least some basic tools to analyse the syntactic and semantic aspect of that language. 
 % Multimodal modal ... 
-The other distinguishing feature between NLP tasks is the \textit{input format}. While many tasks process raw text, optical character recognition and speech processing take images and speech as the input. It is highly desirable that a framework to process a language must be able to handle multiple input formats. Moreover, as mentioned before, many languages do not even have the writing system, processing directly with the speech is the only way. 
+The other distinguishing feature between NLP tasks is the \textit{input format}. While many tasks process raw text, optical character recognition and speech processing take image and speech as input. It is highly desirable that a framework to process a language must be able to handle multiple input formats. Moreover, as mentioned before, many languages do not even have a writing system, and so directly processing speech is the only option. 
 % 4 tasks. 
-Given the time limitation for the thesis with respect to the syntactic and semantics aspect, and the requirement for multi-modal inputs, we are going to focus on four most essential NLP tasks. 
+Given the time limitation of the research with respect to the syntactic and semantic aspect, and the requirement for multi-modal inputs and unwritten language processing, we focus on four NLP tasks:
 \begin{enumerate}
-\item Part-of-speech (POS) tagging which tells us about the syntax categories of lexical item, classifying words into POS categories such as noun, verb, adjective.
-\item Dependency parsing which shows the dependency relationship between words in the sentence such as head/modifier, subject/verb. 
-\item Cross-lingual word embeddings which represent lexical items from multiple languages to the same dense vector space, preserving the monolingual and bilingual property of the language. These embeddings would the the bridge between resource rich and resource-poor languages allowing for transfer learning. 
-\item Speech to text translation which learn the alignment and translation between speech in a low-resource language and the translated text in the higher-resource language. This will be useful for task such as keyword spotting and also relevant for unwritten languages.  
+\item Part-of-speech (POS) tagging which shows the syntax categories of lexical item, classifying words into POS categories such as noun, verb, adjective.
+\item Dependency parsing which shows the dependency relationship between words in the sentence such as head/modifier and subject/verb. 
+\item Cross-lingual word embeddings which represent lexical items from multiple languages in the same dense vector space, preserving the monolingual and bilingual property of the language. These embeddings would be the bridge between resource-rich and resource-poor languages allowing for transfer learning. 
+\item Speech to text translation which learns the alignment and translation between speech in a low-resource language and the translation in the higher-resource language. This will be useful for tasks such as keyword spotting, and also relevant for unwritten language processing.  
+
 \end{enumerate}
 
 % Explain why select those 4 task 
-These tasks are very related and normally the latter are built based on the former. 
-The reason for choosing these tasks is mainly because it appears in most of NLP pipelines and an advancement in NLP can not be realized without recourse to these tasks. We cover both syntactic (task 1 and 2) and semantic (task 3 and 4), and also attempt both text (task 1,2 and 3) and speech (task 4) representation of a language.  
+These tasks are very related and the latter tasks are normally based on earlier one. 
+The reason for choosing these tasks is mainly because they appear in most NLP pipelines and an advancement in NLP cannot be realized without recourse to these tasks. We cover both syntax (task 1 and 2) and semantics (task 3 and 4), and also attempt both text (task 1,2 and 3) and speech (task 4) representation of a language. Also, task 4 is dedicated mainly for processing unwritten language with a minimum resource requirement. By abusing the terms, we will also refer to task 4 as unwritten language processing task from herein. 
 
 \section{Contributions}
 % What are the contributions ? 
@@ -195,82 +207,86 @@ The reason for choosing these tasks is mainly because it appears in most of NLP 
 % EMNLP 2014 : POS tagging mapping tagset, resolve the different across languages. 
 % ACL 2015: 
 % EMNLP 2015 : Dependency parsing 
-The main contribution is the algorithm it self. We propose several algorithms motivated by machine learning approaches to effectively incorporate additional information to the model to further improve the performance. 
+The main contribution is the algorithm it self. We propose several algorithms motivated by transfer learning and incorporate additional information to the model to improve performance. Moreover, we propose an algorithm based on deep neural networks to model unwritten language. The more detailed contributions are as follows:
 
-\paragraph{POS tagging} In the chapter about POS tagging, we proposed a semi-supervised method which effectively incorporate the noisy information from parallel data to the model as a prior. In this way, we demonstrate that only small amount of annotated data is sufficient for large improvements in performance. Compared with the state of the art, who also take advantage of parallel data, we make more realistic assumptions and use less parallel data, yet achieve a better overall result. 
+\paragraph{POS tagging} We propose a semi-supervised method which incorporates noisy information from parallel data to the model as a prior. In this way, we 
+demonstrate that only a mall amount of annotated data is sufficient in order to achieve a large improvement in performance. Compared with the state of the art system, 
+which also take advantage of parallel data, we make more realistic assumptions and use less parallel data, while achieving a better overall result. 
 
-The second contribution is the novel tagset mapping algorithm. The corpora we employ make use of mappings from language-specific POS tag inventories to a common universal tagset \cite{UniversalTagSet}. However, such a mapping might not be good or even available for resource-poor languages. Therefore, we also propose a variant of our method capable of handling arbitrary tagsets based on a two-layer maximum entropy model. Evaluating on the resource-poor language Malagasy, we exceed the state-of-the-art by a large margin. This part is published as the long paper at \emnlpiv. 
+The second contribution is the novel tagset mapping algorithm. The corpora we employed use mappings from language-specific POS tag inventories to a common universal tagset \cite{UniversalTagSet}. However, such a mapping might not be good, or even available, for resource-poor languages. Therefore, we propose a variant of our method capable of handling arbitrary tagsets based on a two-layer maximum entropy model. Evaluating on the resource-poor language Malagasy, we exceed the state of the art by a large margin. This work appeared as a long paper at \emnlpiv. 
 
-\paragraph{Dependency Parsing} In the chapter about dependency parsing, first we propose a semi-supervised learning based on parameter sharing in a neural network parser. The additional information we incorporate to the model is the language relatedness. We showed that we can achieve more accurate parser using the same training data by taking reference from related model in different languages in the cascade style. This work is published as a short paper to \aclv. 
+\paragraph{Dependency Parsing} We propose a semi-supervised learning algorithm based on parameter sharing in a neural network parser. The additional information we incorporate to the model concerns the language relatedness. We show that a more accurate parser can be achieved using the same training data by taking reference from related model in different languages in the cascade style. This work is published as a short paper at \aclv. 
 
-Latter we realize that we can do it better by jointly train the model instead of cascade approach. Our approach works by jointly training a neural network dependency parser to model the syntax in both a source and target language. In this way, the information can flow back and forth between languages, allowing for the learning of a compatible cross-lingual syntactic representation, while also allowing for the parsers to mutually correct one another's errors. 
+We realized that we can do this better by jointly training the model, instead of using the cascade approach. We jointly train a neural network dependency parser to model the syntax in both a source and target language. In this way, the information can flow back and forth between languages, allowing for the learning of a compatible cross-lingual syntactic representation, while also allowing the parsers to mutually correct one another's errors. 
 Our experiments show that this outperforms a purely supervised setting, on both small and large data conditions, with a gain as high as 10\% for small training sets. 
 Our proposed joint training method also out-performs the cascade approach mentioned earlier. The other contribution concerns the learned word embeddings.
-We demonstrate that these encode meaningful syntactic phenomena, both in terms of the observable clusters and through a verb classification task. This part is published as a long paper at \emnlpv. 
+We demonstrate that these embeddings encode meaningful syntactic phenomena, both in terms of the observable clusters and through a verb classification task. This part is published as a long paper at \emnlpv. 
 
-In the extreme case where there are not any available annotated data, we also propose an unsupervised dependency parser taking advantage of a novel syntactic word embeddings. 
-Words from both source and target language are mapped to a shared low-dimensional
+In the extreme case where no annotated data is available, we propose an unsupervised dependency parser taking advantage of novel 
+syntactic word embeddings. Words from both source and target languages are mapped to a shared low-dimensional
 space based on their syntactic context, without recourse to parallel data.
 While prior work has struggled to efficiently incorporate word embedding information into the parsing model~\cite{mohit:ACL14,andreas-klein:2014:P14-2,chen-zhang-zhang:2014:Coling},
 we present a method for doing so using a neural network parser. When applied to the target language, we show consistent gains across all studied languages.
 Moreover, when multiple source languages are available, we can attempt to boost
-performance by choosing the best source language, or combining
+performance by choosing the best source language, or by combining
 information from several source languages. To the best
 of our knowledge, no prior work has proposed a means for selecting the
-best source language given a target language. To address this, we
+best source language given a target language. We
 introduce two metrics which outperform the baseline of always picking
 English as the source language. We also propose a method for combining
-all available source languages which leads to substantial improvement.
+all available source languages which leads to substantial improvement in performance.
 This work has been published as long paper at \conllv. 
 
 \paragraph{Crosslingual Word Embeddings}
 Crosslingual word embeddings represent lexical items from different languages in the same vector space, enabling transfer of NLP tools. 
 However, previous attempts had %low-performance, 
-expensive resource requirements, difficulty incorporating monolingual data or were unable to handle polysemy.
+expensive resource requirements, or difficulty incorporating monolingual data, or were unable to handle polysemy.
 We address these drawbacks in our method which takes advantage of a high coverage dictionary in an Expectation-Maximization style training algorithm over monolingual corpora in two languages. Our model achieves state-of-the-art performance on bilingual lexicon induction task exceeding models using large bilingual corpora, and
-competitive results on the monolingual word similarity and cross-lingual document classification task. We also evaluate several methods for combining embeddings which help in both crosslingual and monolingual evaluations. This part has been published as a long paper at \emnlpvi. 
+competitive results on the monolingual word similarity and cross-lingual document classification task. We also evaluate several methods for combining embeddings which help in both crosslingual and monolingual evaluations. This work has been published as a long paper at \emnlpvi. 
 
 We extend our work to cover more than two languages since most prior work on building crosslingual word embeddings focuses on a pair of languages.
 English is usually on one side, thanks to the wealth of available English resources.
-However, it is highly desirable to have a crosslingual word embeddings for many languages so that different relations can be exploited. We proposed a novel algorithms for post-hoc combination of multiple bilingual word embeddings, applicable to any pre-trained bilingual model. We also extend our prior work to jointly learn multilingual word embeddings over monolingual corpora in several languages achieving uniformly excellent performance across various tasks. This work has been submitted to \eaclvii.\tofix{update if get accepted.}
+However, it is highly desirable to have a crosslingual word embeddings for many languages so that different relations can be exploited. We proposed novel algorithms for post-hoc combination of multiple bilingual word embeddings, applicable to any pre-trained bilingual model. We also extend our prior work to jointly learn multilingual word embeddings over monolingual corpora in several languages achieving uniformly excellent performance across a variety of tasks. This work has been submitted to \eaclvii.\tofix{update if get accepted.}
 
-\paragraph{Unwritten language processing} For many low-resource languages, spoken language resources are more likely to be annotated with translations than transcriptions.
-This bilingual speech data can be used for word-spotting, spoken document retrieval, and even for documentation of endangered languages.
-We experiment with the neural, attentional model applied to this data.
-On phone-to-word alignment and translation re-ranking tasks, we achieve large improvements relative to several baselines.
-On the more challenging speech-to-word alignment task, our model nearly matches GIZA++'s performance on gold transcriptions, but without recourse to transcriptions or to a lexicon.
+\paragraph{Unwritten language processing} For many low-resource languages, spoken language resources are more likely to be annotated with translations than 
+transcriptions. This bilingual speech data can be used for word-spotting, spoken document retrieval, and even for documentation of endangered languages.
+We experiment with the neural, attentional model applied to this data. On phone-to-word alignment and translation re-ranking tasks, we achieve large improvements 
+relative to several baselines. On the more challenging speech-to-word alignment task, our model nearly matches GIZA++'s performance on gold transcriptions, but without recourse to transcriptions or to a lexicon.
 Our main contributions are:
 (i)~proposing a new task, alignment of speech with text translations, including a dataset extending the Spanish Fisher and CALLHOME datasets;
 (ii)~extending the neural, attentional model to outperform existing models at both alignment and translation reranking when working on source-language phones; and
-(iii)~demonstrating the feasibility of alignment directly on source-language speech. This part has been published as a long paper at \naaclvi. 
+(iii)~demonstrating the feasibility of alignment directly on source-language speech. 
+This part has been published as a long paper at \naaclvi. 
 
 All in all, our contributions are:
-\begin{enumerate}
-\item Show how to effectively incorporate different information (such as parallel data, or language relatedness) to the model aside from annotated data. In many case, this help not only resource-poor language but also resource-rich languages. 
-\item Analyse and tackle many real-world low-resource scenario such as tagset mapping and limited resource. 
-\item Show the feasibility of learning meaningful relations directly from speech data.
-\item Propose a new task of speech to text translation and several new datasets such as English-Serbian bilingual lexicon induction dataset, speech to text alignment corpus. 
-\end{enumerate}
-
+\begin{itemize}
+\item Showing how to effectively incorporate different information (such as parallel data, or language relatedness) to the model aside from annotated data. In many case, this helps not only resource-poor languages but also resource-rich languages. 
+\item Analysing and tackling many real world low-resource scenarios such as annotation mapping and limited resource such as monolingual data, bilingual dictionary and speech recording. 
+\item Showing the feasibility of learning meaningful relations directly from speech data and text translation in another language.
+\item Proposing a new task of speech to text translation and creating several new datasets such as an English-Serbian bilingual lexicon induction dataset and a speech to text alignment corpus. 
+\end{itemize}
 \section{Thesis Overview}
 %As the thesis goes, we plan to to answer the research question. 
-The backbone of the thesis is the set of publications through out the PhD candidature, attempt at answering all the research questions. 
-Chapter 2 listed the background needed to understand the thesis. Chapter 3 summaries the research outcome 
-through set of publications concerning with all four tasks including POS tagging, dependency parsing, crosslingual word embeddings and speech translation. 
+The backbone of the thesis is the set of publications throughout the PhD candidature, addressing research questions. 
+Chapter \S\ref{chap:background} lists the background needed to understand the thesis. Chapter \S\ref{chap:research_summary} enumerates the research outcome 
+through a set of publications concerning all four tasks including POS tagging, dependency parsing, crosslingual word embeddings and unwritten language processing. 
+With each publication, we will give an overview of research process and a retrospective view with an analysis of the strengths and weaknesses of each paper. Chapter \S\ref{chap:conclusion} conclude the thesis with a discussion of research questions, task coverage and future opportunities. 
+%In the appendix we will discuss other papers related to the thesis that I contributed to but shouldn't be counted toward my PhD. 
+
 
 %is about POS tagging for low-resource languages which cover our EMNLP 2014 papers. Chapter 4 is about dependency parsing for low-resource languages. This chapter is mainly by publications which are our ACL 2015, CoNLL 2015 and EMNLP 2015 papers. Chapter 5 is about crosslingual word embeddings which are also by publications which covers our EMNLP 2016 and COLING 2016 papers. Chapter 6 is about speech to text alignment which is also a chapter by publication cover our NAACL 2016 paper. In each chapter, 
-We will give the retrospective view for each publication and the analysis of the strong and weak points of each paper. Chapter 4 is conclusion and future work which revisit the list of research questions. In the appendix we will discuss other papers related to the thesis that I contributed to but shouldn't be counted toward my PhD. 
 %\include{ch1}
 
 \chapter{Background}
+\label{chap:background}
 % The importance of resources 
 % Resource connect with performance 
 % Resource is expensive 
 % Literature is usually ignore the sarce of resource 
-In this chapter, we give the overview of low-resource natural language processing including definition, dataset, common techniques and a high level review of what people have done in this topic. We then give the background for four tasks that we will discuss on this thesis focusing on related work that we will compare with in the published papers. 
+In this chapter, we will give the overview of low-resource natural language processing including definition, dataset, common techniques and a high level review of what people have done in this topic. We then give the background for four tasks that we will discuss on this thesis focusing on related work that we will compare with in the published papers. 
 
 \section{Low-resource Natural Language Processing}
-\subsection{What is a low-resource language? }
+\subsection{Definition}
 % No clear definition of what is low-resource languages.
 Low-resource languages recently attracts much of attention, but we haven't given 
 any concrete definition for low-resource languages. According to LORELEI,~\footnote{Low Resource Language for Emergent Incidents (LORELEI) is a US government funded project aiming at developing 
@@ -286,26 +302,26 @@ is the largest collection of dependency treebank in multiple languages currently
 covers 40 languages. Thus we can consider languages outside of those 40 languages, low-
 resource languages. However, with this definition, it is arguable that can we use one syntactic task such as 
 dependency parsing to represent language technology. Moreover, some languages (such as Buryat, Coptic, Kazakh, Sanskrit or Tamil) in those 40 languages have very modest size (less than 1000 annotated sentences). Dependency parsers trained on those treebanks would, expectedly, achieve 
-modest performance. On other end,~\namecite{berment:tel-00006313} proposed a long list of basic language resource kit for measuring language resources taking into consideration the minimum set of corpora, tools and human resource. They define a language is low-resource if the weighted score is less than 10 out of 20 points. However, as expected, this definition is also heuristic as criticized by~\namecite{prys2006blark} by lack of consideration for raw material such as newspapers. 
-We take the middel ground approach by simplify the definition of~\namecite{berment:tel-00006313}. 
+modest performance. On other end,~\namecite{berment:tel-00006313} proposed a long list of basic language resource kit for measuring language resources taking into consideration the minimum set of corpora, tools and human resource. They define a language is low-resource if the weighted score is less than a threshold. However, as expected, this definition is also heuristic as criticized by~\namecite{prys2006blark} by lack of consideration for raw material such as newspapers. 
+We take the middle ground approach by simplify the definition of~\namecite{berment:tel-00006313}. 
 We instead defining low-resource language taken into account the task. 
 \begin{quote}
-\textit{A language is considered low-resource for a given task if there is no algorithm using currently available data to automatically solve the 
-it.}
+\textit{A language is considered low-resource for a given task if there is no algorithm using currently available data to automatically do the task 
+with adequate performance.}
 \end{quote}
 % Language specific implication 
-This definition implies that a language is consider low-resource based on the task 
+This definition implies that a language is considered low-resource based on the task 
 specific. For example, Spanish is not low resource language with respect to 
-the part-of-speech tagging task with a decent~\footnote{more than 90\% accuracy}
-performance. However, it is resource poor language for sentiment analysis task 
+the part-of-speech tagging task with a decent performance. However, it is 
+resource poor language for sentiment analysis task 
 since  there are not any annotated data for this task in Spanish. 
 % Different gerer in one langauge can be consider low-resource languages
 Different domain or genre inside a language can also be considered low-resource 
 language. Take POS tagging task as an example, the annotated corpus is mainly 
 constructed for news wire domain, the accuracy of English tagger on this domain 
 can be as high as 97\%~\cite{Toutanova:2003}. However, for historical English 
-domain we achieve much lower accuracy~\cite{yang-eisenstein:2016:N16-1}. In this way, historical English domain becomes low-
-resource language given POS tagging task. 
+domain we achieve much lower accuracy~\cite{yang-eisenstein:2016:N16-1}. In this way, 
+historical English domain becomes low-resource language given POS tagging task. 
 % Large scope 
 With this definition, for a given task requirement, many languages becomes low-
 resource regardless of the number of speakers and the popularity of that 
@@ -413,7 +429,7 @@ Min \# Expressions & Wiktionary & Panlex \\
 200,000        & 9          & 23    \\
 \bottomrule
 \end{tabular}
-\caption{Number of languages having more than minimum number of expression in Wiktionary and Panlex. The number for Panlex is from~\protect\namecite{Kamholz14}.}
+\caption[Number of languages having more than minimum number of expression in Wiktionary and Panlex]{Number of languages having more than minimum number of expression in Wiktionary and Panlex. The number for Panlex is from~\protect\namecite{Kamholz14}.}
 \label{tab:expression_wik_pan}
 \end{table}
 
@@ -434,7 +450,7 @@ form is the annotation. Since the annotated data is more common in the source re
 \begin{figure}
 \centering
 \includegraphics[scale=0.5]{Figures/LabelProjection}
-\caption{Examples of part-of-speech projection from English to German using parallel text. No tag is given to the German word \textit{klitzkie} that is not aligned.}
+\caption[Part-of-speech projection examples]{Examples of part-of-speech projection from English to German using parallel text. No tag is given to the German word \textit{klitzkie} that is not aligned.}
 \label{fig:projection_example_en_de}
 \end{figure}
 Figure~\ref{fig:projection_example_en_de} shows an example of part-of-speech annotation projection from English to German through alignments. 
@@ -1186,8 +1202,8 @@ multi-modal inputs including both text and speech. We believe that those tasks a
 % Approaches, methodology with transfer learning 
 Since it is usually lack of annotated data for building high quality supervised model, we took the approach of 
 unsupervised or semi-supervised learning for many proposed tasks in this thesis. Specifically, we have successfully applied transfer learning 
-to transfer the knowledge from a source resource rich language to the target resource poor languages resulting in several publications which will be 
-covered in detail latter. Moreover, processing unwritten language is very challenging task where we have to work on speech signal directly. After
+to transfer the knowledge from a source resource rich language to the target resource poor languages resulting in several publications including~\emnlpiv, \aclv, 
+\emnlpv, \conllv, \emnlpvi\ and \eaclvii . Moreover, processing unwritten language is very challenging task where we have to work on speech signal directly. After
 carefully evaluate the data requirement, we model directly between speech signal and the translation in the target high-resource language. This also 
 result in a publication in our ~\naaclvi\ paper.
 % Remind about research question ? 
@@ -1228,10 +1244,10 @@ meeting and participated in the paper writing.
 
 \subsubsection{Retrospective view}
 In this paper, we assume the availability of some small POS annotated corpus. Basically we show that we can learn better model compared with purely 
-supervised learning taking into consideration parallel corpora. It is good to see that the model still works well when we lower the quality of parallel 
+supervised learning taking into consideration parallel corpora. It is great seeing that the model still works well when we lower the quality of parallel 
 corpora as in the case for low-resource Malagasy language. However, the main concern is that the performance gain will diminish as we have more annotated 
-data as also shown in the paper. Moreover, the cost for POS annotation is relatively cheap~\cite{garrette:naacl13}. Probably just simply annotate more data and 
-apply any simple supervised learning method will have better benefit-cost ratio. 
+data as also shown in the paper.% Moreover, the cost for POS annotation is relatively cheap~\cite{garrette:naacl13}. Probably just simply annotate more data and 
+%apply any simple supervised learning method will have better benefit-cost ratio. 
 % Weak point of the paper 
 % What have I learned ? 
 %However, through this paper, I have learned more about maximum divergence model, conditional random field and probabilistic graphical model. 
@@ -1262,7 +1278,7 @@ In this paper, I design and run experiments. Other co-authors which are my super
 meeting and participated in the paper writing. 
 
 \subsubsection{Retrospective view}
-It is nice to see that the transfer learning technique through regularization terms is still applicable for dependency parsing task. Moreover, we only 
+It is great observing that transfer learning technique through regularization terms is still applicable for dependency parsing task. Moreover, we only 
 require the same POS annotation and dependency type between source and target language. This is a much better 
 assumption compared with parallel data as used in ~\emnlpiv\ paper. Nevertheless, this paper still suffer similar drawback with the assumption of 
 small annotated corpus in the target language. However, since annotating dependency treebank is much more costly and time consuming than POS annotation, 
@@ -1277,7 +1293,6 @@ applying our technique instead of annotating more data, is more compelling.
 %------------------------------------------------------------%
 %------------------------------------------------------------%
 %------------------------------------------------------------%
-
 
 \section{EMNLP 2015 -- Universal Dependency Parsing}
 \label{sec:emnlp15}
@@ -1316,15 +1331,17 @@ In \textit{Proceedings of the Nineteenth Conference on Computational Natural Lan
 
 \subsubsection{Research process}
 In both \aclv\ and \emnlpv\ papers, we assume a small annotated treebank in the target language. However, this treebank might not be available for 
-many low-resource languages. That is why we want to further relax this requirement, motivating this paper. 
+many low-resource languages. That is why we want to further relax this assumption, motivating this paper for unsupervised dependency parser. 
 
 In this paper, I design and run experiments. Other co-authors which are my supervisors contribute ideas during our weekly 
 meeting and participate in the paper writing. 
 
 \subsubsection{Retrospective view}
 % Make much different in the downstream application ? 
-It is good to see that we still improve the delexicalized parser without using any additional resource. This is thank to the syntactic word embeddings 
-that only requires the same POS annotation between source and target language. However, for a single source language the improvement is modest. The biggest 
+It is surprising to see that delexicalized parser performs surprisingly well, achieves similar performance with supervised learning 
+trained on 3000 tokens as in~\emnlpv\ paper. In this paper, we improve the delexicalized parser without using any additional resource. This 
+is thank to the syntactic word embeddings that only requires the same POS annotation between source and target 
+language. However, for a single source language the improvement is modest. The biggest 
 gain is from taking advantage of multiple source languages. However, the gain is not consistent across languages and usually higher for languages that share 
 some commonalities with source languages. 
 
@@ -1345,11 +1362,10 @@ Long Duong, Hiroshi Kanayama, Tengfei Ma, Steven Bird, Trevor Cohn. Learning Cro
 \subsubsection{Research process}
 Transfer learning is the core idea of all our previous paper. Lexical transfer is one of the most important part. Investigating a better way to 
 do lexical transfer would benefit not only POS tagging or dependency parsing but also many other transfer learning task, motivating this paper. 
-This paper is done during my intern-ship at IBM research -- Tokyo where they interested in transfer learning for their data mining system. This also aligns 
-well with the third task (crosslingual word embeddings) of our thesis. 
 
-Aside from Steven and Trevor from Melbourne university, I also have Hiroshi and Tengfei as my IBM side supervisor. In this paper, I implement the algorithm
-and run all experiments. Other co-authors contribute ideas during our weekly meeting and participate in the paper writing. 
+This paper is done during my internship at IBM research -- Tokyo where they interested in transfer learning for their data mining system. I took the 
+intership offer mainly because their research interest align well with the overall target of the thesis, aiming at solving the third task (crosslingual 
+word embeddings). Aside from Steven and Trevor from Melbourne university, I also have Hiroshi and Tengfei as my IBM side supervisor. In this paper, I implement the algorithm and run all experiments. Other co-authors contribute ideas during our weekly meeting and participate in the paper writing. 
 
 \subsubsection{Retrospective view}
 This paper uses dictionary for building crosslingual word embeddings applied successfully for both intrinsic tasks (monolingual similarity and bilingual lexicon
@@ -1374,7 +1390,7 @@ Long Duong, Hiroshi Kanayama, Tengfei Ma, Steven Bird, Trevor Cohn. Multilingual
 \end{quote}
 
 \subsubsection{Research process}
-This work is the extension of our \emnlpvi\ paper, also conducted during my time at IBM research Tokyo. Basically, we want to extend crosslingual word embeddings to more than two languages. Besides, we want to better position our work with prior work using more evaluation metrics with more focus on downstream applications. 
+This work is the extension of our \emnlpvi\ paper, also conducted during my time at IBM research Tokyo. Basically, we want to extend crosslingual word embeddings to more than two languages. Besides, we want to better position ours with prior work using more evaluation metric focusing on downstream applications. 
 
 In this paper, I implement the algorithm and run all experiments. Other co-authors contribute ideas during our meetings and participate in the paper writing. 
 
@@ -1415,32 +1431,33 @@ data and the data hungry nature of deep neural approach. I have co-authored anot
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Discussion and Conclusions}
-\label{sec:conclusion}
-In this chapter, we conclude our thesis by linking back to the introduction, answering the question such as (a) How the list of publications in \S\ref{chap:research_summary} fit into the thesis's aim? and (b) How the research questions proposed earlier in the introduction (\S\ref{chap:introduction}) got 
-answered? and (c) How well we covered four tasks proposed earlier? Moreover, we also critically evaluate the contribution and enumerate some possible direction
+\label{chap:conclusion}
+In this chapter, we conclude our thesis by linking back to the introduction, answering the question such as (a) How the list of publications in \S\ref{chap:research_summary} fit into the thesis's aim? and (b) How the research questions proposed earlier in the introduction chapter (\S\ref{chap:introduction}) got 
+answered? and (c) How well we covered four tasks (POS tagging, dependency parsing, crosslingual word embeddings and unwritten language processing) proposed earlier? Moreover, we also critically evaluate the contribution and enumerate some possible direction
 for future work. 
 
 \section{Evaluation of Contribution}
 \label{sec:evaluation_contribution}
-In this thesis, we have looked at different aspects and resource assumption for processing low-resource languages. Our contribution are several folds. 
+In this thesis, we have looked at different aspects and resource assumption for processing low-resource languages. Our contribution are four folds. 
 \begin{itemize}
-\item The algorithm to effectively incorporate complementary resource such as parallel corpora or language relatedness, to the low-resource languages 
-in the transfer learning setting taking advantage of some annotations in the target language. We have shown that these methods can even apply to improve 
+\item The algorithm to effectively incorporate complementary resource such as parallel corpora or language relatedness, to the low-resource languages.
+We exploit transfer learning framework taking advantage of some annotations in the target language. We have shown that these methods can even apply to improve 
 the performance on high resource languages. 
 \item The algorithm to improve the unsupervised learning for low-resourced languages taking advantage of crosslingual syntactic embeddings and crosslingual 
 word embeddings applied successfully for dependency parsing and document classification. 
-\item The algorithms to solve many low-resource specific problems such as tagset mismatch or extremely low-resource scenario processing unwritten languages.
+\item The algorithms to solve many low-resource specific problems such as annotation mismatch between source and target language or extremely low-resource scenario of processing unwritten languages.
 \item Propose several new datasets such as English-Serbian bilingual lexicon induction dataset, speech to text alignment corpus. 
 \end{itemize}
 
 \subsection{Task coverage}
 % COVER ALL 4 TASKS, what is task coverage ....
-We cover all four tasks proposed earlier. For the first task of low-resourced POS tagging, we worked on unsupervised POS tagging during my master~\cite{duongIJCNLP,Duongacl13}. During my PhD, we published a paper, \emnlpiv\ , proposing a novel semi-supervised methods. Compare with 
+\paragraph{POS tagging} We cover all four tasks proposed earlier. For the first task of low-resourced POS tagging, in our \emnlpiv\ paper, we propose a novel semi-supervised method building 
+uppon our prior work on unsupervised POS tagging~\cite{duongIJCNLP,Duongacl13}. Compare with 
 the state-of-the-art, who also take advantage of parallel data, we use more realistic assumption, less parallel data but achieve better result. 
 In that paper, we also propose a novel tagset mapping algorithm, applied when source and target language use different tagset inventory. At the 
 time of writing the paper, we achieved the state-of-the-art performance on the real low-resource language Malagasy. 
 
-For the second task of dependency parsing, in our \aclv\ paper, we proposed a semi-supervised methods exploiting parameters sharing in the 
+\paragraph{Dependency parsing} For the second task of dependency parsing, in our \aclv\ paper, we proposed a semi-supervised methods exploiting parameters sharing in the 
 neural network parser between source resource rich langauge and the target resource poor language. The model was trained in the cascade style 
 where source language model is trained first and used as the prior for the target low-resource language model. We shown that we can achieved 
 more accurate parser with the same training data. Our \emnlpv\ paper further improve the performance in the semi-supervised setting. We modify 
@@ -1451,7 +1468,7 @@ we do not have any annotated treebank, we proposed an unsupervised algorithm in 
 embeddings without recourse to parallel data. When applied to the target low-resource language, we observed consistent improvement. In addition, 
 if there are multiple source languages, we propose a method to combine them together which lead to substantial improvement. 
 
-The third task of crosslingual word embeddings covered by \emnlpvi\ and \eaclvii\ papers. While previous approaches has expensive resource requirement, 
+\paragraph{Crosslingual word embeddings}The third task of crosslingual word embeddings covered by \emnlpvi\ and \eaclvii\ papers. While previous approaches has expensive resource requirement, 
 high complexity objective function or unable to handle polysemy. We address all those drawbacks in our \emnlpvi\ papers, taking advantage of high 
 coverage but noisy dictionary in an Expectation-Maximization style disambiguation training over monolingual data in two languages. We shown that the 
 learn embeddings are of high quality, preserving both monolingual and bilingual distance. We achieved competitive result on unsupervised crosslingual 
@@ -1461,7 +1478,7 @@ It might be more beneficial if we can build crosslingual word embeddings for mul
 several methods for building multilingual word embeddings including post-hoc combination and join-training. We observed improvement in both unsupervised 
 crosslingual document classification and unsupervised dependency parsing task. 
 
-The last proposed task of processing unwritten language is preliminary in our \naaclvi\ paper. After carefully evaluate the data requirement, we decide 
+\paragraph{Unwritten language processing}The last proposed task of processing unwritten language is preliminary in our \naaclvi\ paper. After carefully evaluate the data requirement, we decide 
 to model directly between speech signal from low-resource language and the target language translation. We experimented with the neural attentional model 
 for this data. On the initial experiment where we assume phoneme transcription in the source language, we achieved large improvement relative to several 
 baselines. On the more challenging speech-to-word modelling task, we shown that the model still capable of learning meaningful relations showing the feasibility 
@@ -1498,11 +1515,12 @@ subsequent work in the field such as~\namecite{anastasopoulos-chiang-duong:2016:
 \label{sec:futurework}
 This section enumerate some possible direction for future work. 
 \subsection{More evaluations for low-resource languages} 
-One of the weakness of this thesis is that much work is evaluated on the simulated low-resource scenario. 
-This is the common thing for low-resource natural language processing since it is hard to get the gold evaluation data 
+One of the weakness of this thesis is that much work is evaluated on the simulated low-resource scenario.
+This is the common strategy for low-resource natural language processing since it is hard to get the gold evaluation data 
 for real low-resource language. We are lucky to have Malagasy part-of-speech evaluation corpus for our \emnlpiv\ paper. 
-For the dependency parsing task, we mainly evaluated on European languages. While Hungarian are Irish can be considered as  
-low-resource language, other evaluated languages such as Czech or French are not. The new version of universal dependency 
+For the dependency parsing task, we mainly evaluated on European languages, while Hungarian are Irish can be considered as  
+low-resource language, other evaluated languages such as Czech or French are not. 
+The new version of universal dependency 
 treebank v1.3~\cite{11234/1-1699} has some candidate low-resource languages such as Buryat, Coptic, Kazakh or Sanskrit
 which have very modest treebank size (less than 1000 annotated sentences). We would like to evaluate our existing approach 
 proposed in ~\aclv, \emnlpv\ and \conllv\ papers to those languages in both semi-supervised and unsupervised setting. 
@@ -1520,16 +1538,17 @@ an extended version of Aikuma~\cite{bird-EtAl:2014:W14-22} to collect more than 
 language. As the future work, we want to apply our approach to this dataset. 
 
 
-\subsection{Re-evaluate assumptions}
-Similar with many work in the literature when working with low-resource languages, we make unjustified assumption. 
-For the future work, we would like to systematically test and verify these assumptions for low-resource languages.
+\subsection{Real-world evaluation}
+Similar with many work in the literature when working with low-resource languages, we make assumptions. 
+For the future work, we would like to systematically test and verify these assumptions in the real low-resource language scenario.
 In our~\emnlpiv\, \aclv\, \emnlpv\ paper, given a small treebank in the target language, we employ various approaches, incorporating 
-complementary information to arrive with more accurate model. The unrealistic assumption here is that employing the proposed approaches 
-didn't cost a things. In fact, what we need to do is calculate the effort in term of man power or money to employing our techniques, 
-assuming it is $X\$$. We need to compare the performance between (a) use this $X\$$ to annotate more data and apply any simple supervised 
-learning and (b) using this $X\$$ to employ our proposed approaches. Only in this way, it would be a fair comparison. Another way we can look 
-at this is that assuming we want to build the POS tagger or dependency parser for a low-resource languages with the expected accuracy of e.g. 90\%, 
-what is amount of money or time needed to achieved this task with and without our proposed methods. 
+complementary information to arrive with more accurate model. However, we have not taken the cost of applying our proposed approaches to 
+the model. %In fact, what we need to do is calculate the effort in term of man power or money to employing our techniques, 
+%assuming it is $X\$$. We need to compare the performance between (a) use this $X\$$ to annotate more data and apply any simple supervised 
+%learning and (b) using this $X\$$ to employ our proposed approaches. Only in this way, it would be a fair comparison. However, correctly 
+What we need to do is that given a task such as POS tagging or dependency parsing, and the expected accuracy e.g. 90\%, calculate the amount 
+of time or money needed to finish the task with and without our proposed methods. In another way, we want to quantify our work, not in term 
+of accuracy but in term of time or money which is usually used in real-world applications. 
 
 \subsection{Filling in  the gap}
 % Crosslingual word embeddings with our parsing model ...
@@ -1566,7 +1585,7 @@ We hope our thesis will help to drive the field forward, becoming the stepping s
 notable research that already benefited from our initial research on POS tagging~\cite{DBLP:conf/conll/FangC16,Pecheux2016,zhang-EtAl:2016:N16-13,bacskaya2016semi}, Parsing~\cite{DBLP:journals/corr/GillickBVS15,Guo:2016:RLF:3016100.3016284,TACL892,DBLP:journals/corr/GuoCWL16,ledbetter-dickinson:2016:BEA11,TACL917}, unwritten language processing~\cite{DBLP:journals/corr/BansalKGL16,adams-EtAl:2016:EMNLP2016,anastasopoulos-chiang-duong:2016:EMNLP2016,Wilkinson+2016}. 
 
 % Personal gain 
-Personally, I learned alot from this PhD including graphical model, Bayesian inference, domain adaptation, structure prediction and deep neural network. I also expand my knowledge about more NLP tasks such as machine translation, POS tagging, dependency parsing, document classification, representation learning, word sense disambiguation, speech recognition, natural language understanding, language and vision. During my PhD, I also expand international collaborations through my two internships (at IBM Research -- Tokyo and ICSI, UC Berkeley), set of international conferences I attended (EMNLP 14, EMNLP 15, ACL 15, ConLL 15, EMNLP 16) and set of talks I gave (at Google, Ebay, IBM, Monash University, UC Berkeley and NII -- Tokyo). I also develop academic experience through teaching at CIS department, University of Melbourne and serving as program committee on several conferences such as EMNLP 15, ACL 16, NAACL 16, COLING 16 and ALTA 16. Looking back, I can say that I enjoyed my PhD. 
+%Personally, I learned alot from this PhD including graphical model, Bayesian inference, domain adaptation, structure prediction and deep neural network. I also expand my knowledge about more NLP tasks such as machine translation, POS tagging, dependency parsing, document classification, representation learning, word sense disambiguation, speech recognition, natural language understanding, language and vision. During my PhD, I also expand international collaborations through my two internships (at IBM Research -- Tokyo and ICSI, UC Berkeley), set of international conferences I attended (EMNLP 14, EMNLP 15, ACL 15, ConLL 15, EMNLP 16) and set of talks I gave (at Google, Ebay, IBM, Monash University, UC Berkeley and NII -- Tokyo). I also develop academic experience through teaching at CIS department, University of Melbourne and serving as program committee on several conferences such as EMNLP 15, ACL 16, NAACL 16, COLING 16 and ALTA 16. Looking back, I can say that I enjoyed my PhD. 
 
 % 
 

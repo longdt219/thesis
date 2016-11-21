@@ -16,22 +16,37 @@
 
 
 \begin{abstract}
-Natural language processing is hard but it is even harder for so-call low-resource languages where the annotated resource are very limited. 
-In this thesis, we investigate on methods to overcome the lack of annotated data using complementary resources such as parallel data, dictionary, 
-or language relatedness information in the transfer learning setting. We observed consistent improvement on low-resource POS tagging and 
-dependency parsing in both semi-supervised and unsupervised learning. We also investigate on a better way to do lexical transfer learning using 
-crosslingual word embeddings showing positive result on unsupervised crosslingual document classification and dependency parsing. The approach, 
-we took to process low-resource languages is in decreasing the resource dependence. We start with semi-supervised learning and then unsupervised learning. 
-In the extreme case, we propose a method to learn from unwritten languages. We show that meaningful relations can be learn directly between speech signal 
-in low-resource language and the translation in the target higher resource language. 
+
+%(a)why you did the work and what you were trying to achieve; 
+Natural language processing (NLP) aims, broadly speaking, to teaching computer to understand human language. This is hard as computer 
+must comprehend many facets of languages. It is even harder for so-called low-resource languages where the annotated resource are very limited. 
+There are approximately 7000 languages in the world, but of these only a small fraction (20 languages) are considered high-resource languages. 
+Low-resource languages are in dire need to overcome the resource barrier such that advances in NLP can be realised much more widely. Despite
+the lack of annotated data, there are some unannotated data which might be beneficial for low-resource languages such as parallel data, bilingual 
+lexical resource or clues from related languages. However, how to effectively incorporate these resources to improve the performance of 
+low-resource NLP is unknown and will be one of the target of this thesis. Out of 7000 languages, half of them do not have the writing system and 
+many are dying. It is estimated that by the end of this century, half of the world's languages will become extinct. It is necessary to extend the 
+current NLP techniques to unwritten languages to process and capture the languages before they are gone forever. 
+
+%(b) what methods you used and what results you obtained; and 
+Transfer learning is a commonly used technique for low-resource NLP. The annotation information is transferred from a source resource-rich language to 
+a target resource poor-language. In this thesis, we have successfully applied transfer learning for many low-resource NLP tasks in both semi-supervised and 
+unsupervised setting. 
+% Semi-supervsed transfer learning 
+We shown that small amount of annotated data in the target language is sufficient to achieve large improvement in the performance by incorporating a source resource-rich language as the reference model. We applied this technique successfully for low-resource part-of-speech tagging 
+and dependency parsing in both cascade style training and join  training. 
+% Unsupervised transfer learning 
+If no annotated data is available, we instead propose unsupervised transfer learning technique taking advantage of crosslingual word embeddings. We proposed a crosslingual syntactic word embeddings where words in both source and target languages are mapped to the shared low-dimensional space based on syntactic context, without using any additional resource such as parallel data. We observe consistent improvement applied crosslingual syntactic embeddings for unsupervised dependency parsing. If there are some bilingual lexicon resource such as bilingual dictionary, we also investigate on a better way to do lexical transfer learning 
+through crosslingual word embeddings. We achieve competitive result on unsupervised crosslingual document classification and dependency parsing. 
+% Unwritten language 
+In the extremely low-resource scenario of unwritten languages, we experimented with the neural, attentional model to learn directly from speech in the unwritten language and the translation in the target higher resource language. Despite the preliminary experiments, we provide proof of concept and the feasibility of the task. 
+
+%(c) what you concluded from it.
+Despite the fact that we focus on few tasks, the proposed methods are universal and can be extended for many low-resource NLP tasks. We have looked at different level of resource requirement including semi-supervised, unsupervised learning and our preliminary attempt at unwritten languages. We conclude that (1) processing low-resource language is very hard but can be made possible using transfer learning, (2) There are complementary resources to compensate for the lack of annotated data even for low-resource language and (3) Processing low-resource languages are usually overlooked by the set of assumption that we must carefully avoid such as the availability of the writing system. 
+
+
 
 \end{abstract}
-
-
-\textbf{80 words abstract}
-This is harddddd 
-
-
 
 \newpage
 

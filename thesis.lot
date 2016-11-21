@@ -1,6 +1,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Number of languages having more than minimum number of expression in Wiktionary and Panlex. The number for Panlex is from\nobreakspace {}\namecite {Kamholz14}.\relax }}{17}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Number of languages having more than minimum number of expression in Wiktionary and Panlex}}{17}
 \contentsline {table}{\numberline {2.2}{\ignorespaces Notable related work on low-resource natural language processing.\relax }}{21}
 \contentsline {table}{\numberline {2.3}{\ignorespaces Previously published token-level POS tagging accuracy}}{25}
 \contentsline {table}{\numberline {2.4}{\ignorespaces The size of annotated data, number of tags included and missing for all considered languages}}{27}

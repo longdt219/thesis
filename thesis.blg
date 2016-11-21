@@ -4,13 +4,13 @@ The top-level auxiliary file: thesis.aux
 The style file: lsalike.bst
 A level-1 auxiliary file: frontmatter.aux
 A level-1 auxiliary file: b.aux
-Illegal, another \bibstyle command---line 196 of file b.aux
+Illegal, another \bibstyle command---line 199 of file b.aux
  : \bibstyle
  :          {aclnat}
 I'm skipping whatever remains of this command
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: References.bib
-Repeated entry---line 692 of file References.bib
+Repeated entry---line 693 of file References.bib
  : @inproceedings{Wilkinson+2016
  :                              ,
 I'm skipping whatever remains of this entry
@@ -39,46 +39,45 @@ Warning--empty journal in 1264361
 Warning--empty chapter and pages in kamper-etalInterspeech2015
 Warning--empty publisher in kamper-etalInterspeech2015
 Warning--empty school in Park:2007:UPD:1329638
-Warning--empty year in prys2006blark
-You've used 195 entries,
+You've used 196 entries,
             2590 wiz_defined-function locations,
-            1764 strings with 53208 characters,
-and the built_in function-call counts, 139839 in all, are:
-= -- 12765
-> -- 8342
-< -- 79
-+ -- 3557
-- -- 3524
-* -- 11032
-:= -- 27362
-add.period$ -- 846
-call.type$ -- 195
-change.case$ -- 1904
-chr.to.int$ -- 184
+            1771 strings with 53411 characters,
+and the built_in function-call counts, 140480 in all, are:
+= -- 12828
+> -- 8369
+< -- 80
++ -- 3569
+- -- 3534
+* -- 11072
+:= -- 27479
+add.period$ -- 851
+call.type$ -- 196
+change.case$ -- 1912
+chr.to.int$ -- 185
 cite$ -- 200
-duplicate$ -- 5397
-empty$ -- 7482
-format.name$ -- 4124
-if$ -- 26417
+duplicate$ -- 5429
+empty$ -- 7524
+format.name$ -- 4139
+if$ -- 26550
 int.to.chr$ -- 12
 int.to.str$ -- 0
-missing$ -- 389
-newline$ -- 1166
-num.names$ -- 1359
-pop$ -- 1900
+missing$ -- 391
+newline$ -- 1173
+num.names$ -- 1366
+pop$ -- 1906
 preamble$ -- 1
-purify$ -- 1716
+purify$ -- 1723
 quote$ -- 0
-skip$ -- 4124
+skip$ -- 4147
 stack$ -- 0
-substring$ -- 7948
-swap$ -- 1450
-text.length$ -- 971
+substring$ -- 7987
+swap$ -- 1458
+text.length$ -- 977
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1160
-warning$ -- 5
-while$ -- 1395
+type$ -- 1166
+warning$ -- 4
+while$ -- 1402
 width$ -- 0
-write$ -- 2833
+write$ -- 2850
 (There were 9 error messages)

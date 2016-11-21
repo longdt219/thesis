@@ -1,5 +1,13 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Abney \lsaand Bird}{2010}]{AbneyBird2010}
+{\sc Abney, Steven},  \lsaand {\sc Steven Bird}.
+\newblock 2010.
+\newblock The {Human Language Project}: Building a universal corpus of the
+  world's languages.
+\newblock In {\em Association for Computational Linguistics (ACL)\/}, 88--97,
+  Uppsala, Sweden.
+
 \bibitem[\protect\citeauthoryear{Adams {\em
   et~al.\/}}{2016}]{adams-EtAl:2016:EMNLP2016}
 {\sc Adams, Oliver}, {\sc Graham Neubig}, {\sc Trevor Cohn}, {\sc Steven Bird},
@@ -1262,8 +1270,9 @@
   the Association for Computational Linguistics (EACL'14)\/}, 742--751,
   Gothenburg, Sweden.
 
-\bibitem[\protect\citeauthoryear{Prys}{}]{prys2006blark}
+\bibitem[\protect\citeauthoryear{Prys}{2006}]{prys2006blark}
 {\sc Prys, Delyth}.
+\newblock 2006.
 \newblock The blark matrix and its relation to the language resources situation
   for the celtic languages.
 \newblock {\em Strategies for developing machine translation for minority
