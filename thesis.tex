@@ -315,7 +315,7 @@ with adequate performance.}
 This definition implies that a language is considered low-resource based on the task. 
 For example, Spanish is not low resource language with respect to 
 the part-of-speech tagging task with a decent performance. However, it is 
-resource poor language for sentiment analysis task 
+resource-poor language for sentiment analysis task 
 since  there is not any annotated data for this task in Spanish. 
 % Different gerer in one langauge can be consider low-resource languages
 Different domain or genre inside a language can also be considered low-resource 
@@ -406,25 +406,19 @@ decent parallel size, in order of million sentence pair. Nevertheless, in our \e
 we experimented with two low-resource languages, Malagasy and Kinyawanda. The biggest bilingual 
 corpora we can find are in order of 100k and 10k sentences respectively.
 
-
-% START FROM HERE 
-
-
-
-
 \subsubsection{Bilingual Dictionary}
-Bilingual dictionary is a common resource for a low-resource language. This is usually the output of linguist when one language is studied. Bilingual dictionary contains the word translation of a low-resource language to the more common language such as English. 
-There are some notably corpus that collect translation for multiple languages. 
+Bilingual dictionary is a common resource for a low-resource language. This is usually the output of linguist when one language is studied. Bilingual dictionaries contain the word translation of a low-resource language to the more common language such as English. 
+There are some notable corpora that collect translations for multiple languages. 
 Panlex~\cite{Kamholz14}, a dictionary which currently covers around 1300 language varieties with about 12 million expressions\footnote{an expression is usually a word in a language.}. This dataset is growing and aims at covering all languages in the world and up to 350 million expressions. 
-The translations in PanLex come from various sources such as glossaries, dictionaries, automatic inference from other languages, etc. 
+The translations in PanLex come from various sources such as glossaries, dictionaries, automatic inferences from other languages, etc. 
 Accordingly, Panlex has high language coverage but often noisy translations.
 Wiktionary~\footnote{en.wiktionary.org (accessed 19/09/2016)} is another notable source for bilingual dictionary. A part of Wiktionary 
 is also manually extracted from dictionaries and glossaries but it is also powered by 
 volunteers. Currently, Wiktionary covers over 2500 languages\footnote{However, more than 2000 languages have tiny (less than 100) expressions.} with 4.5 millions expressions. 
 % Information can get from dictionary 
-Bilingual dictionary is very useful and can be used as the bridge between low-resource and higher-resource languages through translations. Aside from translations, some entries in Wiktionary and Panlex also contains additional information such as part-of-speech, pronunciation and sample sentences which can be very useful to process the low-resource languages. 
+Bilingual dictionaries are very useful and can be used as the bridge between low-resource and higher-resource languages through bilingual translations. Aside from translations, some entries in Wiktionary and Panlex also contain additional information such as part-of-speech, pronunciation and sample sentences which can be very useful. 
 % Size we can expect 
-However, what is the reasonable size for a dictionary concerning low-resource languages? 
+However, what is the reasonable size for a bilingual dictionary concerning low-resource language? 
 Table~\ref{tab:expression_wik_pan} shows the number of languages in Wiktionary and Panlex 
 having minimum number of expressions which gives the idea of what we can expect for low-resource languages. 
 \begin{table}
@@ -438,24 +432,23 @@ Min \# Expressions & Wiktionary & Panlex \\
 200,000        & 9          & 23    \\
 \bottomrule
 \end{tabular}
-\caption[Number of languages having more than minimum number of expression in Wiktionary and Panlex]{Number of languages having more than minimum number of expression in Wiktionary and Panlex. The number for Panlex is from~\protect\namecite{Kamholz14}.}
+\caption[Number of languages having more than minimum number of expression in Wiktionary and Panlex]{Number of languages having more than minimum number of expression in Wiktionary and Panlex. The numbers for Panlex are from~\protect\namecite{Kamholz14}.}
 \label{tab:expression_wik_pan}
 \end{table}
 
 
 \subsubsection{Small annotated data}
-Some languages have small annotated data for the task of interest. This is usually the result 
-of the field linguists when studying a language. The size of these corpora is often small and 
+Some languages have small annotated data for the task of interest. The size of these corpora is often small and 
 inadequate for a decent supervised learning. However, as shown in our \emnlpiv{}, \aclv{} and 
-\emnlpv{} papers, with a careful design and training, even a small annotated corpora can help immensely. Again, the question of how much annotated data we can expect varies depend on task and languages. For example, for part-of-speech (POS) tagging task,~\namecite{garrette:naacl13} reported a corpus of $\approx$ 10k words for Kinyawanda and Malagasy as the result of 4 hour annotation. As for dependency parsing task, the smallest corpora (in words) in the universal dependency treebanks are Sankrit (1k), Kazakh (4k), Coptic (4k), Buryat (5k), Tamil (8k) which represent the low-resource scenario. Probably, for low-resource languages we can not expect the annotated corpora with more than 10k annotated words. 
+\emnlpv{} papers, with a careful design and training, even a small annotated corpus can help immensely. Again, the question of how much annotated data can we expect varies depended on task and languages. For example, for part-of-speech (POS) tagging task,~\namecite{garrette:naacl13} reported corora of $\approx$ 10k words each for Kinyawanda and Malagasy as the result of 4 hour annotation. As for dependency parsing task, the smallest corpora (in words) in the universal dependency treebanks are Sankrit (1k), Kazakh (4k), Coptic (4k), Buryat (5k), Tamil (8k) which represents the low-resource scenario. Probably, for low-resource languages we can not expect the annotated corpus with more than 10k annotated words. 
 
 \subsection{Transfer learning}
-Transfer learning is a common techniques when working with low-resource 
-languages~\cite{TackstromDPMN13,Das:2011,YarowskyAndNgai,duongIJCNLP,Hwa:2005:BPV,P14-1126}. The annotation information is transferred from resource rich-language to the resource-poor language. In fact, most of our work in this thesis motivated by transfer learning, covering almost all our publications except for \naaclvi. 
+Transfer learning is a common technique when working with low-resource 
+languages~\cite{TackstromDPMN13,Das:2011,YarowskyAndNgai,duongIJCNLP,Hwa:2005:BPV,P14-1126}. The annotation information is transferred from resource-rich language to the resource-poor language. In fact, most of our work in this thesis is motivated by transfer learning, covering almost all our publications except for \naaclvi. 
 % What is transferable ? 
 \subsubsection{Annotation transfer}
 There are many transferable things between source and target languages. The most common 
-form is the annotation. Since the annotated data is more common in the source resource-rich language, it is transferred to the target language through bilingual resource such as bitext.
+form is the annotation. Since the annotated data is more common in the source resource-rich language, it is transferred to the target resource-poor language through bilingual resources such as bitext.
 \begin{figure}
 \centering
 \includegraphics[scale=0.5]{Figures/LabelProjection}
@@ -463,24 +456,24 @@ form is the annotation. Since the annotated data is more common in the source re
 \label{fig:projection_example_en_de}
 \end{figure}
 Figure~\ref{fig:projection_example_en_de} shows an example of part-of-speech annotation projection from English to German through alignments. 
-There are several successful application of this approach to low-resource part-of-speech tagging and noun-phrase chunking~\cite{YarowskyAndNgai}, dependency parsing~\cite{Hwa:2005:BPV}, named entity recognition~\cite{wang-che-manning:2013:ACL2013}.
+There are several successful applications of this approach to low-resource part-of-speech tagging and noun-phrase chunking~\cite{YarowskyAndNgai}, dependency parsing~\cite{Hwa:2005:BPV}, named entity recognition~\cite{wang-che-manning:2013:ACL2013}.
 The challenge to this approach is that (1) the alignment is not always accurate, (2) not all 
-tokens in the target language got the annotation (e.g. German word \textit{klitzkie}) and (3) 
+tokens in the target language got the annotation (e.g. German word \textit{klitzkie} in Figure~\ref{fig:projection_example_en_de}) and (3) 
 the projected annotation is not always linguistically correct in the target language. For 
-example, in Malagasy all number are considered \textit{ADJ} (adjective) which is wrongly assigned as \textit{NUM} (number) if projected from English. 
+example, in Malagasy all numbers are considered \textit{ADJ} (adjective) which is wrongly assigned as \textit{NUM} (number) if projected from English. 
 This is the reason why the projected annotation is usually post-processed, mostly rule based ~\cite{Hwa:2005:BPV} or converted to soft-constrains~\cite{Das:2011,TackstromDPMN13} before feeding to the machine learning algorithm. 
 \subsubsection{Model transfer}
 % Why model transfer (accumulation of errors) ... 
 The pipeline for annotation transfer is normally involve (1) the supervised model is trained on the source resource rich language, (2) use this model to provide annotation 
-for the source language from bilingual data (3) project the annotation to the target language 
-(4) use this projected annotation for target language model. Each step might introduce some 
+for the source language of bilingual data (3) project the annotation to the target language 
+(4) use this projected annotation for the target language. Each step might introduce some 
 noise, consequently the final target language model might be very biased. Therefore, instead 
 of transferring the annotation, we can also transfer the model directly from the source 
-resource rich languages to the target resource poor language~\cite{Zeman08cross-languageparser,P14-1126}. This is also the approach we took for many published work from this thesis including \emnlpiv, \emnlpv, \aclv\ and \conllv.  
+resource-rich languages to the target resource-poor language~\cite{Zeman08cross-languageparser,P14-1126}. This is also the approach we took for many published work from this thesis including \emnlpiv, \emnlpv, \aclv\ and \conllv.  
 
 % How can we do model transfer 
-The model can only be transferred when both source and target features are in the same space. 
-That is why the features that can be shared in both languages are desirable. Universal part-of-
+The model can only be transferred when both source and target language features are in the same space. 
+That is why the features that can be shared in both languages are desirable for transfer learning. Universal part-of-
 speech tagset~\cite{UniversalTagSet} is an attempt to map any language specific tagset to the 
 same universal tagset. Universal dependency treebank~\cite{11234/1-1699} is another attempt to 
 map the annotation from different treebank to the same universal annotation. World Atlas of 
@@ -488,15 +481,15 @@ Language Structures~\cite{wals} which indicate structural properties of language
 English has SVO structure or Japanese has SOV, can also be shared across 
 languages.~\namecite{Naseem:2012:SSM} and~\namecite{tackstrom:2013:NAACL-HLT} use these 
 features for transfering dependency parser.~\namecite{Tackstrom:2012:CWC} induced crosslingual 
-word cluster where lexical items in both languages are grouped together using parallel data, also applied for transferring dependency parser. In this thesis, we 
+word clusters where lexical items in both languages are grouped together using parallel data, also applied for transferring dependency parser. In this thesis, we 
 investigate on crosslingual word embeddings where lexicon in several languages are represented 
-as dense vector in the same semantic space, enable transfer learning. The crosslingual word 
+as dense vectors in the same semantic space, enabling transfer learning. The crosslingual word 
 embeddings must capture well the monolingual and bilingual relations in the semantic and 
-syntactic space. We have successfully built and apply crosslingual word embeddings for several 
-tasks in our \emnlpvi\ and \eaclvii\ \tofix{remove if not accepted} papers. 
+syntactic space. We have successfully built and applied crosslingual word embeddings for several 
+tasks in our \conllv\ , \emnlpvi\ and \eaclvii\ papers. 
 
 % How to improve the performance of model transfer 
-The transferred model from the source language is normally inadequate for the target language and usually need refinement~\cite{Zeman08cross-languageparser}.~\namecite{P14-1126} added the constrains from parallel data to the transfered model.~\namecite{McDonald:2011:MTD} additionally exploit multiple source languages. We, on the other hand, take advantage of a small annotated corpora. We show that we can correct much of the transferred model with the guideline from small annotated data.  
+The transferred model from the source language is normally inadequate for the target language and usually need refinement~\cite{Zeman08cross-languageparser}.~\namecite{P14-1126} added the constrains from parallel data to the transfered model.~\namecite{McDonald:2011:MTD} additionally exploit multiple source languages. We, on the other hand, take advantage of a small annotated corpora as shown in our \emnlpiv\ , \aclv\ and \emnlpv\ papers. We show that we can correct much of errors from the transferred model with the guidance from small annotated data.  
 \begin{table}
 \centering
 \resizebox{\columnwidth}{!}{
@@ -541,7 +534,9 @@ Paper & Topic & Resource  \\
 \end{table}
 
 \subsection{Notable work}
-Table~\ref{tab:example_previous_work} list notable published work on low-resource natural language processing covering some tasks related to speech, part-of-speech tagging, dependency parsing and named entity recognition with the data assumption. This is by no mean an exhaustive list but give some idea of what people have done for low-resource natural language processing and their resource assumption.  Some prior work use cheap resource such as monolingual data or unlabelled speech. However, many of them exploit parallel corpus which is harder to get for many low-resource languages, limiting their applicability. Most of the paper listed in Table~\ref{tab:example_previous_work} will be covered in more detail in subsequent sections. 
+Table~\ref{tab:example_previous_work} lists some notable published work on low-resource natural language processing covering some tasks related to speech, part-of-speech tagging, dependency parsing and named entity recognition with the data assumption. This is by no mean an exhaustive list but gives some ideas of what people have done for low-resource natural language processing and their resource assumption.  Some prior work use cheap resource such as monolingual data or unlabelled speech. However, many of them exploit parallel corpus which is harder to get for many low-resource languages, limiting their applicability. Most of the paper listed in Table~\ref{tab:example_previous_work} will be covered in more detail later in this section. 
+
+% <<< HERE >>> 
 
 
 \section{POS tagging}
@@ -1232,7 +1227,7 @@ multi-modal inputs including both text and speech. We believe that those tasks a
 % Approaches, methodology with transfer learning 
 Since it is usually lack of annotated data for building high quality supervised model, we took the approach of 
 unsupervised or semi-supervised learning for many proposed tasks in this thesis. Specifically, we have successfully applied transfer learning 
-to transfer the knowledge from a source resource rich language to the target resource poor languages resulting in several publications including~\emnlpiv, \aclv, 
+to transfer the knowledge from a source resource-rich language to the target resource-poor languages resulting in several publications including~\emnlpiv, \aclv, 
 \emnlpv, \conllv, \emnlpvi\ and \eaclvii . Moreover, processing unwritten language is very challenging task where we have to work on speech signal directly. After
 carefully evaluate the data requirement, we model directly between speech signal and the translation in the target high-resource language. This also 
 result in a publication in our ~\naaclvi\ paper.
@@ -1487,7 +1482,7 @@ In that paper, we also propose a novel tagset mapping algorithm, applied when so
 time of writing the paper, we achieved the state-of-the-art performance on the low-resource language Malagasy. 
 
 \paragraph{Dependency parsing} For the second task of dependency parsing, in our \aclv\ paper, we proposed a semi-supervised methods exploiting parameters sharing in the 
-neural network parser between source resource rich langauge and target resource poor language. The model was trained in the cascade style 
+neural network parser between source resource-rich langauge and target resource-poor language. The model was trained in the cascade style 
 where source language model is trained first and used as the prior for the target low-resource language model. We shown that we can achieve 
 more accurate parser using the same training data. In our \emnlpv\ paper, we further improved the performance in the semi-supervised setting. We modify 
 the training such that source and target language parsers are jointly optimized, allowing better parameter sharing. We observed a consistent gain
@@ -1515,8 +1510,8 @@ of the this proposed tasks.
 \subsection{Research question revisited}
 \textbf{Question 1}: How can we achieve more accurate model for low-resource languages using less annotated data? 
 \begin{itemize}
-\item In \emnlpiv\ paper, we shows that bilingual corpora when available can be used to transfer the annotation from source resource rich language to target 
-resource poor language. We observed improvement using this parallel corpora together with a small part-of-speech annotated corpus in the target language. Even if 
+\item In \emnlpiv\ paper, we shows that bilingual corpora when available can be used to transfer the annotation from source resource-rich language to target 
+resource-poor language. We observed improvement using this parallel corpora together with a small part-of-speech annotated corpus in the target language. Even if 
 the annotation is different between source and target language, we can also automatically learn the mapping as part of the training. 
 \item 	In \aclv\ and \emnlpv\ papers, we introduce the concept of ``universal parser`` where as there are a share underlying linguistic structure across languages. 
 Using this share structure together with a small annotated data in the target language, we obtained a more accurate model.  
